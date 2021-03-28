@@ -1,0 +1,43 @@
+html, body {
+    background-color: #13171c;
+    color: #bbb;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+a:link {
+    color: #c9a33a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6e7047;
+}
+
+a:visited {
+    color: #6f47b5;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+code {
+    color: #b0354f;
+    background-color: #261c1e;
+}

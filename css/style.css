@@ -5,6 +5,7 @@ html, body {
     max-width: 1000px;
     margin: 0 auto;
     height: 100%;
+    font-size: large;
 }
 
 h1 {

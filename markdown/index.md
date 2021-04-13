@@ -11,5 +11,4 @@ playing the piano and learning Japanese. One area I am especially interested in
 is low level application development like operating systems. That's why I'm using mainly C
 nowadays to develop my own operating system.
 
-Visit the links above to find out more about my projects, what software I use
-and so on and so forth.
+You can find out more about my projects [here](projects.html).

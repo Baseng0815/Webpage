@@ -8,7 +8,9 @@ all: $(TARGETS)
 	cp $(TARGETS) html
 
 %.html: %.md
-	sed 's/%CONTENT/$(shell markdown $< | sed 's/"/\\"/g' | sed 's/\//\\\//g')/g' template.html > $@
+	cp pre.html $@
+	echo "$(shell markdown $<)" >> $@
+	cat post.html >> $@
 
 clean:
 	rm -rf markdown/*.html html

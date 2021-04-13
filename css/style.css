@@ -12,15 +12,6 @@ h1 {
     text-decoration: underline;
 }
 
-nav ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    padding: 0 1rem;
-}
-
 a:link {
     color: #c9a33a;
     text-decoration: none;
@@ -32,10 +23,6 @@ a:hover {
 
 a:visited {
     color: #6f47b5;
-}
-
-.centered-text {
-    text-align: center;
 }
 
 code {

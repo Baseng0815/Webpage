@@ -26,4 +26,5 @@ will boot the kernel.
 All of those steps, including the cross toolchain itself, are defined as Makefile rules for easy compilation
 and execution. You can find the github repository [here](https://github.com/Baseng0815/shedOS) and detailed
 descriptions below.
+
 1. [Toolchain and Makefiles](shedOS_toolchain.html)

@@ -76,8 +76,7 @@ which containing different data. The most important ones are
 We also have a special `.stivale2hdr` section which is needed by the bootloader. What it does and
 how it works will be discussed in another post. The linker script tells the linker where to put
 those sections in the final executable. It also puts it at an offset of 0xfffffff80000000 + 2 MiB,
-i.e.  the final 2 GiB of our 64 bit address space. This is called the *higher half* and is also a topic
-for another day.
+i.e. the final 2 GiB of our 64 bit address space. This is called higher half linking.
 
 The actual compilation process is very simple. We just invoke the corresponding program (`gcc` for compilation
 and `as` for assembling) and link all of the objects together.
@@ -92,7 +91,9 @@ well enough to solve problems on your own.
 more problems later on, so always try to properly learn what you are doing. This holds true for everything,
 not just for OS development!**.
 
+---
+
 We are now able to compile our whole kernel using just a single `make` command. Great! But we still can't run
 it and also can't do much as we have no way of printing to the screen or doing any other usable form of I/O.
 We need a *bootloader* to load our kernel and give it some information. How we can accomplish this will be
-presented in [part 2 (TODO)]() of this series.
+presented in [part 2]() of this series.

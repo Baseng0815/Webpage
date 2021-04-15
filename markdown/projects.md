@@ -28,3 +28,4 @@ and execution. You can find the github repository [here](https://github.com/Base
 descriptions below.
 
 1. [Toolchain and Makefiles](shedOS_toolchain.html)
+1. [Booting](shedOS_booting.html)

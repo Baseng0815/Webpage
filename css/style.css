@@ -4,7 +4,7 @@ html, body {
     text-align: justify;
     max-width: 1000px;
     margin: 0 auto;
-    height: 100%;
+    margin-bottom: 5rem;
     font-size: large;
 }
 
@@ -28,4 +28,8 @@ a:visited {
 code {
     color: #b0354f;
     background-color: #261c1e;
+}
+
+img {
+    max-width: 70%;
 }

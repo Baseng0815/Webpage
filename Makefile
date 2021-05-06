@@ -6,11 +6,12 @@ TARGETS 	:= $(SOURCES:.md=.html)
 all: $(TARGETS)
 	mkdir -p html
 	cp $(TARGETS) html
+	rm -rf markdown/*.html
 
 %.html: %.md
 	cp pre.html $@
-	echo "$(shell markdown $<)" >> $@
+	@echo "$(shell markdown $<)" >> $@
 	cat post.html >> $@
 
 clean:
-	rm -rf markdown/*.html html
+	rm -rf html

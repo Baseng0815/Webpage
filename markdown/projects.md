@@ -7,7 +7,7 @@ repository. Most of them (should) include a `README.md` which gives a nice overv
 of the project and how to build it.
 
 ## shedOS
-![shedOS](../res/shedOS.jpg "shedOS")
+![](../res/shedOS.jpg "shedOS")
 
 shedOS is an x86_64 operating system I am currently developing, mainly for educational purposes.
 Working in kernel space without being able to rely on things we take for granted when working in userspace
@@ -28,4 +28,33 @@ and execution. You can find the github repository [here](https://github.com/Base
 descriptions below.
 
 1. [Toolchain and Makefiles](shedOS_toolchain.html)
-1. [Booting](shedOS_booting.html)
+2. [Booting](shedOS_booting.html)
+
+## Discord Bot
+
+Me and my friends use Discord for communicating. Discord offers lots of features out of the box like free servers,
+video chat and stream capabilities as well as sophisticated user, role and permission management. But sometimes
+there are features we want or need which are not provided per-default. Fortunately, discord offers an API to allow
+developers to create a *bot user* which can read and send messages, do administrative tasks and even play audio.
+One can use `discord.js`, a Node.js javascript binding allowing to easily create such a bot. The repository for our
+bot can be found [here](https://github.com/Baseng0815/HelmtraegerBot). It currently allows you to
+
+- show and play back audio files like a soundboard,
+- look up the current weather for a given region using the [openweathermap api](https://openweathermap.org/api)
+- look up a player's CS:GO faceit stats using the [faceit api](https://developers.faceit.com/),
+- look up anime using the [anilist api](https://anilist.gitbook.io/anilist-apiv2-docs/),
+- [uwuify](https://www.urbandictionary.com/define.php?term=uwuify) a message,
+- send a random [copypasta](https://www.urbandictionary.com/define.php?term=copypasta)
+
+The great thing is that there are lots of Node.js bindings for APIs so one can quickly implement features without
+needing to mess around for hours. I will probably add more features in the future as I see fit, maybe even something
+like a chess engine or a word guessing game. The possibilities are endless!
+
+## Climate data
+
+I use my Raspberry Pi 4 for lots of things, one of them being recording climate data. The [DHT 22](https://www.adafruit.com/product/385)
+is a low-cost, low-power humidity and temperature sensor.
+![](../res/dht22_wiring.gif "DHT22 wiring")
+It is easy to set up and can be read through the adafruit DHT python library based on which I have written a [simple script](https://github.com/Baseng0815/Climate).
+The Pi 4 also runs a mongo database which stores the humidity, temperature and date. A new document is inserted every 5 minutes.
+Plans for the future include an express.js-based API for accessing this data and filtering for maximum and minimum temperature/humidity.

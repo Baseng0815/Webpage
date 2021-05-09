@@ -1,9 +1,10 @@
 # **Bastian Engel's personal website**
 
+## Disclaimer: this whole thing is under construction and will be changing a lot!
+
 Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
-and more choice than using pre designed web services. **This site does not
-use any proprietary soyscript for your own convenience**
+and more choice than using pre designed web services.
 
 I am a 20 year old CS student at the
 [Philipps-University of Marburg](https://uni-marburg.de). I like programming, listening to music,

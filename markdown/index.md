@@ -12,14 +12,3 @@ is low level application development like operating systems. That's why I'm usin
 nowadays to develop my own operating system.
 
 You can find out more about my projects [here](html/projects.html).
-
-```C
-struct test {
-    double b;
-};
-
-int main() {
-    int a = 3;
-    return a;
-}
-```

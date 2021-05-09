@@ -9,9 +9,7 @@ all: $(TARGETS)
 	rm -rf markdown/*.html
 
 %.html: %.md
-	cp pre.html $@
-	@echo "$(shell markdown $<)" >> $@
-	cat post.html >> $@
+	pandoc -s $< | sed '/<\/style>/a <link rel="stylesheet" href="../css/style.css" type="text/css" media="all"/>' > $@
 
 clean:
 	rm -rf html

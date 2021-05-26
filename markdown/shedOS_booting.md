@@ -60,7 +60,7 @@ A [higher half kernel](https://wiki.osdev.org/Higher_Half_Kernel) means that the
 the address space. Physically, it is still located in some low memory of course as no one has petabytes of memory (at least not yet).
 Instead, the last 2GiB are paged to its physical location to allow the kernel to work as if it was loaded high. For a 64-bit
 address space, this means the kernel starts at 0xffffffff80000000 + 2MiB. We add 2MiB because the kernel physically starts at the 2MiB
-mark.
+mark as it's better to leave the first two megs untouched.
 
 After loading and mapping the kernel, we need to exchange some information. This information exchange is defined by the stivale2
 specification. Do you remember the `.stivale2hdr` section of our elf file? This section contains a `stivale2_hdr` struct allowing us

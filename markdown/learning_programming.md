@@ -25,8 +25,8 @@ NodeJS, Pythona and shell scripting to write [Discord chat bots](https://github.
 create APIs and automate workflows. Nowadays I mostly use C as I've been doing
 lots of osdev related things.
 
-Did you notice the common theme in my process? ***I never learned a programming
-language or a technology just so I know the technology***. This is an essential point
+Did you notice the common theme in my process? **I never learned a programming
+language or a technology just so I know the technology**. This is an essential point
 you really need to understand. You **always** learn a technology to be able to
 use it for your own goals. This implies the necessity of having an end goal in the
 first place.

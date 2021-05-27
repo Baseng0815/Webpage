@@ -55,6 +55,8 @@ like a chess engine or a word guessing game. The possibilities are endless!
 I use my Raspberry Pi 4 for lots of things, one of them being recording climate data. The [DHT 22](https://www.adafruit.com/product/385)
 is a low-cost, low-power humidity and temperature sensor.
 ![](../res/dht22_wiring.gif "DHT22 wiring")
-It is easy to set up and can be read through the adafruit DHT python library based on which I have written a [simple script](https://github.com/Baseng0815/Climate).
-The Pi 4 also runs a mongo database which stores the humidity, temperature and date. A new document is inserted every 5 minutes.
-Plans for the future include an express.js-based API for accessing this data and filtering for maximum and minimum temperature/humidity.
+It is easy to set up and can be read through the adafruit DHT python library based on
+which I have written a [simple script](https://github.com/Baseng0815/Climate).
+The Pi 4 also runs a mongo database which stores the humidity, temperature and date.
+A new document is inserted every 5 minutes.  Plans for the future include an express.js-based
+API for accessing this data and filtering for maximum and minimum temperature/humidity.

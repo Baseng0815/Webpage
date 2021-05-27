@@ -6,7 +6,7 @@ Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
 and more choice than using pre designed web services.
 
-I am a 20 year old CS student at the
+I am a 20 year old CS student studying at the
 [Philipps-University of Marburg](https://uni-marburg.de). I like programming, listening to music,
 playing the piano and learning Japanese. One area I am especially interested in
 is low level application development like operating systems. That's why I'm using mainly C

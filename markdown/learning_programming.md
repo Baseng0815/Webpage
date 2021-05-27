@@ -7,7 +7,7 @@ for programming but also for learning basically any skill that takes time and pr
 ## About passion
 
 First off, lots of people tell themselves they are too old to learn new stuff or
-get discouraged by seeing another younger person doing better than them. This is
+get discouraged by seeing a younger person doing better than them. This is
 complete BS and doesn't matter at all. Maybe you have thought about how good you
 might be if you had started let's say 5 years ago. This train of thought is stupid
 and just creates unnecessary frustration. **The best time to start learning was

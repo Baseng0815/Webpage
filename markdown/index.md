@@ -1,6 +1,6 @@
 # **Bastian Engel's personal website**
 
-## Disclaimer: this whole thing is under construction and will be changing a lot!
+## Disclaimer: this whole thing is under construction and will be changing a lot.
 
 Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
@@ -15,4 +15,5 @@ nowadays to develop my own operating system.
 You can find out more about my projects [here](html/projects.html).
 
 ## More stuff!
-[Debugging Adventures #1](html/debugging_HPET.html)
+[(2021-05-27) Learning programming](html/learning_programming.html)
+[(2021-05-26) Debugging Adventures #1](html/debugging_HPET.html)

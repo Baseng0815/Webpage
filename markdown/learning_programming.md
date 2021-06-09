@@ -1,4 +1,4 @@
-# How to learn programming (and other things)?
+# How to learn programming (and other things too!)
 
 This post is aimed at people learning or wanting to learn how to program in an
 efficient and non time-wasting way. Most of the points I make don't just hold true

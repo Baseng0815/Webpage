@@ -7,9 +7,9 @@ to fix in a short period. This here is one of them.
 
 I have written the bare minimum of my kernel, i.e. loading a custom GDT, implementing
 a simple terminal and handling interrupts and CPU exceptions. Because this was just
-a learning experience, I wanted to tidy up some of my code to prepare the next stage
-of development. The first thing I did was reorganizing the address space so everything
-is mapped into the higher half, including MMIO. I additionally changed HPET/APIC
+a learning experience, I wanted to tidy up some of my code to prepare for the next stage
+of development. The first thing I did was reorganize the address space so everything
+is correctly mapped into the higher half, including MMIO. I additionally changed HPET/APIC
 MMIO access to use array indices and replaced bit field structs with bitwise logic
 which is way more predictable because the former's behavior often depends on the
 compiler used.
@@ -19,16 +19,14 @@ this problem did not take too long though as I only forgot to offset the MMIO re
 into the higher half. A simple macro did the trick.
 
 ```C
-...
 #define VADDR_ENSURE_HIGHER(p) (p < VADDR_HIGHER ? p + VADDR_HIGHER : p)
 lapic_addr = VADDR_ENSURE_HIGHER(madt->local_apic);
-...
 ```
 
 Having fixed the crashes, my expectations where high. Oh, how foolish to assume that
 a simple rewrite without a logic change would *NOT* completely fuck everything over.
 Okay, not *everything*, just the HPET timer interrupts. For some reason, the kernel
-timer system does not receive and interrupts and thus can't keep track of the time.
+timer system does not receive any interrupts and thus cannot keep track of the time.
 
 There are two possible points of failure to examine, the first one being the HPET
 itself. I quickly noticed that I forgot to shift flags so some of them were not set

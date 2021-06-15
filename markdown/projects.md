@@ -1,4 +1,7 @@
-# My Projects
+---
+title:
+    Projects
+---
 
 This list is by no means exhaustive or complete, but should give a rough
 outline about how I spend my programming time and efforts. If you are interested

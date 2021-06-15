@@ -1,4 +1,7 @@
-# How to set up a dedicated Minecraft server
+---
+title:
+    How to set up a dedicated Minecraft server
+---
 
 [Minecraft](https://www.minecraft.net/en-us) is a game I've been playing a lot
 since my childhood, either in singleplayer or sometimes in multiplayer too. Lots

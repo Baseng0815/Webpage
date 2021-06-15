@@ -1,3 +1,8 @@
+---
+title:
+    Learning Programming
+---
+
 # How to learn programming (and other things too!)
 
 This post is aimed at people learning or wanting to learn how to program in an

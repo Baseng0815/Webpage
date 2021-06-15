@@ -1,7 +1,10 @@
-# shedOS toolchain and makefiles
+---
+title:
+    shedOS Toolchain and Makefiles
+---
 
 The bulk of our build system consists of Makefiles and other small tools like the
-compiler, linker and assembler being invoked by those Makefiles a la Unix philosophy.
+compiler, linker and assembler being invoked by those Makefiles to form a single build system.
 The root Makefile defines some variables needed by all subprojects, namely
 
 - user CFLAGS  (-O0 ...)
@@ -22,10 +25,10 @@ The qemu rule configures and starts our virtual machine. The hard disk image rul
 creates a .hdd image. The sysroot contains all of our operating system; subprojects
 will be gradually installed there by looping through a list of all the subprojects,
 installing their headers and then finally installing their executables and libraries.
-At last, we have a rule to configure and build our entire toolchain. All the `clean`
-rules are used to *clean up* our directories, i.e. delete previous results like object files.
-We use an in-source build, which means our directories will be flooded which .o files and the
-like once we ran our Makefiles. This might be changed in the future.
+At last, we have a rule to configure and build our entire toolchain. The `clean`
+rules are used to *clean up* our directories, i.e. delete previously built targets like object files.
+We use an in-source build which means our directories will be flooded which .o files and the
+like once we run our Makefiles. This might be changed in the future.
 
 The core of the build process is made up by the cross toolchain. It contains the GNU binutils
 and `gcc` for compilation. We use a generic `x86_64-elf` target which we can replace with

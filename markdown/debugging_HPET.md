@@ -1,4 +1,7 @@
-# Debugging Adventures #1: HPET IRQ
+---
+title:
+    Debugging Adventures #1: HPET IRQ
+---
 
 This is the first debugging post of a probably long ongoing series. I don't want
 to introduce specific topics or dive deep into explanations. Rather, I will write

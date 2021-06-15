@@ -1,4 +1,7 @@
-# **Bastian Engel's personal website**
+---
+title:
+    Bastian Engel's Webpage
+---
 
 ## Disclaimer: this whole thing is under construction and will be changing a lot.
 

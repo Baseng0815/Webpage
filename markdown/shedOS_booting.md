@@ -1,4 +1,7 @@
-# shedOS booting
+---
+title:
+    shedOS Booting
+---
 
 We managed to create our kernel executable in [part 1](shedOS_toolchain.html). But what can we do with it?
 We obviously can't just run it in our user environment because there is no environment without an OS!

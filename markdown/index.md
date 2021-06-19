@@ -19,6 +19,7 @@ You can find out more about my projects [here](html/projects.html).
 
 ## More stuff!
 
+- [(2021-06-09) It's summer](html/its_summer.html)
 - [(2021-06-09) How to host a Minecraft server](html/hosting_mc_server.html)
 - [(2021-05-27) Learning programming](html/learning_programming.html)
 - [(2021-05-26) Debugging Adventures #1](html/debugging_HPET.html)

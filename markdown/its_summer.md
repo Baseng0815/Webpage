@@ -46,7 +46,7 @@ possible. I did not want to move a single muscle or burn a single molecule of AT
 unless absolutely necessary. This meant lying in bed completely motionless and just
 consooming media on TV.
 
-We have over 100sqm of lawn with corners and trees in the way which needs to be
+We have over 100sqm of lawn with corners and trees in the way which need to be
 mowed every week. It usually only needs to be done once before summer as the
 grass just dies due to the heat, but we still haven't done it, so there's that.
 

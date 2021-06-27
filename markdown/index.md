@@ -15,11 +15,12 @@ playing the piano and learning Japanese. One area I am especially interested in
 is low level application development like operating systems. That's why I'm using mainly C
 nowadays to develop my own operating system.
 
-You can find out more about my projects [here](html/projects.html).
+You can find out more about my projects [here](./projects.html).
 
 ## More stuff!
 
-- [(2021-06-19) It's summer](html/its_summer.html)
-- [(2021-06-09) How to host a Minecraft server](html/hosting_mc_server.html)
-- [(2021-05-27) Learning programming](html/learning_programming.html)
-- [(2021-05-26) Debugging Adventures #1](html/debugging_HPET.html)
+- [(2021-06-27) What are operating systems?](./what_are_os.html)
+- [(2021-06-19) It's summer](./its_summer.html)
+- [(2021-06-09) How to host a Minecraft server](./hosting_mc_server.html)
+- [(2021-05-27) Learning programming](./learning_programming.html)
+- [(2021-05-26) Debugging Adventures #1](./debugging_HPET.html)

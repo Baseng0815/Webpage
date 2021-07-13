@@ -11,6 +11,10 @@ html, body {
     margin: 0 auto;
 }
 
+p {
+    margin: 20px;
+}
+
 img {
     max-height: 400px;
     max-width: none;

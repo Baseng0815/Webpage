@@ -5,7 +5,7 @@ title:
 
 Most of us use operating systems everyday for playing video games, editing
 images and videos, writing E-mails or just browsing funny memes on
-[r/ich_iel](https://reddit.com/r/ich_iel).
+[r/ich_iel](https://reddit.com/r/ich_iel). But what exactly do they do and how do they work?
 
 ## General overview
 
@@ -59,6 +59,18 @@ The computer then processes them non-stop and sequentially.
 Real-Time OSes are often used when processing data streams. They have fixed
 time constraints the scheduler has to adhere to or else the system will fail.
 Examples include multimedia or air traffic control systems.
+
+Aside from the important task of allocating processing time to each program,
+operating systems also need to manage memory and make sure requests can be
+satisfied properly. This is the job of the memory allocator. There are lots
+of different implementation and algorithms like [buddy allocation](
+https://en.wikipedia.org/wiki/Buddy_memory_allocation), [slab allocation](
+https://en.wikipedia.org/wiki/Slab_allocation) and many more. The memory
+allocator for userspace programs is usually implemented in userspace as well.
+Tools for requesting memory or memory mapped IO are provided by kernel
+syscalls like the posix [mmap]. When running out of memory, the kernel could
+for example return an invalid pointer or error code or could even swap some
+data from RAM to disk.
 
 ### Abstracting hardware
 

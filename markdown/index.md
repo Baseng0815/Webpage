@@ -10,10 +10,8 @@ and more choice than using pre designed web services.
 I am a 20 year old CS student studying at the [Philipps-University of
 Marburg](https://uni-marburg.de). I like programming, listening to music,
 playing the piano and learning Japanese. One area I am especially interested in
-is low level application development like operating systems. That's why I'm
-using mainly C nowadays to develop my own operating system.
-
-You can find out more about my projects [here](/html/projects.html).
+is low level application development. You can find out more about my projects
+[here](/html/projects.html). I also have an [image gallery](/html/gallery.html)
 
 ## More stuff!
 

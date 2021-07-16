@@ -101,7 +101,7 @@ don't have to care about hardware for the most part and can write portable
 programs quickly and concisely. Who would think about all the layers of
 abstraction a simple python program like
 
-```python
+```{.python .numberLines}
 arr = []
 arr.append('hello world')
 ```

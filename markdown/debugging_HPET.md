@@ -21,7 +21,7 @@ And of course it didn't work. The kernel just halted at APIC initialization.
 Fixing this problem did not take too long though as I only forgot to offset the
 MMIO registers into the higher half. A simple macro did the trick.
 
-```C
+```{.c .numberLines}
 #define VADDR_ENSURE_HIGHER(p) (p < VADDR_HIGHER ? p + VADDR_HIGHER : p)
 lapic_addr = VADDR_ENSURE_HIGHER(madt->local_apic);
 ```
@@ -36,7 +36,7 @@ There are two possible points of failure to examine, the first one being the
 HPET itself. I quickly noticed that I forgot to shift flags so some of them
 were not set correctly, including the IRQ enable bit. Duh.
 
-```C
+```{.c .numberLines}
 enum hpet_timer_conf_cap {
     LEVEL_TRIGGERED     = 0x1,
     IRQ_ENABLE          = 0x2,
@@ -71,7 +71,7 @@ properly as well as having `LEGACY_REPLACE` enabled, the second point of
 failure could be the actual APIC code itself as I have rewritten some parts of
 it too. So what did I change exactly?
 
-```C
+```{.c .numberLines}
 /* the old code, using byte offsets */
 enum LAPIC_REGISTER {
     LAPIC_ID        = 0x20,
@@ -92,7 +92,7 @@ enum lapic_register {
 ```
 
 To illustrate how this change affects the code:
-```C
+```{.c .numberLines}
 /* register access before */
 uint32_t bsp_lapic_id = *(uint32_t*)(lapic_addr + LAPIC_ID);
 

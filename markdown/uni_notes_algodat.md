@@ -107,6 +107,7 @@ Closed Hashing (Ueberlaeufer werden in Hashtabelle gespeichert):
     - leicht effizienter als Verfahren mit Sondierung und Verkettung
 
 Dynamische Hashverfahren (kontinuierliche Reorganisation bei Wachsen/Schrumpfen):
+
 - globale Reorganisation: bei zu hohem Belegungsfaktor wird Tabelle vergroessert und alte
 Datensaetze reinkopiert
     - amortisiert O(1); die Einfuegeoperation, die Reorganisation ausloest, hat O(n)

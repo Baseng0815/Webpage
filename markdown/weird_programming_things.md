@@ -42,7 +42,7 @@ int main(void)
 {
         int test[100];
         for (size_t i = 0; i < 100; i++) {
-                test[i] = i * i;
+                test[i] = i;
         }
 
         for (size_t i = 0; i < 100; i++) {

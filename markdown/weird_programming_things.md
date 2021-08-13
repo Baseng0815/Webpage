@@ -36,6 +36,8 @@ in line 9 is not initialized, but refers to the top of the stack which still con
 69 as we didn't overwrite it with anything.
 
 ```{.c .numberLines}
+#include <stdio.h>
+
 int main(void)
 {
         int test[100];

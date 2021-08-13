@@ -15,6 +15,7 @@ is low level application development. You can find out more about my projects
 
 ## More stuff!
 
+- [(2021-08-13) Weird things in programming](/html/weird_programming_things.html)
 - [(2021-07-20) Algorithms and Data Structures notes](/html/uni_notes_algodat.html)
 - [(2021-06-27) What are operating systems?](/html/what_are_os.html)
 - [(2021-06-19) It's summer](/html/its_summer.html)

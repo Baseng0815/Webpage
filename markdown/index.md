@@ -20,5 +20,5 @@ is low level application development. You can find out more about my projects
 - [(2021-06-27) What are operating systems?](/html/what_are_os.html)
 - [(2021-06-19) It's summer](/html/its_summer.html)
 - [(2021-06-09) How to host a Minecraft server](/html/hosting_mc_server.html)
-- [(2021-05-27) Learning programming](/html/learning_programming.html)
+- [(2021-05-27) How to learn programming](/html/how_to_learn_programming.html)
 - [(2021-05-26) Debugging Adventures #1](/html/debugging_HPET.html)

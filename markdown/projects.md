@@ -37,6 +37,7 @@ descriptions below.
 
 1. [Toolchain and Makefiles](/html/shedOS_toolchain.html)
 2. [Booting](/html/shedOS_booting.html)
+2. [Paging (TODO)](/html/todo.html)
 
 ## Discord Bot
 

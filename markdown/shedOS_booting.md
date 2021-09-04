@@ -113,6 +113,6 @@ OS look like it has more features than it really has. It is also a great
 motivational boost to actually be able to see the text you've written earlier
 and shoved through your toolchain and into the VM.
 
-In [Part 3 (TODO)](/html/shedOS_paging.html) we will discuss how memory and paging
+In [Part 3 (TODO)](/html/todo.html) we will discuss how memory and paging
 work, how to write a crude physical page frame bitmap allocator and how to
 create page tables.

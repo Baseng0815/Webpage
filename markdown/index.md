@@ -5,7 +5,9 @@ title:
 
 Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
-and more choice than using pre designed web services.
+and more choice than using pre designed web services. I have also taken care
+not to use any scripts because only lunatics and webdevs would use scripts for a
+static website.
 
 I am a 20 year old CS student studying at the [Philipps-University of
 Marburg](https://uni-marburg.de). I like programming, listening to music,
@@ -15,6 +17,7 @@ is low level application development. You can find out more about my projects
 
 ## More stuff!
 
+- [(2021-09-04) An introduction to Linux](/html/linux_introduction.html)
 - [(2021-08-13) Weird things in programming](/html/weird_programming_things.html)
 - [(2021-07-20) Algorithms and Data Structures notes](/html/uni_notes_algodat.html)
 - [(2021-06-27) What are operating systems?](/html/what_are_os.html)

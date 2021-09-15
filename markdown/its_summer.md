@@ -66,7 +66,7 @@ it.  The thing in Germany is that people generally don't have AC so if you are
 one of the few unfortunate ones to live in a room that tends to heat up very
 much, too bad.  When it's cold it's easy to just put on more clothing or use
 heating to keep yourself warm, but there's not much you can do to keep yourself
-cold except maybe excessively drinking refridgerated water.
+cold except maybe excessively drinking refrigerated water.
 
 It's hard for me to sleep when it's 30°C during the night and opening the
 windows doesn't help much. Having a computer run only worsens the situation

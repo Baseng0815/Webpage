@@ -7,6 +7,13 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Interesting reads</title>
+            <pubDate>Thu, 21 Sep 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/interesting_reads.html</guid>
+            <link>https://www.bengel.xyz/html/interesting_reads.html</link>
+            <description>A collection of interesting and mainly short reads about software and computer science.</description>
+        </item>
+        <item>
             <title>An Introduction to Linux</title>
             <pubDate>Sat, 04 Sep 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/linux_introduction.html</guid>

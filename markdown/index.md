@@ -18,6 +18,7 @@ and an [RSS feed](/rss.xml).
 
 ## More stuff!
 
+- [(2021-10-21) Interesting reads](/html/interesting_reads.html)
 - [(2021-09-04) An introduction to Linux](/html/linux_introduction.html)
 - [(2021-08-13) Weird things in programming](/html/weird_programming_things.html)
 - [(2021-07-20) Algorithms and Data Structures notes](/html/uni_notes_algodat.html)

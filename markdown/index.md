@@ -1,15 +1,30 @@
-# **Bastian Engel's personal website**
-
-## Disclaimer: this whole thing is under construction and will be changing a lot!
+---
+title:
+    Bastian Engel's Webpage
+---
 
 Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
-and more choice than using pre designed web services.
+and more choice than using pre designed web services. I have also taken care
+not to use any scripts because only lunatics and webdevs would use scripts for a
+static website.
 
-I am a 20 year old CS student at the
-[Philipps-University of Marburg](https://uni-marburg.de). I like programming, listening to music,
+I am a 20 year old CS student studying at the [Philipps-University of
+Marburg](https://uni-marburg.de). I like programming, listening to music,
 playing the piano and learning Japanese. One area I am especially interested in
-is low level application development like operating systems. That's why I'm using mainly C
-nowadays to develop my own operating system.
+is low level application development. You can find out more about my projects
+[here](/html/projects.html). I also have an [image gallery](/html/gallery.html)
+and an [RSS feed](/rss.xml).
 
-You can find out more about my projects [here](html/projects.html).
+## More stuff!
+
+- [(2021-11-02) Latest announcement](/html/announcements.html)
+- [(2021-10-21) Interesting reads](/html/interesting_reads.html)
+- [(2021-09-04) An introduction to Linux](/html/linux_introduction.html)
+- [(2021-08-13) Weird things in programming](/html/weird_programming_things.html)
+- [(2021-07-20) Algorithms and Data Structures notes](/html/uni_notes_algodat.html)
+- [(2021-06-27) What are operating systems?](/html/what_are_os.html)
+- [(2021-06-19) It's summer](/html/its_summer.html)
+- [(2021-06-09) How to host a Minecraft server](/html/hosting_mc_server.html)
+- [(2021-05-27) How to learn programming](/html/how_to_learn_programming.html)
+- [(2021-05-26) Debugging Adventures #1](/html/debugging_HPET.html)

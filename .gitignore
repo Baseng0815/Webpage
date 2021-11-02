@@ -1,2 +1,2 @@
 html/*
-markdown/*.html
+!html/gallery.html

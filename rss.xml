@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Bastian Engel</title>
+        <link>https://bengel.xyz/rss.xml</link>
+        <description>New posts</description>
+        <language>en-us</language>
+        <item>
+            <title>New Stream announcement</title>
+            <pubDate>Tue, 02 Oct 2021 00:00:00 UTC</pubDate>
+            <guid isPermaLink="false">2021-11-02</guid>
+            <link>https://www.bengel.xyz/html/announcements.html</link>
+            <description>shedOS dev stream starting at 19:00 this saturday (2021-11-06).</description>
+        </item>
+        <item>
+            <title>Interesting reads</title>
+            <pubDate>Thu, 21 Sep 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/interesting_reads.html</guid>
+            <link>https://www.bengel.xyz/html/interesting_reads.html</link>
+            <description>A collection of interesting and mainly short reads about software and computer science.</description>
+        </item>
+        <item>
+            <title>An Introduction to Linux</title>
+            <pubDate>Sat, 04 Sep 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/linux_introduction.html</guid>
+            <link>https://www.bengel.xyz/html/linux_introduction.html</link>
+            <description>A short introduction to Linux and why you should care about it.</description>
+        </item>
+        <item>
+            <title>Weird things in programming</title>
+            <pubDate>Fri, 13 Aug 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/weird_programming_things.html</guid>
+            <link>https://www.bengel.xyz/html/weird_programming_things.html</link>
+            <description>I have encountered some weird behavior of programming languages and want to collect them here.</description>
+        </item>
+        <item>
+            <title>Algorithms and Data Structures notes</title>
+            <pubDate>Tue, 20 Jul 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/uni_notes_algodat.html</guid>
+            <link>https://www.bengel.xyz/html/uni_notes_algodat.html</link>
+            <description>Algorithms and data structures lecture notes</description>
+        </item>
+        <item>
+            <title>What are operating systems?</title>
+            <pubDate>Sun, 27 Jun 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/what_are_os.html</guid>
+            <link>https://www.bengel.xyz/html/what_are_os.html</link>
+            <description>An introduction to the concept of an operating system</description>
+        </item>
+        <item>
+            <title>It's summer</title>
+            <pubDate>Sun, 19 Jun 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/its_summer.html</guid>
+            <link>https://www.bengel.xyz/html/its_summer.html</link>
+            <description>Ranting about summer and all its negative sides</description>
+        </item>
+        <item>
+            <title>How to host a Minecraft server</title>
+            <pubDate>Wed, 09 Jun 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/hosting_mc_server.html</guid>
+            <link>https://www.bengel.xyz/html/hosting_mc_server.html</link>
+            <description>How to host a Minecraft server without VPN bullshit</description>
+        </item>
+        <item>
+            <title>How to learn programming</title>
+            <pubDate>Thu, 27 May 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/how_to_learn_programming.html</guid>
+            <link>https://www.bengel.xyz/html/how_to_learn_programming.html</link>
+            <description>Some advice on how to learn programming (and other things too)</description>
+        </item>
+        <item>
+            <title>Debugging Adventures #1</title>
+            <pubDate>Wed, 26 May 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/debugging_HPET.html</guid>
+            <link>https://www.bengel.xyz/html/debugging_HPET.html</link>
+            <description>How I spent multiple days debugging a stupid mistake</description>
+        </item>
+    </channel>
+</rss>

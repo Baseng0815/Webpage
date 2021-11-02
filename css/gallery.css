@@ -1,0 +1,28 @@
+html, body {
+    max-width: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    max-height: 400px;
+    max-width: none;
+    margin: 10px;
+}
+
+figure {
+    outline-width: 2px;
+    outline-color: grey;
+    outline-style: solid;
+}

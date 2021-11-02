@@ -35,7 +35,7 @@ My laptop runs Linux only and I dual boot Windows/Linux on my tower
 to be able to play games.  All the real work is done on Linux tho as
 I can't trust Windows to not hinder me when doing work.  If you want
 a comparison and suggestion on which to use, look no further than
-[here](/html/TODO.html).
+[(TODO)](/html/todo.html).
 
 ## Software
 

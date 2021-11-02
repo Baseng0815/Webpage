@@ -58,3 +58,16 @@ is a low-cost, low-power humidity and temperature sensor.
 It is easy to set up and can be read through the adafruit DHT python library based on which I have written a [simple script](https://github.com/Baseng0815/Climate).
 The Pi 4 also runs a mongo database which stores the humidity, temperature and date. A new document is inserted every 5 minutes.
 Plans for the future include an express.js-based API for accessing this data and filtering for maximum and minimum temperature/humidity.
+
+## xanim
+xanim is a simple animated wallpaper manager for X11. It works by creating an SDL2 render context from the root window (aka the 'background')
+and then blitting a series of images to it. The images are obtained from a video file which is read and parsed using OpenCV. You thus need
+Xlib, SDL2 and OpenCV to be able to successfully compile the program.
+
+I have measured the performance on my laptop (16GB RAM, i9 10510H) with a 1080p video and after loading it consumes on average < 1% of CPU time.
+RAM could be a problem tho as every image is loaded without compression and stored in RAM instead of VRAM. I have yet to figure out how to store
+the images on the GPU to solve this problem but w/e, just don't use videos larger than a few Gigs and you should be fine.
+
+This method of rendering unfortunately doesn't work too well when using a composite manager such as picom or compton. They draw to an
+external buffer and then blur all the windows together to achieve their result. If you know of a method to make it work in this case,
+please let me know!

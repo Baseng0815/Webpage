@@ -21,10 +21,10 @@ Peripherals:
 - Keyboard: Razer BlackWidow Chroma V2
 - Mouse: Logitech G502
 - Headset: HyperX Cloud II
-- Monitor 1: 27" C27G1 144Hz 1080p
-- Monitor 2: 24" BenQ 60Hz 1080p
+- Monitor 1: 31.5" C32G2 165Hz 1440p
+- Monitor 2: 27" C27G1 144Hz 1080p
 
-And the laptop (a ThinkPad T15):
+And the laptop (ThinkPad T15):
 
 - 16GB DDR4
 - 4 core/8 threads Intel Core i7 10510U
@@ -32,10 +32,9 @@ And the laptop (a ThinkPad T15):
 - Integrated Graphics :(
 
 My laptop runs Linux only and I dual boot Windows/Linux on my tower
-to be able to play games.  All the real work is done on Linux tho as
-I can't trust Windows to not hinder me when doing work.  If you want
-a comparison and suggestion on which to use, look no further than
-[(TODO)](/html/todo.html).
+to play games.  All the real work is done on Linux tho as I can't trust Windows
+to not hinder me when doing work.  If you want a comparison and suggestion on
+which to use, look no further than [(TODO)](/html/todo.html).
 
 ## Software
 

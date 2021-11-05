@@ -18,7 +18,7 @@ and an [RSS feed](/rss.xml).
 
 ## More stuff!
 
-- [(2021-11-02) My Setup](/html/setup.html)
+- [(2021-11-03) My Setup](/html/setup.html)
 - [(2021-11-02) Latest announcement](/html/announcements.html)
 - [(2021-10-21) Interesting reads](/html/interesting_reads.html)
 - [(2021-09-04) An introduction to Linux](/html/linux_introduction.html)

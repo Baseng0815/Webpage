@@ -14,7 +14,7 @@ friends, you can set up your own dedicated server quite easily.
 ## Getting the files
 
 First, you need to download a server jar. You can
-use[this](https://mcversions.net/) site to choose your version (you probably
+use [this](https://mcversions.net/) site to choose your version (you probably
 want the latest stable release, in my case 1.16.5), but make sure you download
 the server and not the client jar. Once you have those, create a server folder
 somewhere and put it there. I will use `./server/` as an example directory.

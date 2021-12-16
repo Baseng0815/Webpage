@@ -105,6 +105,6 @@ This was only an introduction as it would probably take more than a lifetime
 to explain everything properly. Below I have linked some more articles going
 into depth about Linux-related concepts which you might find interesting.
 
-- [(TODO)](/html/todo.html)
+- [Files in Linux](/html/files_in_linux.html)
 - [(TODO)](/html/todo.html)
 - [(TODO)](/html/todo.html)

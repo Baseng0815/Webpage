@@ -7,9 +7,16 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Files in Linux</title>
+            <pubDate>Thu, 16 Dec 2021 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/linux_files.html</guid>
+            <link>https://www.bengel.xyz/html/linux_files.html</link>
+            <description>An introduction to files in Linux</description>
+        </item>
+        <item>
             <title>My Setup</title>
             <pubDate>Wed, 03 Oct 2021 00:00:00 UTC</pubDate>
-            <guid isPermaLink="false">2021-11-03</guid>
+            <guid>https://www.bengel.xyz/html/setup.html</guid>
             <link>https://www.bengel.xyz/html/setup.html</link>
             <description>My setup (software and hardware I use)</description>
         </item>

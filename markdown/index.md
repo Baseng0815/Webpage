@@ -18,6 +18,7 @@ and an [RSS feed](/rss.xml).
 
 ## More stuff!
 
+- [(2021-12-24) No, you don't need more monitors](/html/more_monitors.html)
 - [(2021-12-16) Files in Linux](/html/linux_files.html)
 - [(2021-11-03) My Setup](/html/setup.html)
 - [(2021-11-02) Latest announcement](/html/announcements.html)

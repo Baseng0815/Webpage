@@ -71,7 +71,7 @@ system.
 <figcaption>Debian Installation</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="/res/arch_install.png" alt="debian" />
+<img style="width: 100%; max-width: 100%;" src="/res/arch_install.png" alt="arch" />
 <figcaption>Arch Installation</figcaption>
 </figure>
 </div>

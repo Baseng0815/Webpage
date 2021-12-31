@@ -165,11 +165,16 @@ outcomes.  The two main outcomes are collapse and sustainability. Collapse is
 characterized by a sudden decline of world population and industrial activity
 as well as human welfare.
 
-Scenario 2 assumes business as usual with more abundant resources while
-scenario 9 assumes multiple mitigation strategies.
-
-![](/res/ltg_scenario_2.png)
-![](/res/ltg_scenario_9.png)
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;"src="/res/ltg_scenario_2.png" alt="scenario 2" />
+<figcaption>Scenario 2 assumes business as usual with more abundant resources</figcaption>
+</figure>
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;" src="/res/ltg_scenario_9.png" alt="scenario 9" />
+<figcaption>Scenario 9 assumes multiple mitigation strategies</figcaption>
+</figure>
+</div>
 
 The other scenarios lie somewhere in between, but most produce collapse as a
 result.

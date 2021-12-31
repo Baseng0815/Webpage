@@ -58,9 +58,9 @@ decades to fully become effective.
 
 To summarize: for overshoot to occur, we need
 
-1. rapid growth
-2. a limit to the growth
-3. delays in perceiving the limit and controlling the growth
+- rapid growth
+- a limit to the growth
+- delays in perceiving the limit and controlling the growth
 
 ## Real-world examples
 
@@ -213,18 +213,18 @@ sustainable society must meet:
 Lots of the underlying commitment to growth comes from trying to solve problems
 in mainly three areas:
 
-1. povery
-2. unemployment
-3. unmet nonmaterial needs
+- povery
+- unemployment
+- unmet nonmaterial needs
 
 Growth isn't solving these problems at all or only inefficiently.
 
 Things we should do instead are
 
-1. sharing as there is enough for everyone to go around
-2. changing to an economic system that supports all people and shares work and
+- sharing as there is enough for everyone to go around
+- changing to an economic system that supports all people and shares work and
    industrial output equally
-3. finding nonmaterial ways to solve the need for self-esteem, challenge, joy,
+- finding nonmaterial ways to solve the need for self-esteem, challenge, joy,
    love, identity and community
 
 It is our job to find solutions to these problems which don't rely on endless

@@ -26,7 +26,6 @@ and an [RSS feed](/rss.xml).
 - [(2021-10-21) Interesting reads](/html/interesting_reads.html)
 - [(2021-09-04) An introduction to Linux](/html/linux_introduction.html)
 - [(2021-08-13) Weird things in programming](/html/weird_programming_things.html)
-- [(2021-07-20) Algorithms and Data Structures notes](/html/uni_notes_algodat.html)
 - [(2021-06-27) What are operating systems?](/html/what_are_os.html)
 - [(2021-06-19) It's summer](/html/its_summer.html)
 - [(2021-06-09) How to host a Minecraft server](/html/hosting_mc_server.html)

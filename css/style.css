@@ -2,10 +2,18 @@ html, body {
     background-color: #13171c;
     color: #bbb;
     text-align: justify;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 5rem;
     line-height: 1.2;
+}
+
+@media only screen and (max-width: 1300px) {
+    html, body {
+        max-width: none;
+        margin: 0 3vw;
+        font-size: 0.9rem;
+    }
 }
 
 h1 {

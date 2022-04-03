@@ -37,7 +37,8 @@ Just managing to restart your PC doesn't guarantee to fix the issue though. I
 couldn't use my Windows installation today because even a hard restart didn't
 fix the problem.
 
-<iframe src="https://www.youtube.com/embed/yYVbaNF0x6E" title="Explorer restart loop"
+<iframe style="display: block; margin: 0 auto" width="800" height="450"
+src="https://www.youtube.com/embed/yYVbaNF0x6E" title="Explorer restart loop"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

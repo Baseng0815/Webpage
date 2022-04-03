@@ -7,6 +7,13 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Everything wrong with Windows Explorer</title>
+            <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/win_explorer.html</guid>
+            <link>https://www.bengel.xyz/html/win_explorer.html</link>
+            <description>I don't like the Windows Explorer. Find out why.</description>
+        </item>
+        <item>
             <title>Limits to Growth - the 30-year update</title>
             <pubDate>Fri, 31 Dec 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/limits_to_growth.html</guid>

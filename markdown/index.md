@@ -18,6 +18,7 @@ and an [RSS feed](/rss.xml).
 
 ## More stuff!
 
+- [(2022-03-04) Everything wrong with Windows Explorer](/html/win_explorer.html)
 - [(2021-12-31) Limits to growth - the 30-year update](/html/limits_to_growth.html)
 - [(2021-12-24) No, you don't need more monitors](/html/more_monitors.html)
 - [(2021-12-16) Files in Linux](/html/linux_files.html)

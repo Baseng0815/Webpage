@@ -7,6 +7,13 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>How (n)vim saves my life</title>
+            <pubDate>Mon, 19 Apr 2022 00:00:00 UTC</pubDate>
+            <guid isPermaLink="false">2022-04-19</guid>
+            <link>https://www.bengel.xyz/html/vim_life_saving.html</link>
+            <description>A growing collection of how (n)vim plugins and shortcuts make my life easier.</description>
+        </item>
+        <item>
             <title>Everything wrong with Windows Explorer</title>
             <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/win_explorer.html</guid>

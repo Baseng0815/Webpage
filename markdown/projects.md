@@ -9,6 +9,34 @@ interested in projects summaries instead of detailed description, check out the
 corresponding github repository. Most of them (should) include a `README.md`
 which gives a nice overview of the project and how to build it.
 
+## ray tracer
+![](/res/raytracer.jpg "raytracer")
+
+[raytracer](https://github.com/Baseng0815/raytracer) is, as you might have
+guessed already, a simple ray tracer I'm currently working on. It is based on a
+book called ["An Introduction to Ray
+Tracing"](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf)
+which explains succintly but still with enough detail the algorithms and steps
+necessary for a modern raytracer to produce photorealistic images as well as
+how to optimize for real-time usage. I have just finished implementing ray
+intersection algorithms as well as color handling (which is surprisingly
+nontrivial; you can't just use an RGB color space since physics-based rendering
+requires the use of light spectra and wavelengths). Also implemented is basic
+diffuse reflection as a small rendering test which appears to work as expected,
+although the colors are a little bit off. Guess I need to recheck my lookup
+tables.
+
+## vex
+![](/res/vex.png "vex")
+
+[vex](https://github.com/Baseng0815/vex) is a simple hex editor with vim-like
+bindings for easy navigation. It currently supports browsing a file, editing
+individual bytes and saving the file with plenty of movement commands already
+implemented. It is very lightweight, only using a TUI based on ncurses.
+Althought it is already usable, I plan to add a way to insert new bytes or
+delete existing ones as well as more advanced ergonomics like visual (block)
+selection.
+
 ## shedOS
 ![](/res/shedOS.jpg "shedOS")
 
@@ -39,7 +67,7 @@ descriptions below.
 2. [Booting](/html/shedOS_booting.html)
 2. [Paging (TODO)](/html/todo.html)
 
-## Discord Bot
+## discord Bot
 
 Me and my friends use Discord for communicating. Discord offers lots of
 features out of the box like free servers, video chat and stream capabilities
@@ -52,6 +80,8 @@ create such a bot. The repository for our bot can be found
 [here](https://github.com/Baseng0815/HelmtraegerBot). It currently allows you
 to
 
+- automatically download and send video embeds of multiple sources like twitter
+using [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - show and play back audio files like a soundboard,
 - look up the current weather for a given region using the [openweathermap
 api](https://openweathermap.org/api)
@@ -67,6 +97,20 @@ The great thing is that there are lots of Node.js bindings for APIs so one can
 quickly implement features without needing to mess around for hours. I will
 probably add more features in the future as I see fit, maybe even something
 like a chess engine or a word guessing game. The possibilities are endless!
+
+## voxel game
+
+![](/res/voxelgame.jpg "Voxel game")
+
+[Voxel game](https://github.com/Baseng0815/VoxelGame) is the prototype of a 3D
+voxel renderer/\*craft clone. It currently supports procedural terrain
+generation and texturing with biomes and caves, first-person movement and block
+breaking/placing. A simple UI is provided as well as a working inventory and
+clouds, including a skybox. Simple diffuse lighting is implemented as well. The
+project currently lies dormant, but we might pick it up again some time later.
+Because it's quite large, it has a lot of dependencies like Freetype, Assimp
+and libnoise. You can find a full list as well as build instructions in the
+repository.
 
 ## xanim
 
@@ -88,7 +132,7 @@ composite manager such as picom or compton. They draw to an external buffer and
 then blur all the windows together to achieve their result. If you know of a
 method to make it work in this case, please let me know!
 
-## Climate data
+## climate data
 
 I use my Raspberry Pi 4 for lots of things, one of them being recording climate
 data. The [DHT 22](https://www.adafruit.com/product/385) is a low-cost,

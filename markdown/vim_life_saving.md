@@ -52,8 +52,8 @@ a language server has been implemented by a third party.
 
 As an example, I've begun to learn [clojure](https://clojure.org/) a while ago,
 a LISP-related, JVM-based functional programming language. There might be a
-clojure IDE, or there might be none - I didn't looked it up. The only things I
-had to do to properly set up my editor were executing two commands:
+clojure IDE, or there might be none - I didn't looked it up. The only thing I
+had to do to properly set up my editor was executing two commands:
 
 1. `yay -S clojure-lsp`
 2. `:CocInstall coc-clojure`

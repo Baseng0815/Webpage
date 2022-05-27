@@ -40,29 +40,29 @@ protocol](https://en.wikipedia.org/wiki/Language_Server_Protocol), or LSP for
 short. The basic idea is that semantic completion and analysis features are
 provided by a specific language server like
 [ccls](https://github.com/MaskRay/ccls) speaking the LSP. The editor then only
-needs to speak the LSP as well and you have gained infinite completion power.
+needs to speak the LSP as well to gain near infinite completion power.
 
 While neovim has LSP support built in, I like to use
 [coc.nvim](https://github.com/neoclide/coc.nvim) which is a nodejs extension
 host. Using coc, you can install a myriad of glue plugins that allow the editor
 to communicate with the language servers. Coc provides a simple way to install
 plugins which, in combination with a package manager and sensible defaults,
-make it excellent in quickly setting up completion for your new esolang, given
+makes it excellent in quickly setting up completion for your new esolang, given
 a language server has been implemented by a third party.
 
-As an example, I've began to learn [clojure](https://clojure.org/) a while ago,
-a LISP-inspired, JVM-based functional programming language. There might be a
-clojure IDE, or there might be none - I haven't looked it up. The only things I
-had to do to properly set up my editor were two commands:
+As an example, I've begun to learn [clojure](https://clojure.org/) a while ago,
+a LISP-related, JVM-based functional programming language. There might be a
+clojure IDE, or there might be none - I didn't looked it up. The only things I
+had to do to properly set up my editor were executing two commands:
 
 1. `yay -S clojure-lsp`
 2. `:CocInstall coc-clojure`
 
-The first command installed the language server and the second one the glue
-plugin. It automatically activates when editing clojure files and works
-wonders. Supported features include not only autocompletion, but things like
-jumping to definitions, finding references, renaming symbols and even inserting
-snippets.
+The first command was used to install the language server and the second one
+to install the glue plugin. It automatically activates when editing clojure
+files and works wonders. Supported features include not only autocompletion,
+but things like jumping to definitions, finding references, renaming symbols
+and even inserting snippets.
 
 <video autoplay muted loop width="100%" height="100%">
     <source src="../res/vim_clojure_autocomplete.webm" type="video/webm">

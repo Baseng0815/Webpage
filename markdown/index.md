@@ -13,7 +13,7 @@ I am a 21 year old CS student studying at the [Philipps-University of
 Marburg](https://uni-marburg.de). I like programming, listening to music,
 playing the piano and learning Japanese. One area I am especially interested in
 is low level application development. You can find out more about my projects
-[here](./projects.html). I also have an [image gallery](.//gallery.html)
+[here](./projects.html). I also have an [image gallery](./gallery.html)
 and an [RSS feed](/rss.xml).
 
 I will be spending the latter half of 2022 in

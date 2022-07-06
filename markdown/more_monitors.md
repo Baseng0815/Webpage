@@ -63,6 +63,6 @@ money on things you don't need (oddly enough, you see this everywhere - trying
 to compensate for missing efficiency by bluntly increasing something else;
 please try to avoid this). If you want to learn more about how window managers
 on \*nix systems work, check out [this introduction to the dwm window
-manager(TODO)](/html/todo.html). And if you really want to spend lots of money
+manager(TODO)](./todo.html). And if you really want to spend lots of money
 on your setup, make sure to buy *two* large, high-quality monitors or a single
 ultrawide one. After all, it's the size that matters.

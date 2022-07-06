@@ -58,8 +58,8 @@ We now saw that Linux is part of the GNU project which in turn was developed as
 a free replacement for the proprietary Unix operating system. This essentially
 means that
 
-1. Linux is [free (TODO)](/html/todo.html), and
-2. Linux is [Unix-like (TODO)](/html/todo.html)
+1. Linux is [free (TODO)](./todo.html), and
+2. Linux is [Unix-like (TODO)](./todo.html)
 
 Now to get some distance to all the theoretical background, let's take a look at
 a few practical, modern examples. We'll start with Linux as a desktop operating
@@ -67,11 +67,11 @@ system.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="/res/debian_install.png" alt="debian" />
+<img style="width: 100%; max-width: 100%;"src="../res/debian_install.png" alt="debian" />
 <figcaption>Debian Installation</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="/res/arch_install.png" alt="arch" />
+<img style="width: 100%; max-width: 100%;" src="../res/arch_install.png" alt="arch" />
 <figcaption>Arch Installation</figcaption>
 </figure>
 </div>
@@ -105,6 +105,6 @@ This was only an introduction as it would probably take more than a lifetime
 to explain everything properly. Below I have linked some more articles going
 into depth about Linux-related concepts which you might find interesting.
 
-- [Files in Linux](/html/files_in_linux.html)
-- [(TODO)](/html/todo.html)
-- [(TODO)](/html/todo.html)
+- [Files in Linux](./files_in_linux.html)
+- [(TODO)](./todo.html)
+- [(TODO)](./todo.html)

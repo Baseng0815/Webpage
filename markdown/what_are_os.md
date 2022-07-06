@@ -16,7 +16,7 @@ video games like *League of Legends* or office programs like *Microsoft Word*.
 Below those applications though lurks something else, a thing most of us never
 come in direct contact with: the kernel.
 
-![](/res/linux_os.png)
+![](../res/linux_os.png)
 
 ## Kernel
 

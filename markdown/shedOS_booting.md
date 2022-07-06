@@ -4,7 +4,7 @@ title:
 ---
 
 We managed to create our kernel executable in [part
-1](/html/shedOS_toolchain.html). But what can we do with it?  We obviously
+1](./shedOS_toolchain.html). But what can we do with it?  We obviously
 can't just run it in our user environment because there is no environment
 without an OS!  That's why we have to somehow get our kernel loaded into RAM
 and jump to its entry point. But I just said there is no environment, so there
@@ -113,6 +113,6 @@ OS look like it has more features than it really has. It is also a great
 motivational boost to actually be able to see the text you've written earlier
 and shoved through your toolchain and into the VM.
 
-In [Part 3 (TODO)](/html/todo.html) we will discuss how memory and paging
+In [Part 3 (TODO)](./todo.html) we will discuss how memory and paging
 work, how to write a crude physical page frame bitmap allocator and how to
 create page tables.

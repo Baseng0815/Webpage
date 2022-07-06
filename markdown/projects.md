@@ -9,12 +9,11 @@ interested in projects summaries instead of detailed description, check out the
 corresponding github repository. Most of them (should) include a `README.md`
 which gives a nice overview of the project and how to build it.
 
-## ray tracer
-![](/res/raytracer.jpg "raytracer")
+## [ray tracer](https://github.com/Baseng0815/raytracer)
+![](../res/raytracer.jpg "raytracer")
 
-[raytracer](https://github.com/Baseng0815/raytracer) is, as you might have
-guessed already, a simple ray tracer I'm currently working on. It is based on a
-book called ["An Introduction to Ray
+raytracer is, as you might have guessed already, a simple ray tracer I'm
+currently working on. It is based on a book called ["An Introduction to Ray
 Tracing"](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf)
 which explains succintly but still with enough detail the algorithms and steps
 necessary for a modern raytracer to produce photorealistic images as well as
@@ -26,19 +25,18 @@ diffuse reflection as a small rendering test which appears to work as expected,
 although the colors are a little bit off. Guess I need to recheck my lookup
 tables.
 
-## vex
-![](/res/vex.png "vex")
+## [vex](https://github.com/Baseng0815/vex)
+![](../res/vex.png "vex")
 
-[vex](https://github.com/Baseng0815/vex) is a simple hex editor with vim-like
-bindings for easy navigation. It currently supports browsing a file, editing
-individual bytes and saving the file with plenty of movement commands already
-implemented. It is very lightweight, only using a TUI based on ncurses.
-Althought it is already usable, I plan to add a way to insert new bytes or
-delete existing ones as well as more advanced ergonomics like visual (block)
-selection.
+vex is a simple hex editor with vim-like bindings for easy navigation. It
+currently supports browsing a file, editing individual bytes and saving the
+file with plenty of movement commands already implemented. It is very
+lightweight, only using a TUI based on ncurses. Althought it is already usable,
+I plan to add a way to insert new bytes or delete existing ones as well as more
+advanced ergonomics like visual (block) selection.
 
-## shedOS
-![](/res/shedOS.jpg "shedOS")
+## [shedOS](https://github.com/Baseng0815/shedOS)
+![](../res/shedOS.jpg "shedOS")
 
 shedOS is an x86_64 operating system I am currently developing, mainly for
 educational purposes.  Working in kernel space without being able to rely on
@@ -63,11 +61,11 @@ Makefile rules for easy compilation and execution. You can find the github
 repository [here](https://github.com/Baseng0815/shedOS) and detailed
 descriptions below.
 
-1. [Toolchain and Makefiles](/html/shedOS_toolchain.html)
-2. [Booting](/html/shedOS_booting.html)
-2. [Paging (TODO)](/html/todo.html)
+1. [Toolchain and Makefiles](./shedOS_toolchain.html)
+2. [Booting](./shedOS_booting.html)
+2. [Paging (TODO)](./todo.html)
 
-## discord Bot
+## [discord Bot](https://github.com/Baseng0815/HelmtraegerBot)
 
 Me and my friends use Discord for communicating. Discord offers lots of
 features out of the box like free servers, video chat and stream capabilities
@@ -98,21 +96,20 @@ quickly implement features without needing to mess around for hours. I will
 probably add more features in the future as I see fit, maybe even something
 like a chess engine or a word guessing game. The possibilities are endless!
 
-## voxel game
+## [voxel game](https://github.com/Baseng0815/VoxelGame)
 
-![](/res/voxelgame.jpg "Voxel game")
+![](../res/voxelgame.jpg "Voxel game")
 
-[Voxel game](https://github.com/Baseng0815/VoxelGame) is the prototype of a 3D
-voxel renderer/\*craft clone. It currently supports procedural terrain
-generation and texturing with biomes and caves, first-person movement and block
-breaking/placing. A simple UI is provided as well as a working inventory and
-clouds, including a skybox. Simple diffuse lighting is implemented as well. The
-project currently lies dormant, but we might pick it up again some time later.
-Because it's quite large, it has a lot of dependencies like Freetype, Assimp
-and libnoise. You can find a full list as well as build instructions in the
-repository.
+Voxel game is the prototype of a 3D voxel renderer/\*craft clone. It currently
+supports procedural terrain generation and texturing with biomes and caves,
+first-person movement and block breaking/placing. A simple UI is provided as
+well as a working inventory and clouds, including a skybox. Simple diffuse
+lighting is implemented as well. The project currently lies dormant, but we
+might pick it up again some time later. Because it's quite large, it has a lot
+of dependencies like Freetype, Assimp and libnoise. You can find a full list as
+well as build instructions in the repository.
 
-## xanim
+## [xanim](https://github.com/Baseng0815/xanim)
 
 xanim is a simple animated wallpaper manager for X11. It works by creating an
 SDL2 render context from the root window (aka the 'background') and then
@@ -132,13 +129,13 @@ composite manager such as picom or compton. They draw to an external buffer and
 then blur all the windows together to achieve their result. If you know of a
 method to make it work in this case, please let me know!
 
-## climate data
+## [climate data](https://github.com/Baseng0815/Climate)
 
 I use my Raspberry Pi 4 for lots of things, one of them being recording climate
 data. The [DHT 22](https://www.adafruit.com/product/385) is a low-cost,
 low-power humidity and temperature sensor.
 
-![](/res/dht22_wiring.gif "DHT22 wiring")
+![](../res/dht22_wiring.gif "DHT22 wiring")
 
 It is easy to set up and can be read through the adafruit DHT python
 library based on which I have written a [simple script](

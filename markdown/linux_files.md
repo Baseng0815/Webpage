@@ -203,7 +203,7 @@ file read/write API. I do the same for my keyboard backlight and have written
 some scripts to simplify the process. There's no need for external programs
 when you have device files and I/O redirection - you can build complex things
 with simple building blocks, a core principle of the [Unix Philosophy
-(TODO)](/html/todo.html).
+(TODO)](./todo.html).
 
 Files in Linux are really powerful and every user ought to learn how to use them
 properly. You need them mostly when mounting, but they also allow all kinds of

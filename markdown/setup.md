@@ -34,7 +34,7 @@ And the laptop (ThinkPad T15):
 My laptop runs Linux only and I dual boot Windows/Linux on my tower
 to play games.  All the real work is done on Linux tho as I can't trust Windows
 to not hinder me when doing work.  If you want a comparison and suggestion on
-which to use, look no further than [(TODO)](/html/todo.html).
+which to use, look no further than [(TODO)](./todo.html).
 
 ## Software
 

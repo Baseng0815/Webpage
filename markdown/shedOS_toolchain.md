@@ -111,5 +111,5 @@ We are now able to compile our whole kernel using just a single `make` command.
 Great! But we still can't run it and also can't do much as we have no way of
 printing to the screen or doing any other usable form of I/O.  We need a
 *bootloader* to load our kernel and give it some information. How we can
-accomplish this will be presented in [part 2](/html/shedOS_booting.html) of this
+accomplish this will be presented in [part 2](./shedOS_booting.html) of this
 series.

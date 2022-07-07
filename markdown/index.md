@@ -19,7 +19,7 @@ and an [RSS feed](/rss.xml).
 I will be spending the latter half of 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 meaning lots of content can be found on the [2022 Japan
-Blog](./2022_japan_blog).
+Blog](./2022_japan_blog.html).
 
 Oh, and please notify me of any bugs. I regularly run scripts over this project
 to keep everything nice and tidy, but things have broken in the past and I cba'd

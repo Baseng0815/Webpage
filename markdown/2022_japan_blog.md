@@ -15,7 +15,7 @@ The current plan is to shove everything which does not deserve a whole new page
 into this document, meaning a time-based index becomes necessary. Please enjoy
 easiness of navigation made possible through the power of hypertext.
 
-- 2022-07-04: Visa application submitted to Japanese embassy in Frankfurt
+- 2022-07-04: Visa application submitted to Japanese consulate in Frankfurt
 - 2022-06-13: Contact with exam office, filling out learning agreement
 - [2022-05-30](./2022_japan_blog.html#flight-booking): Flight booked
 - 2022-05-18: Accepted by NUFS, received acceptance letter
@@ -39,7 +39,7 @@ flight or book a new one which could potentially become very expensive. The
 booking process itself was really easy, I just called a travel agency and they
 made an offer. I paid around 1200 Euros for a round trip ticket with a direct
 connection from Frankfurt to Tōkyō and Tōkyō to Nagoya and a total flight time
-of around 12 hours, not including transit.
+of around 15 hours, not including transit.
 
 ## Mobility-Online
 

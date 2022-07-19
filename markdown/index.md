@@ -21,6 +21,18 @@ I will be spending the latter half of 2022 in
 meaning lots of content can be found on the [2022 Japan
 Blog](./2022_japan_blog.html).
 
+Here is my [PGP key](../res/gpg_key.txt) if you want to send me encrypted mail. You should also
+always check if the fingerprint matches:
+
+```
+pub   rsa3072 2020-10-26 [SC]
+      F59C FA82 FF2C BD22 66D1  ED03 2A7D D530 201D 4B87
+uid           [ultimate] Bastian Engel (Uni-Mail) <engelba@students.uni-marburg.de>
+uid           [ultimate] Bastian Engel <1shedex2@gmail.com>
+uid           [ultimate] Bastian Engel <bastian.engel00@gmail.com>
+sub   rsa3072 2020-10-26 [E]
+```
+
 Oh, and please notify me of any bugs. I regularly run scripts over this project
 to keep everything nice and tidy, but things have broken in the past and I cba'd
 to test each page every time.

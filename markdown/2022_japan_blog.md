@@ -15,6 +15,7 @@ The current plan is to shove everything which does not deserve a whole new page
 into this document, meaning a time-based index becomes necessary. Please enjoy
 easiness of navigation made possible through the power of hypertext.
 
+- [2022-07-20](./2022_japan_blog.html#visa-received): Visa received
 - 2022-07-04: Visa application submitted to Japanese consulate in Frankfurt
 - 2022-06-13: Contact with exam office, filling out learning agreement
 - [2022-05-30](./2022_japan_blog.html#flight-booking): Flight booked
@@ -29,6 +30,43 @@ easiness of navigation made possible through the power of hypertext.
 - 2021-01-11: First contact with international office, basic information and dates
 - [2020-12-23](./2022_japan_blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
+
+## Visa received
+
+If you want to stay for more than 90 days in Japan you need a visa, in my case
+the *General Visa: Student*. Once I received all necessary documents, I
+immediately filled out the [visa application
+form](https://www.mofa.go.jp/j_info/visit/visa/pdfs/application1.pdf) and took
+the first train on the next day to the Japanese consulate in Frankfurt. I
+missed it at first because it is located in the 34th floor of the Messe Turm,
+but the reception staff kindly showed me the way. After a short security check,
+I submitted all documents to the staff - and was told the back side of the CoE
+was missing. I was confused at first because I didn't receive any more
+documents, but after sending a mail to NUFS and explaining the situation (which
+surprised them too by the way), they sent the back side as well which allowed
+me to finally submit my application.
+
+I needed to submit the following documents:
+
+- Certificate of Eligibility (CoE; only a copy as express air mail wasn't
+  available at the time)
+- Fast Track Confirmation (to handle quarantine procedures due to the ongoing
+  Covid pandemic)
+- Passport (original and copy)
+- Visa application form
+
+A few days after submission I noticed a mistake from my side. I had stated
+Centrair as the port of entry as I assumed I would only land in Haneda for
+transit and wouldn't pass through immigration, which apparently was wrong. After
+panicking, I sent a mail to the consulate explaining the situation and they
+told me everything is fine and I can just correct it when picking up the visa
+which I finally did.
+
+Picking the visa up was easy as I just had to show them my personal ID card and
+after around half an hour I received my passport back and the process was
+finished!
+
+![](../res/japan_visa.jpg)
 
 ## Flight Booking
 

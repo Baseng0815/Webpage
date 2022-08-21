@@ -15,6 +15,10 @@ The current plan is to shove everything which does not deserve a whole new page
 into this document, meaning a time-based index becomes necessary. Please enjoy
 easiness of navigation made possible through the power of hypertext.
 
+### Pre-departure
+
+- [2022-08-21](./2022_japan_blog.html#final-preparations): Final preparations
+- [2022-08-20](./2022_japan_blog.html#mysos): MySOS, FastTrack and immigration
 - [2022-07-20](./2022_japan_blog.html#visa-received): Visa received
 - 2022-07-04: Visa application submitted to Japanese consulate in Frankfurt
 - 2022-06-13: Contact with exam office, filling out learning agreement
@@ -30,6 +34,80 @@ easiness of navigation made possible through the power of hypertext.
 - 2021-01-11: First contact with international office, basic information and dates
 - [2020-12-23](./2022_japan_blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
+
+## Final preparations
+
+Oh lord, two more days to go! Although receiving the visa was the last major
+step regarding organization, there were still a lot of preparations to be done.
+
+Probably the most important thing to consider is how to get to that sweet sweet
+money you need for your daily expenses. Japan is still a cash-based society so
+you need to be able to withdraw cash. Fortunately, every 7-11 convenience store
+has an ATM run by SevenBank which you can use to withdraw cash. I only had a
+debit card until this point so I went to my bank and asked them for a credit
+card. I also learned that my debit card is *Maestro*-capable which means I can
+use it globally as a MasterCard. I now have two cards which should both work,
+but I'm probably gonna use my Maestro card since the MasterCard has horrendous
+fees of like 5%.
+
+I also bought some new electronics in the form of a tablet and noise-cancelling
+headphones to use on the flight. In addition, I will bring my old headphones as
+a backup in case something goes wrong as I can't live without music.
+
+I will also bring my laptop of course and try to kill some time doing
+programming challenges or learning new stuff. I'm also gonna make use of the
+nice [torrent helper](https://github.com/Baseng0815/nyaahelper) I've written a
+few days ago to download an ungodly amount of Anime. Thirteen hours is not
+**that** terrible, but I guess having something to do is still nice.
+
+Aside from money and electronics, I also bought daily necessarities like new
+clothing, shampoo and toothpaste. A new suitcase was also necessary. The
+airline limits total weight to 23kg and total inner dimensions to something
+like 158cm, so be careful to not exceed this limit. I'm planning to pack
+lightly anyway as I'll be doing laundry each week and want to take lots of
+stuff from Japan back home!
+
+## MySOS
+
+Japan at the current point of time is still closed to foreign tourism due to
+the ongoing pandemic. Fortunately, it reopened a few months ago to
+international students which was great news for me! Despite reopening the
+borders, there are still lots of strict measures in place which basically means
+you need to do a shit ton of stuff to be able to enter.
+
+First of all, you need to be tested negatively for Covid at most 72h before the
+flight. I depart on tuesday which means I need to get tested on monday. The
+Japanese government has given out a special form which needs to be filled out
+by the testing institution to confirm stuff like exact testing method used and
+so on. You also need a Covid vaccination certificate which most people should
+probably have. In my case, a scan of the EU one was enough.
+
+Although these documents can be submitted in paper-form at the arrival
+destination, it could take some time for the staff to confirm so there are
+pre-departure processes in place, namely Fast Track and Visit Japan Web.
+Fast Track works by downloading the MySOS app and completing four steps:
+
+1. Questionnaire
+2. Pledge
+3. Covvid vaccination certificate
+4. Negative covid test
+
+I have completed the first three steps and they were already positively
+confirmed by the app. The app background currently is red, but it's supposed
+to turn green once I submit my negative covid test. I am then able to show the
+green screen to staff at the airport without any additional questioning.
+
+MySOS was working fairly well for a government-issued app, but it still
+suffered from long loading times which took place in the foreground, blocking
+off all other activity. And while the app itself could be set to English, the
+sites it redirected to stayed in Japanese, at least for me. I still managed to
+figure everything out somehow, but other people might have been in trouble. So
+much for app design, but it works, so eh.
+
+Visit Japan Web basically needs the same information but is used to more
+smoothly pass immigration. It can also be used to declare customs, but that
+doesn't apply to me. I've yet to fill it out, but it'll hopefully be just as
+smooth as the Fast Track experience.
 
 ## Visa received
 

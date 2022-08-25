@@ -16,9 +16,9 @@ page into this document~~ put some stuff on this page and some on dedicated
 ones, meaning a time-based index becomes necessary. Please enjoy easiness of
 navigation made possible through the power of hypertext.
 
-### Pre-departure
+### Pre-departure (**bold** text indicates a dedicated page)
 
-- [2022-08-24](./2022_japan_arrival.html): We arrived! (with lots of trouble)
+- [**2022-08-24**](./2022_japan_arrival.html): We arrived! (with lots of trouble)
 - [2022-08-21](./2022_japan_blog.html#final-preparations): Final preparations
 - [2022-08-20](./2022_japan_blog.html#mysos): MySOS, FastTrack and immigration
 - [2022-07-20](./2022_japan_blog.html#visa-received): Visa received

@@ -15,8 +15,8 @@ From there, a bus were to pick us up to our dorm. Really simple, eh?
 
 We actually managed to get to Frankfurt without problems and with time to
 spare. We checked in, received our boarding pass and passed security. The plane
-boarding went smooth and we had an undisturbed (albeit very uncomfortable and
-sleepless) flight to Toukyou. This is where all went wrong.
+boarding went smoothly and we had an undisturbed (albeit very uncomfortable and
+sleepless) flight. This is where it all went wrong.
 
 See, we were supposed to arrive in Toukyou at around 16:45 with the connecting
 plane to Nagoya departing at 18:05. This seemed too short from the beginning,
@@ -65,18 +65,18 @@ skills responded to the "just take the train" answer. We of course accepted the
 challenge and made our way to the first stop - Shinagawa station.
 
 Buying a paper ticket was really easy since the staff helped us. We then
-boarded a train we thought headed towards Shinagawa station. In hindsight, it
-probably *did* went to Shinagawa station, but we were somehow convinced we were
-wrong and got off only a few stops later, at Ooita. We then looked for a map
-and asked the passengers in every passing train whether it was going to
-Shinagawa. Once we found one that did, we finally managed to get to Shinagawa
+boarded a train we thought was heading towards Shinagawa station. In hindsight,
+it probably *did* went to Shinagawa station, but we were somehow convinced we
+were wrong and got off only a few stops later, at Ooita. We then looked for a
+map and asked the passengers in every passing train whether it was bound for
+Shinagawa. Once we found one that was, we finally managed to get to Shinagawa
 station.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
 <img style="width: 100%; max-width: 100%;"src="../res/Shinagawa_lift.jpg" alt="scenario 2" />
 <figcaption>
-Easy to find
+Towards the Keikyuu line
 </figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
@@ -108,3 +108,18 @@ get to use Toukyou's public transportation system and the Shinkansen ride was
 really relaxing, but unfortunately it was dark already so there wasn't much
 scenery to enjoy. We also got to know each other as a group. Overall, the extra
 turmoil was well worth it.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;"src="../res/nagoya_final_route.jpg" alt="scenario 2" />
+<figcaption>
+The final route
+</figcaption>
+</figure>
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;" src="../res/violent_impulses.jpg" alt="scenario 9" />
+<figcaption>
+No violence!
+</figcaption>
+</figure>
+</div>

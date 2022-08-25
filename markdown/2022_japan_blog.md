@@ -40,7 +40,7 @@ navigation made possible through the power of hypertext.
 ## Final preparations
 
 Oh lord, two more days to go! Although receiving the visa was the last major
-step regarding organization, there were still a lot of preparations to be done.
+step regarding organization, there was still a lot of preparation to be done.
 
 Probably the most important thing to consider is how to get to that sweet sweet
 money you need for your daily expenses. Japan is still a cash-based society so
@@ -59,15 +59,15 @@ a backup in case something goes wrong as I can't live without music.
 I will also bring my laptop of course and try to kill some time doing
 programming challenges or learning new stuff. I'm also gonna make use of the
 nice [torrent helper](https://github.com/Baseng0815/nyaahelper) I've written a
-few days ago to download an ungodly amount of Anime. Thirteen hours is not
-**that** terrible, but I guess having something to do is still nice.
+couple of days ago to download an ungodly amount of anime. Thirteen hours is
+not **that** terrible, but I guess having something to do is still nice.
 
 Aside from money and electronics, I also bought daily necessarities like new
 clothing, shampoo and toothpaste. A new suitcase was also necessary. The
-airline limits total weight to 23kg and total inner dimensions to something
-like 158cm, so be careful to not exceed this limit. I'm planning to pack
-lightly anyway as I'll be doing laundry each week and want to take lots of
-stuff from Japan back home!
+airline limits total weight to 23kg and inner dimensions to something like
+158cm, so be careful to not exceed this limit. I'm planning to pack lightly
+anyway as I'll be doing laundry each week and want to take lots of stuff from
+Japan back home!
 
 ## MySOS
 
@@ -79,15 +79,16 @@ you need to do a shit ton of stuff to be able to enter.
 
 First of all, you need to be tested negatively for Covid at most 72h before the
 flight. I depart on tuesday which means I need to get tested on monday. The
-Japanese government has given out a special form which needs to be filled out
-by the testing institution to confirm stuff like exact testing method used and
-so on. You also need a Covid vaccination certificate which most people should
-probably have. In my case, a scan of the EU one was enough.
+Japanese government has given out a
+[form](https://www.mhlw.go.jp/content/000799426.pdf) which needs to be filled
+out by the testing institution to confirm stuff like exact testing method used
+and so on. You also need a Covid vaccination certificate which most people
+probably already have. In my case, a scan of the EU one was enough.
 
 Although these documents can be submitted in paper-form at the arrival
-destination, it could take some time for the staff to confirm so there are
+airport, it could take some time for the staff to confirm so there are
 pre-departure processes in place, namely Fast Track and Visit Japan Web.
-Fast Track works by downloading the MySOS app and completing four steps:
+Fast Track works downloading the MySOS app and completing four steps:
 
 1. Questionnaire
 2. Pledge
@@ -95,9 +96,20 @@ Fast Track works by downloading the MySOS app and completing four steps:
 4. Negative covid test
 
 I have completed the first three steps and they were already positively
-confirmed by the app. The app background currently is red, but it's supposed
+confirmed by the app. The app background currently is yellow, but it's supposed
 to turn green once I submit my negative covid test. I am then able to show the
 green screen to staff at the airport without any additional questioning.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<figure style="display: inline-block; width: 300px; text-align: center;">
+<img style="width: 100%; max-width: 100%;"src="../res/mysos_1.jpg" alt="scenario 2" />
+<figcaption>Still need to submit the test</figcaption>
+</figure>
+<figure style="display: inline-block; width: 300px; text-align: center;">
+<img style="width: 100%; max-width: 100%;" src="../res/mysos_2.jpg" alt="scenario 9" />
+<figcaption>App summary</figcaption>
+</figure>
+</div>
 
 MySOS was working fairly well for a government-issued app, but it still
 suffered from long loading times which took place in the foreground, blocking
@@ -106,10 +118,10 @@ sites it redirected to stayed in Japanese, at least for me. I still managed to
 figure everything out somehow, but other people might have been in trouble. So
 much for app design, but it works, so eh.
 
-Visit Japan Web basically needs the same information but is used to more
-smoothly pass immigration. It can also be used to declare customs, but that
-doesn't apply to me. I've yet to fill it out, but it'll hopefully be just as
-smooth as the Fast Track experience.
+Visit Japan Web basically needs the same information, but is used to
+preregister for immigration procedures instead. It can also be used to declare
+customs, but that doesn't apply to me. I've yet to fill it out, but it'll
+hopefully be just as smooth as the Fast Track experience.
 
 ## Visa received
 

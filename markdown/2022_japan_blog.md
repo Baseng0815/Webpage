@@ -11,12 +11,14 @@ University of Foreign Studies)](https://www.nufs.ac.jp/). Arrival is on August
 
 ## Timeline Index
 
-The current plan is to shove everything which does not deserve a whole new page
-into this document, meaning a time-based index becomes necessary. Please enjoy
-easiness of navigation made possible through the power of hypertext.
+The current plan is to ~~shove everything which does not deserve a whole new
+page into this document~~ put some stuff on this page and some on dedicated
+ones, meaning a time-based index becomes necessary. Please enjoy easiness of
+navigation made possible through the power of hypertext.
 
 ### Pre-departure
 
+- [2022-08-24](./2022_japan_arrival.html): We arrived! (with lots of trouble)
 - [2022-08-21](./2022_japan_blog.html#final-preparations): Final preparations
 - [2022-08-20](./2022_japan_blog.html#mysos): MySOS, FastTrack and immigration
 - [2022-07-20](./2022_japan_blog.html#visa-received): Visa received
@@ -89,7 +91,7 @@ Fast Track works by downloading the MySOS app and completing four steps:
 
 1. Questionnaire
 2. Pledge
-3. Covvid vaccination certificate
+3. Covid vaccination certificate
 4. Negative covid test
 
 I have completed the first three steps and they were already positively

@@ -37,7 +37,7 @@ Oh, and please notify me of any bugs. I regularly run scripts over this project
 to keep everything nice and tidy, but things have broken in the past and I cba'd
 to test each page every time.
 
-## More stuff! (**bold** text indicates an ongoing post)
+## More stuff! (**bold** text indicates an ongoing series)
 
 - [(2022-07-06) **2022 Japan Blog**](./2022_japan_blog.html)
 - [(2022-04-19) **How (n)vim saves my life**](./vim_life_saving.html)

@@ -6,13 +6,13 @@ html, body {
     margin: 0 auto;
     margin-bottom: 5rem;
     line-height: 1.2;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1300px) {
     html, body {
         max-width: none;
         margin: 0 3vw;
-        font-size: 0.9rem;
     }
 }
 

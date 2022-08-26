@@ -4,7 +4,7 @@ title:
 ---
 
 I will be spending autumn and winter 2022 in
-[Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) an an exchange student,
+[Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 namely in [Nagoya](https://goo.gl/maps/5d5kyaWS4CZaL1t56) at the [NUFS (Nagoya
 University of Foreign Studies)](https://www.nufs.ac.jp/). Arrival is on August
 24th and departure is planned for December 23rd, so four months in total.

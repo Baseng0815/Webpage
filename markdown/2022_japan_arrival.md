@@ -88,11 +88,10 @@ Not that busy
 </div>
 
 We then walked around cluelessly looking for any signs of a Shinkansen which
-was supposed to take us to Nagoya. After asking around, staff attendants guided
-us to the ticket office where we bought our tickets. I probably didn't speak
-clearly enough because I was given one with a fixed train which was departing a
-few minutes from thereon without knowing anything about the station and
-platforms.
+could take us to Nagoya. After asking around, staff attendants guided us to the
+ticket office where we bought our tickets. I probably didn't speak clearly
+enough because I was given one with a fixed train which was departing a few
+minutes from thereon without knowing anything about the station and platforms.
 
 Fortunately, Shinagawa station is pretty well designed, so we found the platform
 almost immediately and managed to board the Nozomi Shinkansen towards

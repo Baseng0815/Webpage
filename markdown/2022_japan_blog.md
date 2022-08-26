@@ -16,6 +16,10 @@ page into this document~~ put some stuff on this page and some on dedicated
 ones, meaning a time-based index becomes necessary. Please enjoy easiness of
 navigation made possible through the power of hypertext.
 
+### Post-departure (**bold** text indicates a dedicated page)
+
+- [**2022-08-26**](./2022_japan_ftd.html): The first two days
+
 ### Pre-departure (**bold** text indicates a dedicated page)
 
 - [**2022-08-24**](./2022_japan_arrival.html): We arrived! (with lots of trouble)
@@ -62,7 +66,7 @@ nice [torrent helper](https://github.com/Baseng0815/nyaahelper) I've written a
 couple of days ago to download an ungodly amount of anime. Thirteen hours is
 not **that** terrible, but I guess having something to do is still nice.
 
-Aside from money and electronics, I also bought daily necessarities like new
+Aside from money and electronics, I also bought daily necessities like new
 clothing, shampoo and toothpaste. A new suitcase was also necessary. The
 airline limits total weight to 23kg and inner dimensions to something like
 158cm, so be careful to not exceed this limit. I'm planning to pack lightly
@@ -101,12 +105,12 @@ to turn green once I submit my negative covid test. I am then able to show the
 green screen to staff at the airport without any additional questioning.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-<figure style="display: inline-block; width: 300px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/mysos_1.jpg" alt="scenario 2" />
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;"src="../res/mysos_1.jpg" alt="MySOS test missing" />
 <figcaption>Still need to submit the test</figcaption>
 </figure>
-<figure style="display: inline-block; width: 300px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/mysos_2.jpg" alt="scenario 9" />
+<figure style="display: inline-block; width: 500px; text-align: center;">
+<img style="width: 100%; max-width: 100%;" src="../res/mysos_2.jpg" alt="MySOS summary screen" />
 <figcaption>App summary</figcaption>
 </figure>
 </div>

@@ -17,7 +17,7 @@ fhd: ./res/gallery/*.JPG
 	mogrify -resize 1920x1080^ -gravity Center -extent 1920x1080^ $^
 
 q75: ./res/*.jpg
-	mogrify -resize 1080x -quality 75 $^
+	mogrify -resize 720x -quality 70 $^
 
 clean:
 	rm -rf $(HTML_TARGETS)

@@ -25,13 +25,13 @@ time.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/clouds.jpg" alt="scenario 2" />
+<img style="width: 100%; max-width: 100%;"src="../res/clouds.jpg" alt="Clouds in the sky" />
 <figcaption>
 Kinda cloudy
 </figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/haneda_arrival.jpg" alt="scenario 9" />
+<img style="width: 100%; max-width: 100%;" src="../res/haneda_arrival.jpg" alt="Coastal industry" />
 <figcaption>
 Much industry
 </figcaption>
@@ -74,13 +74,13 @@ station.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/Shinagawa_lift.jpg" alt="scenario 2" />
+<img style="width: 100%; max-width: 100%;"src="../res/Shinagawa_lift.jpg" alt="Elevator" />
 <figcaption>
 Towards the Keikyuu line
 </figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/Keikyuu_platform.jpg" alt="scenario 9" />
+<img style="width: 100%; max-width: 100%;" src="../res/Keikyuu_platform.jpg" alt="Keikyuu platform" />
 <figcaption>
 Not that busy
 </figcaption>
@@ -110,13 +110,13 @@ turmoil was well worth it.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/nagoya_final_route.jpg" alt="scenario 2" />
+<img style="width: 100%; max-width: 100%;"src="../res/nagoya_final_route.jpg" alt="Final route" />
 <figcaption>
 The final route
 </figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/violent_impulses.jpg" alt="scenario 9" />
+<img style="width: 100%; max-width: 100%;" src="../res/violent_impulses.jpg" alt="Cats" />
 <figcaption>
 No violence!
 </figcaption>

@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-08-30**](./2022_japan_aquarium.html): Nagoya port and aquarium
 - [**2022-08-26**](./2022_japan_ftd.html): The first two days
 
 ### Pre-departure (**bold** text indicates a dedicated page)

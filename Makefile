@@ -14,10 +14,10 @@ $(OUT_DIR)/%.html: markdown/%.md
 res: fhd q75
 
 fhd: ./res/gallery/*.JPG
-	mogrify -resize 1920x1080^ -gravity Center -extent 1920x1080^ $^
+	mogrify -strip -resize 1920x1080^ -gravity Center -extent 1920x1080^ $^
 
-q75: ./res/*.jpg
-	mogrify -resize 720x -quality 70 $^
+q70: ./res/*.jpg
+	mogrify -strip -resize 720x -quality 70 $^
 
 clean:
 	rm -rf $(HTML_TARGETS)

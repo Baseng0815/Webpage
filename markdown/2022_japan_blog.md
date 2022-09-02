@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [2022-08-31](./2022_japan_blog.html#karaoke): Karaoke
 - [**2022-08-30**](./2022_japan_aquarium.html): Nagoya port and aquarium
 - [**2022-08-26**](./2022_japan_ftd.html): The first two days
 
@@ -41,6 +42,24 @@ navigation made possible through the power of hypertext.
 - 2021-01-11: First contact with international office, basic information and dates
 - [2020-12-23](./2022_japan_blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
+
+## Karaoke
+
+We went as a group of 31 to JoyJoy karaoke at Fujigaoka station. The entrance
+fee was 1500 yen and we split our group into two, each going to a different
+room. To my surprise, drinks (even alcoholic cocktails!) were completely free,
+you could just walk up to the bar and order what you wanted. I of course
+couldn't let this opportunity slip and got right down to ordering.
+
+I've never been to karaoke before so I was kinda anxious whether my
+(non-existent) singing skills were good enough - but it didn't matter at all. We
+sang every kind of song imaginable for two hours and with a group of 15 people,
+the atmosphere was perfect. 9/10 would do again.
+
+<iframe width="400" height="600" style="display: block; margin: 0 auto;"
+src="https://www.youtube.com/embed/udc6n-tp8gc" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Final preparations
 

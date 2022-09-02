@@ -7,30 +7,37 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Karaoke</title>
+            <pubDate>Wed, 31 Aug 2022 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/2022_japan_blog.html#karaoke</guid>
+            <link>https://www.bengel.xyz/html/2022_japan_blog.html#karaoke</link>
+            <description>We went to karaoke. It was good.</description>
+        </item>
+        <item>
             <title>Nagoya port and aquarium</title>
             <pubDate>Tue, 30 Aug 2022 00:00:00 UTC</pubDate>
-            <guid>2022-08-30</guid>
+            <guid>https://www.bengel.xyz/html/2022_japan_aquarium.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_aquarium.html</link>
             <description>We visited the Port of Nagoya Public Aquarium, an amusement park and an Indian restaurant.</description>
         </item>
         <item>
             <title>The first two days</title>
             <pubDate>Fri, 26 Aug 2022 00:00:00 UTC</pubDate>
-            <guid>2022-08-26</guid>
+            <guid>https://www.bengel.xyz/html/2022_japan_ftd.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_ftd.html</link>
             <description>How the first two days went.</description>
         </item>
         <item>
             <title>Japan Arrival</title>
             <pubDate>Thu, 25 Aug 2022 00:00:00 UTC</pubDate>
-            <guid>2022-08-25</guid>
+            <guid>https://www.bengel.xyz/html/2022_japan_arrival.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_arrival.html</link>
             <description>I arrived in Japan only slightly inconvenienced.</description>
         </item>
         <item>
             <title>2022 Japan Blog</title>
             <pubDate>Sun, 21 Aug 2022 00:00:00 UTC</pubDate>
-            <guid isPermaLink="false">2022-08-21</guid>
+            <guid>https://www.bengel.xyz/html/2022_japan_blog.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_blog.html</link>
             <description>It's Japan. It has old people, anime and fast trains. What more could you want?</description>
         </item>

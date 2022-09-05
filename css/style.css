@@ -38,7 +38,30 @@ a:visited {
 }
 
 img {
-    max-width: 70%;
+    max-width: 90%;
     display: block;
     margin: 1rem auto;
+}
+
+.images, .images-small {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images figure {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
+.images-small figure {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+.images, .images-small img {
+    width: 100%;
+    max-width: 100%;
 }

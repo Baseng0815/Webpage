@@ -16,8 +16,8 @@ res: fhd q75
 fhd: ./res/gallery/*.JPG
 	mogrify -strip -resize 1920x1080^ -gravity Center -extent 1920x1080^ $^
 
-q70: ./res/*.jpg
-	mogrify -strip -resize 720x -quality 70 $^
+q70:
+	mogrify -strip -resize 720x -quality 70 $(shell find ./res -type f -name *.jpg -size +1M)
 
 clean:
 	rm -rf $(HTML_TARGETS)

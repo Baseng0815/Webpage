@@ -3,10 +3,10 @@ title:
     2022 Japan Blog
 ---
 
-I will be spending autumn and winter 2022 in
+I am currently spending autumn and winter 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 namely in [Nagoya](https://goo.gl/maps/5d5kyaWS4CZaL1t56) at the [NUFS (Nagoya
-University of Foreign Studies)](https://www.nufs.ac.jp/). Arrival is on August
+University of Foreign Studies)](https://www.nufs.ac.jp/). Arrival was on August
 24th and departure is planned for December 23rd, so four months in total.
 
 ## Timeline Index
@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [2022-09-02](./2022_japan_blog.html#and-cafe): And cafe
 - [2022-08-31](./2022_japan_blog.html#karaoke): Karaoke
 - [**2022-08-30**](./2022_japan_aquarium.html): Nagoya port and aquarium
 - [**2022-08-26**](./2022_japan_ftd.html): The first two days
@@ -42,6 +43,27 @@ navigation made possible through the power of hypertext.
 - 2021-01-11: First contact with international office, basic information and dates
 - [2020-12-23](./2022_japan_blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
+
+## And cafe
+
+There's a cafe in our area called **and cafe**. It has a kind of pub-like
+atmosphere and, though quite expensive, has a variety of different drinks and
+food.
+
+<div class="images-small">
+<figure><img src="../res/andcafe_1.jpg" alt="and cafe 1" />
+<figcaption>*Ein Glas Yamazaki*</figcaption></figure>
+<figure><img src="../res/andcafe_2.jpg" alt="and cafe 2" />
+<figcaption>Was it worth it? -Yes</figcaption></figure>
+<figure><img src="../res/andcafe_3.jpg" alt="and cafe 3" />
+<figcaption>Mhh, fruity drinks</figcaption></figure>
+<figure><img src="../res/andcafe_4.jpg" alt="and cafe 4" />
+<figcaption>More than it looks like</figcaption></figure>
+<figure><img src="../res/andcafe_5.jpg" alt="and cafe 5" />
+<figcaption>TIL: Japanese restaurants do this</figcaption></figure>
+<figure><img src="../res/andcafe_6.jpg" alt="and cafe 6" />
+<figcaption>More fruity drinks</figcaption></figure>
+</div>
 
 ## Karaoke
 
@@ -124,15 +146,11 @@ confirmed by the app. The app background currently is yellow, but it's supposed
 to turn green once I submit my negative covid test. I am then able to show the
 green screen to staff at the airport without any additional questioning.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-<figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/mysos_1.jpg" alt="MySOS test missing" />
-<figcaption>Still need to submit the test</figcaption>
-</figure>
-<figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/mysos_2.jpg" alt="MySOS summary screen" />
-<figcaption>App summary</figcaption>
-</figure>
+<div class="images">
+<figure><img src="../res/mysos_1.jpg" alt="MySOS test missing" />
+<figcaption>Still need to submit the test</figcaption></figure>
+<figure><img src="../res/mysos_2.jpg" alt="MySOS summary screen" />
+<figcaption>App summary</figcaption></figure>
 </div>
 
 MySOS was working fairly well for a government-issued app, but it still

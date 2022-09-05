@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-09-05**](./2022_japan_room.html): Room and kitchen facilities
 - [2022-09-02](./2022_japan_blog.html#and-cafe): And cafe
 - [2022-08-31](./2022_japan_blog.html#karaoke): Karaoke
 - [**2022-08-30**](./2022_japan_aquarium.html): Nagoya port and aquarium
@@ -78,7 +79,7 @@ I've never been to karaoke before so I was kinda anxious whether my
 sang every kind of song imaginable for two hours and with a group of 15 people,
 the atmosphere was perfect. 9/10 would do again.
 
-<iframe width="400" height="600" style="display: block; margin: 0 auto;"
+<iframe width="400" height="600"
 src="https://www.youtube.com/embed/udc6n-tp8gc" title="YouTube video player"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

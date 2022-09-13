@@ -82,7 +82,7 @@ ingredients.
 <figcaption>Glorious toaster and water heater</figcaption></figure>
 </div>
 
-We don't have a dishwasher unforunately which, in combination with weird
+We don't have a dishwasher unfortunately which, in combination with weird
 garbage rules like needing to wrap every. single. piece. of food stuff and
 waste into a plastic bag before throwing it away, makes cooking more
 complicated stuff annoying quite quickly.

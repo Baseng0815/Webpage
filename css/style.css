@@ -63,19 +63,19 @@ iframe {
 .images img, .images-small img {
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .images video, .images-small video {
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .images iframe, .images-small iframe {
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .images figure {

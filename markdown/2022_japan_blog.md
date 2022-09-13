@@ -19,6 +19,7 @@ navigation made possible through the power of hypertext.
 ### Post-departure (**bold** text indicates a dedicated page)
 
 - [**2022-09-05**](./2022_japan_room.html): Room and kitchen facilities
+- [**2022-09-04**](./2022_japan_nagoya_tour.html): Nagoya tour
 - [2022-09-02](./2022_japan_blog.html#and-cafe): And cafe
 - [2022-08-31](./2022_japan_blog.html#karaoke): Karaoke
 - [**2022-08-30**](./2022_japan_aquarium.html): Nagoya port and aquarium
@@ -52,17 +53,17 @@ atmosphere and, though quite expensive, has a variety of different drinks and
 food.
 
 <div class="images-small">
-<figure><img src="../res/andcafe_1.jpg" alt="and cafe 1" />
+<figure><img src="../res/and_cafe/and_cafe_0.jpg" alt="and cafe 0" />
 <figcaption>*Ein Glas Yamazaki*</figcaption></figure>
-<figure><img src="../res/andcafe_2.jpg" alt="and cafe 2" />
+<figure><img src="../res/and_cafe/and_cafe_1.jpg" alt="and cafe 1" />
 <figcaption>Was it worth it? -Yes</figcaption></figure>
-<figure><img src="../res/andcafe_3.jpg" alt="and cafe 3" />
+<figure><img src="../res/and_cafe/and_cafe_2.jpg" alt="and cafe 2" />
 <figcaption>Mhh, fruity drinks</figcaption></figure>
-<figure><img src="../res/andcafe_4.jpg" alt="and cafe 4" />
+<figure><img src="../res/and_cafe/and_cafe_3.jpg" alt="and cafe 3" />
 <figcaption>More than it looks like</figcaption></figure>
-<figure><img src="../res/andcafe_5.jpg" alt="and cafe 5" />
+<figure><img src="../res/and_cafe/and_cafe_4.jpg" alt="and cafe 4" />
 <figcaption>TIL: Japanese restaurants do this</figcaption></figure>
-<figure><img src="../res/andcafe_6.jpg" alt="and cafe 6" />
+<figure><img src="../res/and_cafe/and_cafe_5.jpg" alt="and cafe 5" />
 <figcaption>More fruity drinks</figcaption></figure>
 </div>
 

@@ -37,10 +37,21 @@ a:visited {
     color: #6f47b5;
 }
 
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
 img {
     max-width: 90%;
     display: block;
     margin: 1rem auto;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .images, .images-small {
@@ -49,25 +60,28 @@ img {
     justify-content: space-evenly;
 }
 
+.images img, .images-small img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.images video, .images-small video {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.images iframe, .images-small iframe {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
 .images figure {
-    display: inline-block;
     width: 500px;
-    text-align: center;
 }
 
 .images-small figure {
-    display: inline-block;
     width: 250px;
-    text-align: center;
-}
-
-.images, .images-small img {
-    width: 100%;
-    max-width: 100%;
-}
-
-iframe {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
 }

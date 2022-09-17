@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-09-17**](./2022_japan_blog.html#typhoon-warning): Typhoon warning
 - [**2022-09-05**](./2022_japan_room.html): Room and kitchen facilities
 - [**2022-09-04**](./2022_japan_nagoya_tour.html): Nagoya tour
 - [2022-09-02](./2022_japan_blog.html#and-cafe): And cafe
@@ -45,6 +46,32 @@ navigation made possible through the power of hypertext.
 - 2021-01-11: First contact with international office, basic information and dates
 - [2020-12-23](./2022_japan_blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
+
+## Typhoon warning
+
+August and September in Japan is typhoon season which is why it's important to
+regularly check the news and pay attention to warnings. Typhoons in Japan are
+numbered instead of named, and the numbering resets every year. Since I came
+here, there have been three typhoons which mostly missed us and stayed on the
+ocean or hit South Korea, but an emergency warning has been issued for the [super
+typhoon
+Nanmadol](https://www.japantimes.co.jp/news/2022/09/17/national/typhoon-nanmadol-rapid-intensification/)
+(No. 14). I received a push notification from the NHK app as well as several
+mails from the university yesterday urging us to prepare enough food and water
+and to not leave the dorm on monday as the typhoon is expected to reach us by
+then.
+
+<div class="images">
+<figure><img src="../res/accuweather_typoon.jpg" alt="accuweather typhoon"></figure>
+<figure><img src="../res/typhoon_mail.jpg" alt="typhoon mail"></figure>
+</div>
+
+Classes on monday are held online. I still need to buy supplies which I'll do
+tomorrow morning, but I don't think anything will happen as the cyclone is
+predicted to make landfall at Kagoshima and get weaker afterwards. People in
+the Kyuushuu area will have a tough time though as the storm will make landfall
+with full force. Evacuation orders have been issued for some regions already
+and flights are being cancelled.
 
 ## And cafe
 

@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-    xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"     xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Bastian Engel</title>
         <link>https://bengel.xyz/rss.xml</link>
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Typhoon emergency warning</title>
+            <pubDate>Sat, 17 Sep 2022 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_blog.html#typhoon-warning.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_blog.html#typhoon-warning.html
+            </link>
+            <description>
+                A typhoon is predicted to make landfall on monday. My region
+                should be fairly safe, but a special warning has been issued for
+                Kagoshima prefecture which has never been issued outside of
+                Okinawa and warns of conditions seen only once in a few decades.
+                It's gonna be a fun week.
+            </description>
+        </item>
+        <item>
             <title>Room and kitchen facilities</title>
             <pubDate>Mon, 05 Sep 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/2022_japan_room.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_room.html</link>
-            <description>Wonder how I live? Click here to find out.</description>
+            <description>
+                Wonder how I live? Click here to find out.
+            </description>
         </item>
         <item>
             <title>Nagoya tour</title>
@@ -23,15 +41,25 @@
         <item>
             <title>And cafe</title>
             <pubDate>Fri, 02 Sep 2022 00:00:00 UTC</pubDate>
-            <guid>https://www.bengel.xyz/html/2022_japan_blog.html#and-cafe</guid>
-            <link>https://www.bengel.xyz/html/2022_japan_blog.html#and-cafe</link>
-            <description>We went to and cafe and had some nice food.</description>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_blog.html#and-cafe
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_blog.html#and-cafe
+            </link>
+            <description>
+                We went to and cafe and had some nice food.
+            </description>
         </item>
         <item>
             <title>Karaoke</title>
             <pubDate>Wed, 31 Aug 2022 00:00:00 UTC</pubDate>
-            <guid>https://www.bengel.xyz/html/2022_japan_blog.html#karaoke</guid>
-            <link>https://www.bengel.xyz/html/2022_japan_blog.html#karaoke</link>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_blog.html#karaoke
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_blog.html#karaoke
+            </link>
             <description>We went to karaoke. It was good.</description>
         </item>
         <item>
@@ -39,7 +67,10 @@
             <pubDate>Tue, 30 Aug 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/2022_japan_aquarium.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_aquarium.html</link>
-            <description>We visited the Port of Nagoya Public Aquarium, an amusement park and an Indian restaurant.</description>
+            <description>
+                We visited the Port of Nagoya Public Aquarium, an amusement park
+                and an Indian restaurant.
+            </description>
         </item>
         <item>
             <title>The first two days</title>
@@ -53,35 +84,50 @@
             <pubDate>Thu, 25 Aug 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/2022_japan_arrival.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_arrival.html</link>
-            <description>I arrived in Japan only slightly inconvenienced.</description>
+            <description>
+                I arrived in Japan only slightly inconvenienced.
+            </description>
         </item>
         <item>
             <title>2022 Japan Blog</title>
             <pubDate>Sun, 21 Aug 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/2022_japan_blog.html</guid>
             <link>https://www.bengel.xyz/html/2022_japan_blog.html</link>
-            <description>It's Japan. It has old people, anime and fast trains. What more could you want?</description>
+            <description>
+                It's Japan. It has old people, anime and fast trains. What more
+                could you want?
+            </description>
         </item>
         <item>
             <title>How (n)vim saves my life</title>
             <pubDate>Mon, 19 Apr 2022 00:00:00 UTC</pubDate>
-            <guid isPermaLink="false">2022-04-19</guid>
+            <guid isPermaLink="false">
+                2022-04-19
+            </guid>
             <link>https://www.bengel.xyz/html/vim_life_saving.html</link>
-            <description>A growing collection of how (n)vim plugins and shortcuts make my life easier.</description>
+            <description>
+                A growing collection of how (n)vim plugins and shortcuts make my
+                life easier.
+            </description>
         </item>
         <item>
             <title>Everything wrong with Windows Explorer</title>
             <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/win_explorer.html</guid>
             <link>https://www.bengel.xyz/html/win_explorer.html</link>
-            <description>I don't like the Windows Explorer. Find out why.</description>
+            <description>
+                I don't like the Windows Explorer. Find out why.
+            </description>
         </item>
         <item>
             <title>Limits to Growth - the 30-year update</title>
             <pubDate>Fri, 31 Dec 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/limits_to_growth.html</guid>
             <link>https://www.bengel.xyz/html/limits_to_growth.html</link>
-            <description>A short summary of the 'Limits to Growth - the 30-year update' report with some doomer comments</description>
+            <description>
+                A short summary of the 'Limits to Growth - the 30-year update'
+                report with some doomer comments
+            </description>
         </item>
         <item>
             <title>No, you don't need more monitors</title>
@@ -107,65 +153,95 @@
         <item>
             <title>New Stream announcement</title>
             <pubDate>Tue, 02 Oct 2021 00:00:00 UTC</pubDate>
-            <guid isPermaLink="false">2021-11-02</guid>
+            <guid isPermaLink="false">
+                2021-11-02
+            </guid>
             <link>https://www.bengel.xyz/html/announcements.html</link>
-            <description>shedOS dev stream starting at 19:00 this friday (2021-11-05).</description>
+            <description>
+                shedOS dev stream starting at 19:00 this friday (2021-11-05).
+            </description>
         </item>
         <item>
             <title>Interesting reads</title>
             <pubDate>Thu, 21 Sep 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/interesting_reads.html</guid>
             <link>https://www.bengel.xyz/html/interesting_reads.html</link>
-            <description>A collection of interesting and mainly short reads about software and computer science.</description>
+            <description>
+                A collection of interesting and mainly short reads about
+                software and computer science.
+            </description>
         </item>
         <item>
             <title>An Introduction to Linux</title>
             <pubDate>Sat, 04 Sep 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/linux_introduction.html</guid>
             <link>https://www.bengel.xyz/html/linux_introduction.html</link>
-            <description>A short introduction to Linux and why you should care about it.</description>
+            <description>
+                A short introduction to Linux and why you should care about it.
+            </description>
         </item>
         <item>
             <title>Weird things in programming</title>
             <pubDate>Fri, 13 Aug 2021 00:00:00 UTC</pubDate>
-            <guid>https://www.bengel.xyz/html/weird_programming_things.html</guid>
-            <link>https://www.bengel.xyz/html/weird_programming_things.html</link>
-            <description>I have encountered some weird behavior of programming languages and want to collect them here.</description>
+            <guid>
+                https://www.bengel.xyz/html/weird_programming_things.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/weird_programming_things.html
+            </link>
+            <description>
+                I have encountered some weird behavior of programming languages
+                and want to collect them here.
+            </description>
         </item>
         <item>
             <title>What are operating systems?</title>
             <pubDate>Sun, 27 Jun 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/what_are_os.html</guid>
             <link>https://www.bengel.xyz/html/what_are_os.html</link>
-            <description>An introduction to the concept of an operating system</description>
+            <description>
+                An introduction to the concept of an operating system
+            </description>
         </item>
         <item>
             <title>It's summer</title>
             <pubDate>Sun, 19 Jun 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/its_summer.html</guid>
             <link>https://www.bengel.xyz/html/its_summer.html</link>
-            <description>Ranting about summer and all its negative sides</description>
+            <description>
+                Ranting about summer and all its negative sides
+            </description>
         </item>
         <item>
             <title>How to host a Minecraft server</title>
             <pubDate>Wed, 09 Jun 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/hosting_mc_server.html</guid>
             <link>https://www.bengel.xyz/html/hosting_mc_server.html</link>
-            <description>How to host a Minecraft server without VPN bullshit</description>
+            <description>
+                How to host a Minecraft server without VPN bullshit
+            </description>
         </item>
         <item>
             <title>How to learn programming</title>
             <pubDate>Thu, 27 May 2021 00:00:00 UTC</pubDate>
-            <guid>https://www.bengel.xyz/html/how_to_learn_programming.html</guid>
-            <link>https://www.bengel.xyz/html/how_to_learn_programming.html</link>
-            <description>Some advice on how to learn programming (and other things too)</description>
+            <guid>
+                https://www.bengel.xyz/html/how_to_learn_programming.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/how_to_learn_programming.html
+            </link>
+            <description>
+                Some advice on how to learn programming (and other things too)
+            </description>
         </item>
         <item>
             <title>Debugging Adventures #1</title>
             <pubDate>Wed, 26 May 2021 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/debugging_HPET.html</guid>
             <link>https://www.bengel.xyz/html/debugging_HPET.html</link>
-            <description>How I spent multiple days debugging a stupid mistake</description>
+            <description>
+                How I spent multiple days debugging a stupid mistake
+            </description>
         </item>
     </channel>
 </rss>

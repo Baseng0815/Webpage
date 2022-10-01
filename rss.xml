@@ -6,6 +6,21 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Universal Studios Japan</title>
+            <pubDate>Sat, 24 Sep 2022 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_usj.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_usj.html
+            </link>
+            <description>
+                We spent a whole day at Universal Studios Japan in Oosaka and
+                got to see lots of things like Nintendo World or
+                a Hogwarts replica.
+            </description>
+        </item>
+        <item>
             <title>Typhoon emergency warning</title>
             <pubDate>Sat, 17 Sep 2022 00:00:00 UTC</pubDate>
             <guid>
@@ -18,8 +33,8 @@
                 A typhoon is predicted to make landfall on monday. My region
                 should be fairly safe, but a special warning has been issued for
                 Kagoshima prefecture which has never been issued outside of
-                Okinawa before and warns of conditions seen only once in a few decades.
-                It's gonna be a fun week.
+                Okinawa before and warns of conditions seen only once in a few
+                decades. It's gonna be a fun week.
             </description>
         </item>
         <item>

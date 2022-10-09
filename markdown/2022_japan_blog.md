@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-09-30**](./2022_japan_shizuoka.html): Shizuoka
 - [**2022-09-24**](./2022_japan_usj.html): Universal Studios Japan
 - [**2022-09-17**](./2022_japan_blog.html#typhoon-warning): Typhoon warning
 - [**2022-09-05**](./2022_japan_room.html): Room and kitchen facilities

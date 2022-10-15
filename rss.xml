@@ -6,6 +6,20 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Inuyama</title>
+            <pubDate>Sun, 02 Oct 2022 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_inuyama.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_inuyama.html
+            </link>
+            <description>
+                Inuyama is a city in Aichi prefecture with a nice, albeit small,
+                castle.
+            </description>
+        </item>
+        <item>
             <title>Shizuoka excursion</title>
             <pubDate>Fri, 30 Sep 2022 00:00:00 UTC</pubDate>
             <guid>

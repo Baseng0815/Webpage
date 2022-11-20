@@ -6,6 +6,20 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Tokyo</title>
+            <pubDate>Thu, 06 Oct 2022 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan_tokyo.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan_tokyo.html
+            </link>
+            <description>
+                We stayed in Tokyo for four days and visited various famous and
+                also not-so-famous places.
+            </description>
+        </item>
+        <item>
             <title>Inuyama</title>
             <pubDate>Sun, 02 Oct 2022 00:00:00 UTC</pubDate>
             <guid>

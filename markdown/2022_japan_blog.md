@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-10-06**](./2022_japan_tokyo.html): Tokyo
 - [**2022-10-02**](./2022_japan_inuyama.html): Inuyama
 - [**2022-09-30**](./2022_japan_shizuoka.html): Shizuoka
 - [**2022-09-24**](./2022_japan_usj.html): Universal Studios Japan

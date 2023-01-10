@@ -11,7 +11,7 @@ $(OUT_DIR)/%.html: markdown/%.md
 	mkdir -p $(OUT_DIR)
 	pandoc -s --css "../css/style.css" -f markdown -t html5 -o "$@" "$<"
 
-res: fhd q75
+res: fhd q70
 
 fhd: ./res/gallery/*.JPG
 	mogrify -strip -resize 1920x1080^ -gravity Center -extent 1920x1080^ $^

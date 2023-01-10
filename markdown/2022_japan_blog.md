@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2022-10-28**](./2022_japan_kyoto.html): Kyoto
 - [**2022-10-23**](./2022_japan_sanageyama.html): Sanageyama
 - [**2022-10-06**](./2022_japan_tokyo.html): Tokyo
 - [**2022-10-02**](./2022_japan_inuyama.html): Inuyama

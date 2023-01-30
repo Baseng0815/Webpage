@@ -3,7 +3,7 @@ title:
     2022 Japan Blog
 ---
 
-I am currently spending autumn and winter 2022 in
+I spent autumn and winter 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 namely in [Nagoya](https://goo.gl/maps/5d5kyaWS4CZaL1t56) at the [NUFS (Nagoya
 University of Foreign Studies)](https://www.nufs.ac.jp/). Arrival was on August

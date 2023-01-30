@@ -16,7 +16,7 @@ is low level application development. You can find out more about my projects
 [here](./projects.html). I also have an [image gallery](./gallery.html)
 and an [RSS feed](/rss.xml).
 
-I will be spending the latter half of 2022 in
+I spent the latter half of 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 meaning lots of content can be found on the [2022 Japan
 Blog](./2022_japan_blog.html).

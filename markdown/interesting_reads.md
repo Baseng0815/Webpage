@@ -7,3 +7,4 @@ title:
 - [The Cathedral and the Bazaar, by Eric S. Raymond](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/)
 - [The GNU Manifesto, by Richard Stallman](https://www.nongnu.org/emacsdoc-fr/manuel/manifesto.html)
 - [Analog Museum](http://www.analogmuseum.org/english/)
+- [Understanding C/C++ Strict Aliasing](http://dbp-consulting.com/tutorials/StrictAliasing.html)

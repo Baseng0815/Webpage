@@ -9,7 +9,7 @@ and more choice than using pre designed web services. I have also taken care
 not to use any scripts because only lunatics and webdevs would use scripts for a
 static website.
 
-I am a 21 year old CS student studying at the [Philipps-University of
+I am a 22 year old CS student studying at the [Philipps-University of
 Marburg](https://uni-marburg.de). I like programming, listening to music,
 playing the piano and learning Japanese. One area I am especially interested in
 is low level application development. You can find out more about my projects

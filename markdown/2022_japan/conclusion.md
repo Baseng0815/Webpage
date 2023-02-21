@@ -48,7 +48,7 @@ some way or another, recording myself yielded the sobering realization that my
 pronounciation is shit. Despite sounding like *gaijin*, being able to at least
 convey information opened lots of doors for me and allowed me to make
 experiences I wouldn't have been able to make otherwise. One example is the
-four-day trip to [Tokyo](./2022_japan_tokyo.html).
+four-day trip to [Tokyo](./2022_japan/tokyo.html).
 
 I went together with a friend and our Japanese was good enough for simple
 conversations, but not much more. One day, while wandering the streets of a
@@ -89,7 +89,7 @@ he ordered it for us so we could try it. He probably spent over $50 that night
 to introduce us to lots of nice stuff.
 
 We also had quite some smalltalk with various people while [climbing
-Sanageyama](./2022_japan_sanageyama.html) and even took part in a spontaneous
+Sanageyama](./2022_japan/sanageyama.html) and even took part in a spontaneous
 bottle flip competition with a group of Japanese students.
 
 All these things require a certain amount of social initiative and openness of

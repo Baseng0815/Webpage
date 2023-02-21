@@ -20,21 +20,21 @@ to listen to music and stare outside. The weather was beautiful too so you
 could see really far.
 
 <div class="images">
-<figure><img src="../res/shizuoka/road_0.jpg" alt="bridges" />
+<figure><img src="/res/shizuoka/road_0.jpg" alt="bridges" />
 <figcaption>Highways in Japan are toll roads</figcaption></figure>
-<figure><img src="../res/shizuoka/road_1.jpg" alt="hilly forest" />
+<figure><img src="/res/shizuoka/road_1.jpg" alt="hilly forest" />
 <figcaption>It starts to get hilly</figcaption></figure>
-<figure><img src="../res/shizuoka/road_2.jpg" alt="hilly forest" />
+<figure><img src="/res/shizuoka/road_2.jpg" alt="hilly forest" />
 <figcaption>Really steep now</figcaption></figure>
-<figure><img src="../res/shizuoka/road_3.jpg" alt="hilly forest" />
+<figure><img src="/res/shizuoka/road_3.jpg" alt="hilly forest" />
 <figcaption>Lots of mountains</figcaption></figure>
-<figure><img src="../res/shizuoka/road_4.jpg" alt="tunnel" />
+<figure><img src="/res/shizuoka/road_4.jpg" alt="tunnel" />
 <figcaption>...and tunnels</figcaption></figure>
-<figure><img src="../res/shizuoka/road_5.jpg" alt="bridge" />
+<figure><img src="/res/shizuoka/road_5.jpg" alt="bridge" />
 <figcaption>...and bridges</figcaption></figure>
-<figure><img src="../res/shizuoka/road_6.jpg" alt="bridges" />
+<figure><img src="/res/shizuoka/road_6.jpg" alt="bridges" />
 <figcaption>There are so many power lines</figcaption></figure>
-<figure><img src="../res/shizuoka/road_7.jpg" alt="ocean" />
+<figure><img src="/res/shizuoka/road_7.jpg" alt="ocean" />
 <figcaption>You can see the ocean!</figcaption></figure>
 </div>
 
@@ -50,13 +50,13 @@ interesting, but the quality of the leaves was bad as almost all of them were
 nibbled on by insects.
 
 <div class="images">
-<figure><img src="../res/shizuoka/tea_0.jpg" alt="tea field" />
+<figure><img src="/res/shizuoka/tea_0.jpg" alt="tea field" />
 <figcaption>A large tea field</figcaption></figure>
-<figure><img src="../res/shizuoka/tea_1.jpg" alt="tea field" />
+<figure><img src="/res/shizuoka/tea_1.jpg" alt="tea field" />
 <figcaption>Small paths to go between the fields</figcaption></figure>
-<figure><img src="../res/shizuoka/tea_2.jpg" alt="tea field" />
+<figure><img src="/res/shizuoka/tea_2.jpg" alt="tea field" />
 <figcaption>Picking (a small amount) is easy</figcaption></figure>
-<figure><img src="../res/shizuoka/tea_3.jpg" alt="tea factory" />
+<figure><img src="/res/shizuoka/tea_3.jpg" alt="tea factory" />
 <figcaption>Machines used in tea leaf processing</figcaption></figure>
 </div>
 
@@ -73,13 +73,13 @@ Mt. Fuji. The weather was really clear so our hopes were high, but the peak was
 still covered by clouds.
 
 <div class="images">
-<figure><img src="../res/shizuoka/kanransha_0.jpg" alt="ocean" />
+<figure><img src="/res/shizuoka/kanransha_0.jpg" alt="ocean" />
 <figcaption>The service area was near the ocean</figcaption></figure>
-<figure><img src="../res/shizuoka/kanransha_1.jpg" alt="ferris wheel" />
+<figure><img src="/res/shizuoka/kanransha_1.jpg" alt="ferris wheel" />
 <figcaption>A small ferris wheel</figcaption></figure>
-<figure><img src="../res/shizuoka/kanransha_2.jpg" alt="view of the town" />
+<figure><img src="/res/shizuoka/kanransha_2.jpg" alt="view of the town" />
 <figcaption>Forgot the town's name already</figcaption></figure>
-<figure><img src="../res/shizuoka/kanransha_3.jpg" alt="hidden fuji" />
+<figure><img src="/res/shizuoka/kanransha_3.jpg" alt="hidden fuji" />
 <figcaption>Covered by clouds 😭</figcaption></figure>
 </div>
 
@@ -94,12 +94,12 @@ mediocre since there wasn't much we experienced and 80% of the time was spent
 inside the bus.
 
 <div class="images">
-<figure><img src="../res/shizuoka/return_0.jpg" alt="shizuoka landscape" />
+<figure><img src="/res/shizuoka/return_0.jpg" alt="shizuoka landscape" />
 <figcaption>More hilly forest</figcaption></figure>
-<figure><img src="../res/shizuoka/return_1.jpg" alt="shizuoka landscape field" />
+<figure><img src="/res/shizuoka/return_1.jpg" alt="shizuoka landscape field" />
 <figcaption>The countryside looks really good, might wanna go there some time in autumn</figcaption></figure>
-<figure><img src="../res/shizuoka/return_2.jpg" alt="shizuoka landscape field" />
+<figure><img src="/res/shizuoka/return_2.jpg" alt="shizuoka landscape field" />
 <figcaption>What are they mining for 😳</figcaption></figure>
-<figure><img src="../res/shizuoka/return_3.jpg" alt="shizuoka landscape factory" />
+<figure><img src="/res/shizuoka/return_3.jpg" alt="shizuoka landscape factory" />
 <figcaption>Power lines everywhere</figcaption></figure>
 </div>

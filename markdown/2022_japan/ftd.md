@@ -34,11 +34,11 @@ used to it I guess.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/firstdayroute.jpg" alt="First day route" />
+<img style="width: 100%; max-width: 100%;"src="/res/firstdayroute.jpg" alt="First day route" />
 <figcaption>Longer than I expected</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/gv1.jpg" alt="Leaving the dorm" />
+<img style="width: 100%; max-width: 100%;" src="/res/gv1.jpg" alt="Leaving the dorm" />
 <figcaption>Leaving the dorm</figcaption>
 </figure>
 </div>
@@ -61,11 +61,11 @@ sound too healthy in the long run.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/edion.jpg" alt="Edion store" />
+<img style="width: 100%; max-width: 100%;"src="/res/edion.jpg" alt="Edion store" />
 <figcaption>Edion</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/famiriimaato.jpg" alt="FamilyMart" />
+<img style="width: 100%; max-width: 100%;" src="/res/famiriimaato.jpg" alt="FamilyMart" />
 <figcaption>FamilyMart</figcaption>
 </figure>
 </div>
@@ -89,11 +89,11 @@ lot of practice.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/daiso.jpg" alt="Daiso store" />
+<img style="width: 100%; max-width: 100%;"src="/res/daiso.jpg" alt="Daiso store" />
 <figcaption>Life Coordinate Shop 👍</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/kana.jpg" alt="Katakana print" />
+<img style="width: 100%; max-width: 100%;"src="/res/kana.jpg" alt="Katakana print" />
 <figcaption>Funny lines go brrr</figcaption>
 </figure>
 </div>
@@ -107,7 +107,7 @@ nuggets and lots of tea, Pepsi and water. We got together in small groups and
 started talking after finishing our meal. This was the first time you really
 came into contact with lots of people.
 
-![](../res/gv_groupphoto.jpg)
+![](/res/gv_groupphoto.jpg)
 
 The first questions to be answered were always your name and where you're from.
 Although I could only remember like half of the names, remembering countries
@@ -126,7 +126,7 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/fireworks_go_brrr.jpg" alt="MySOS summary screen" />
+<img style="width: 100%; max-width: 100%;" src="/res/fireworks_go_brrr.jpg" alt="MySOS summary screen" />
 <figcaption>Pyrotechnik ist kein Verbrechen!</figcaption>
 </figure>
 </div>

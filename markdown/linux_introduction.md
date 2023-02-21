@@ -67,11 +67,11 @@ system.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;"src="../res/debian_install.png" alt="debian" />
+<img style="width: 100%; max-width: 100%;"src="/res/debian_install.png" alt="debian" />
 <figcaption>Debian Installation</figcaption>
 </figure>
 <figure style="display: inline-block; width: 500px; text-align: center;">
-<img style="width: 100%; max-width: 100%;" src="../res/arch_install.png" alt="arch" />
+<img style="width: 100%; max-width: 100%;" src="/res/arch_install.png" alt="arch" />
 <figcaption>Arch Installation</figcaption>
 </figure>
 </div>

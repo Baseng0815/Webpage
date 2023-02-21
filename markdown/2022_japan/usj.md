@@ -26,21 +26,21 @@ arrival was at 6:30 and everyone was really exhausted, but the day had only
 just begun.
 
 <div class="images">
-<figure><img src="../res/usj/arrival_0.jpg" alt="nagakute kosenjou station" />
+<figure><img src="/res/usj/arrival_0.jpg" alt="nagakute kosenjou station" />
 <figcaption>Nagakute Kosenjou station</figcaption></figure>
-<figure><img src="../res/usj/arrival_1.jpg" alt="JR central towers" />
+<figure><img src="/res/usj/arrival_1.jpg" alt="JR central towers" />
 <figcaption>JR central towers at Nagoya station</figcaption></figure>
-<figure><img src="../res/usj/arrival_2.jpg" alt="night bus" />
+<figure><img src="/res/usj/arrival_2.jpg" alt="night bus" />
 <figcaption>Night bus to Oosaka</figcaption></figure>
-<figure><img src="../res/usj/arrival_3.jpg" alt="leg room in bus" />
+<figure><img src="/res/usj/arrival_3.jpg" alt="leg room in bus" />
 <figcaption>My legs were actually ok, only my neck hurt</figcaption></figure>
-<figure><img src="../res/usj/arrival_4.jpg" alt="service area break" />
+<figure><img src="/res/usj/arrival_4.jpg" alt="service area break" />
 <figcaption>Generous break at a service area (サービスエレア)</figcaption></figure>
-<figure><img src="../res/usj/arrival_5.jpg" alt="onigiri and sandwiches" />
+<figure><img src="/res/usj/arrival_5.jpg" alt="onigiri and sandwiches" />
 <figcaption>Dinner 👍</figcaption></figure>
-<figure><img src="../res/usj/arrival_6.jpg" alt="oosaka 1" />
+<figure><img src="/res/usj/arrival_6.jpg" alt="oosaka 1" />
 <figcaption>I'm still not used to that much infrastructure</figcaption></figure>
-<figure><img src="../res/usj/arrival_7.jpg" alt="oosaka 2" />
+<figure><img src="/res/usj/arrival_7.jpg" alt="oosaka 2" />
 <figcaption>Right through the center</figcaption></figure>
 </div>
 
@@ -56,13 +56,13 @@ minutes to enter the park once it opened and because it was enormous, the large
 crowd disbanded pretty quickly and it became easy to walk around.
 
 <div class="images">
-<figure><img src="../res/usj/entry_0.jpg" alt="USJ entry gate" />
+<figure><img src="/res/usj/entry_0.jpg" alt="USJ entry gate" />
 <figcaption>We arrived early so there weren't many people around</figcaption></figure>
-<figure><img src="../res/usj/entry_1.jpg" alt="universal globe" />
+<figure><img src="/res/usj/entry_1.jpg" alt="universal globe" />
 <figcaption>After the park opened, lots of cosplayers took pictures there</figcaption></figure>
-<figure><img src="../res/usj/entry_2.jpg" alt="USJ main roadway" />
+<figure><img src="/res/usj/entry_2.jpg" alt="USJ main roadway" />
 <figcaption>Enough room for lots of people</figcaption></figure>
-<figure><img src="../res/usj/entry_3.jpg" alt="mario entry" />
+<figure><img src="/res/usj/entry_3.jpg" alt="mario entry" />
 <figcaption>Entry to our first stop</figcaption></figure>
 </div>
 
@@ -73,7 +73,7 @@ reached an elevated platform from which you could see an incredible real-life
 replica of a Mario level. We also rode the Yoshi express which had buttons in
 the front you could press to create incredibly annoying sounds.
 
-<div class="images"> <figure><img src="../res/usj/mario_0.jpg" alt="yoshi
+<div class="images"> <figure><img src="/res/usj/mario_0.jpg" alt="yoshi
 world" /> <figcaption>Yoshi World with lots of obnoxious
 music</figcaption></figure> <figure><iframe style="height: 650px;"
 src="https://www.youtube.com/embed/inLUaoLU6Bc" title="YouTube video player"
@@ -94,11 +94,11 @@ butter beer or weird prank articles, but the lines were very long already so we
 were content with just watching.
 
 <div class="images">
-<figure><img src="../res/usj/hpotter_0.jpg" alt="harry potter town" />
+<figure><img src="/res/usj/hpotter_0.jpg" alt="harry potter town" />
 <figcaption>I don't know how this town is called</figcaption></figure>
-<figure><img src="../res/usj/hpotter_1.jpg" alt="hogwarts replica" />
+<figure><img src="/res/usj/hpotter_1.jpg" alt="hogwarts replica" />
 <figcaption>You could even go inside</figcaption></figure>
-<figure><img src="../res/usj/hpotter_2.jpg" alt="hogwarts rollercoaster" />
+<figure><img src="/res/usj/hpotter_2.jpg" alt="hogwarts rollercoaster" />
 <figcaption>The rollercoaster is really small, but high speed</figcaption></figure>
 <figure><iframe style="height: 700px;" src="https://www.youtube.com/embed/qmeXbG775Mc" title="YouTube video player"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
@@ -124,17 +124,17 @@ stalls not belonging to any particular movie franchise and lots of people were
 wearing non-USJ-related costumes.
 
 <div class="images">
-<figure><img src="../res/usj/jurassic_0.jpg" alt="jurassic world 0" />
+<figure><img src="/res/usj/jurassic_0.jpg" alt="jurassic world 0" />
 <figcaption>Indoor rollercoaster</figcaption></figure>
-<figure><img src="../res/usj/jurassic_1.jpg" alt="jurassic world 1" />
+<figure><img src="/res/usj/jurassic_1.jpg" alt="jurassic world 1" />
 <figcaption>The big one was closed unfortunately</figcaption></figure>
-<figure><img src="../res/usj/minion_0.jpg" alt="minion mayhem" />
+<figure><img src="/res/usj/minion_0.jpg" alt="minion mayhem" />
 <figcaption>I don't know why, but minions are really popular in Japan</figcaption></figure>
-<figure><img src="../res/usj/minion_1.jpg" alt="minion store" />
+<figure><img src="/res/usj/minion_1.jpg" alt="minion store" />
 <figcaption>"Fun store"</figcaption></figure>
-<figure><img src="../res/usj/resident_evil.jpg" alt="resident evil escape room" />
+<figure><img src="/res/u/resident_evil.jpg" alt="resident evil escape room" />
 <figcaption>Resident evil escape room</figcaption></figure>
-<figure><img src="../res/usj/random_store.jpg" alt="store" />
+<figure><img src="/res/usj/random_store.jpg" alt="store" />
 <figcaption>All of the stores had a really nice atmosphere</figcaption></figure>
 </div>
 
@@ -162,13 +162,13 @@ After a while, we all got hungry and decided to leave at around 21:00 to get
 some food. There was a shopping district nearby so we went there and had dinner.
 
 <div class="images">
-<figure><img src="../res/usj/after_0.jpg" alt="leaving USJ" />
+<figure><img src="/res/usj/after_0.jpg" alt="leaving USJ" />
 <figcaption>Leaving USJ</figcaption></figure>
-<figure><img src="../res/usj/after_1.jpg" alt="shopping district" />
+<figure><img src="/res/usj/after_1.jpg" alt="shopping district" />
 <figcaption>Shopping district</figcaption></figure>
-<figure><img src="../res/usj/after_2.jpg" alt="shopping district vibe" />
+<figure><img src="/res/usj/after_2.jpg" alt="shopping district vibe" />
 <figcaption>It had quite a nice vibe to it</figcaption></figure>
-<figure><img src="../res/usj/after_3.jpg" alt="dinner" />
+<figure><img src="/res/usj/after_3.jpg" alt="dinner" />
 <figcaption>Dinner 👍</figcaption></figure>
 </div>
 

@@ -10,8 +10,8 @@ towards Sakae station and finally changing to the Meijou and Meikou metro
 lines.
 
 <div class="images">
-<figure><img src="../res/nagoya_port/nagoya_aquarium_0.jpg" alt="Aquarium 1" /></figure>
-<figure><img src="../res/nagoya_port/nagoya_aquarium_1.jpg" alt="Aquarium 2" /></figure>
+<figure><img src="/res/nagoya_port/nagoya_aquarium_0.jpg" alt="Aquarium 1" /></figure>
+<figure><img src="/res/nagoya_port/nagoya_aquarium_1.jpg" alt="Aquarium 2" /></figure>
 </div>
 
 ## The aquarium
@@ -23,17 +23,17 @@ buying drinks at each vending machine on the way. We strolled around for about
 two hours. There's not much more to say here, just enjoy the maritime life.
 
 <div class="images">
-<figure><img src="../res/nagoya_port/fish_0.jpg" alt="Fish 0" /></figure>
-<figure><img src="../res/nagoya_port/fish_1.jpg" alt="Fish 1" /></figure>
-<figure><img src="../res/nagoya_port/fish_2.jpg" alt="Fish 2" /></figure>
-<figure><img src="../res/nagoya_port/fish_3.jpg" alt="Fish 3" /></figure>
-<figure><img src="../res/nagoya_port/fish_4.jpg" alt="Fish 4" /></figure>
-<figure><img src="../res/nagoya_port/fish_5.jpg" alt="Fish 5" /></figure>
-<figure><img src="../res/nagoya_port/fish_6.jpg" alt="Fish 6" /><figcaption>
+<figure><img src="/res/nagoya_port/fish_0.jpg" alt="Fish 0" /></figure>
+<figure><img src="/res/nagoya_port/fish_1.jpg" alt="Fish 1" /></figure>
+<figure><img src="/res/nagoya_port/fish_2.jpg" alt="Fish 2" /></figure>
+<figure><img src="/res/nagoya_port/fish_3.jpg" alt="Fish 3" /></figure>
+<figure><img src="/res/nagoya_port/fish_4.jpg" alt="Fish 4" /></figure>
+<figure><img src="/res/nagoya_port/fish_5.jpg" alt="Fish 5" /></figure>
+<figure><img src="/res/nagoya_port/fish_6.jpg" alt="Fish 6" /><figcaption>
 I see no god up here except me
 </figcaption>
 </figure>
-<figure><img src="../res/nagoya_port/fish_7.jpg" alt="Fish" />
+<figure><img src="/res/nagoya_port/fish_7.jpg" alt="Fish" />
 <figcaption>Chonk</figcaption></figure>
 </div>
 
@@ -48,11 +48,11 @@ of Nagoya and the ships cruising around the port which was gorgeous - my
 shitty phone camera can't do it justice.
 
 <div class="images">
-<figure><img src="../res/nagoya_port/ferris_0.jpg" alt="Ferris 0" /></figure>
-<figure><img src="../res/nagoya_port/ferris_1.jpg" alt="Ferris 1" /></figure>
-<figure><img src="../res/nagoya_port/ferris_2.jpg" alt="Ferris 2" /></figure>
+<figure><img src="/res/nagoya_port/ferris_0.jpg" alt="Ferris 0" /></figure>
+<figure><img src="/res/nagoya_port/ferris_1.jpg" alt="Ferris 1" /></figure>
+<figure><img src="/res/nagoya_port/ferris_2.jpg" alt="Ferris 2" /></figure>
 <figure><video autoplay muted loop>
-    <source src="../res/nagoya_port/ferris.webm" type="video/webm">
+    <source src="/res/nagoya_port/ferris.webm" type="video/webm">
 </video>
 <figcaption>Why ffmpeg give black bars 😭</figcaption></figure>
 </div>
@@ -69,8 +69,8 @@ back to Fujigaoka station to take the last bus back to the dorm. Overall an
 8/10 experience, would do it again.
 
 <div class="images">
-<figure><img src="../res/nagoya_port/indian_food_1.jpg" alt="Indian restaurant" />
+<figure><img src="/res/nagoya_port/indian_food_1.jpg" alt="Indian restaurant" />
 <figcaption>Ahh yes, Japanese cuisine</figcaption></figure>
-<figure><img src="../res/nagoya_port/indian_food_0.jpg" alt="Indian food" />
+<figure><img src="/res/nagoya_port/indian_food_0.jpg" alt="Indian food" />
 <figcaption>Lots of food</figcaption></figure>
 </div>

@@ -19,11 +19,11 @@ Shinkansen trip during daytime and you could actually see the landscape
 breezing by.
 
 <div class="images">
-<figure><img src="../res/tokyo/d0_arrival_0.jpg" alt="nagoya station" />
+<figure><img src="/res/tokyo/d0_arrival_0.jpg" alt="nagoya station" />
 <figcaption>Took us a while to find the right platform</figcaption></figure>
-<figure><img src="../res/tokyo/d0_arrival_1.jpg" alt="tickets" />
+<figure><img src="/res/tokyo/d0_arrival_1.jpg" alt="tickets" />
 <figcaption>Tickets for the Hikari super express</figcaption></figure>
-<figure><img src="../res/tokyo/d0_arrival_2.jpg" alt="station platform" />
+<figure><img src="/res/tokyo/d0_arrival_2.jpg" alt="station platform" />
 <figcaption>Shinkansen platform</figcaption></figure>
 <figure><iframe style="height: 666px;"
 src="https://www.youtube.com/embed/CqS7tlInCIs" title="YouTube video player"
@@ -36,9 +36,9 @@ The Shinkansen ride took 90 minutes and I spent the time writing up some posts
 and enjoying a lunch set I bought at Nagoya station.
 
 <div class="images">
-<figure><img src="../res/tokyo/d0_arrival_3.jpg" alt="lunch on train" />
+<figure><img src="/res/tokyo/d0_arrival_3.jpg" alt="lunch on train" />
 <figcaption>Eating lunch on the train</figcaption></figure>
-<figure><img src="../res/tokyo/d0_arrival_4.jpg" alt="laptop on train" />
+<figure><img src="/res/tokyo/d0_arrival_4.jpg" alt="laptop on train" />
 <figcaption>Doing work on the train</figcaption></figure>
 </div>
 
@@ -51,11 +51,11 @@ room was more like an apartment with two twin-sized beds, a toilet, bathroom
 and even a small kitchen with a gas stove which we didn't use.
 
 <div class="images">
-<figure><img src="../res/tokyo/d0_arrival_5.jpg" alt="tokyo station" />
+<figure><img src="/res/tokyo/d0_arrival_5.jpg" alt="tokyo station" />
 <figcaption>We arrived at Tokyo station and then went to Akihabara</figcaption></figure>
-<figure><img src="../res/tokyo/d0_arrival_6.jpg" alt="akihabara station" />
+<figure><img src="/res/tokyo/d0_arrival_6.jpg" alt="akihabara station" />
 <figcaption>Finally there</figcaption></figure>
-<figure><img src="../res/tokyo/d0_arrival_7.jpg" alt="hotel room" />
+<figure><img src="/res/tokyo/d0_arrival_7.jpg" alt="hotel room" />
 <figcaption>What do you expect, it's an otaku hotel</figcaption></figure>
 <figure><iframe style="height: 666px;"
 src="https://www.youtube.com/embed/zvyhoprWIeM" title="YouTube video player"
@@ -71,9 +71,9 @@ between ten-story buildings plastered with anime stuff and getting approached
 by girls in maid costumes.
 
 <div class="images">
-<figure><img src="../res/tokyo/d0_akiba_0.jpg" alt="akihabara at night" />
+<figure><img src="/res/tokyo/d0_akiba_0.jpg" alt="akihabara at night" />
 <figcaption>Too bright</figcaption></figure>
-<figure><img src="../res/tokyo/d0_akiba_1.jpg" alt="akihabara at night" />
+<figure><img src="/res/tokyo/d0_akiba_1.jpg" alt="akihabara at night" />
 <figcaption>It was late so all the stores were closed</figcaption></figure>
 </div>
 
@@ -86,13 +86,13 @@ around Akihabara the whole day, me buying some weird food isekai manga I've yet
 to read. We also took a look at some doujin stores.
 
 <div class="images">
-<figure><img src="../res/tokyo/d1_akiba_0.jpg" alt="rainy weather" />
+<figure><img src="/res/tokyo/d1_akiba_0.jpg" alt="rainy weather" />
 <figcaption>Weather was shit</figcaption></figure>
-<figure><img src="../res/tokyo/d1_akiba_1.jpg" alt="elevator floor map" />
+<figure><img src="/res/tokyo/d1_akiba_1.jpg" alt="elevator floor map" />
 <figcaption>One of the buildings we explored</figcaption></figure>
-<figure><img src="../res/tokyo/d1_akiba_2.jpg" alt="traffic" />
+<figure><img src="/res/tokyo/d1_akiba_2.jpg" alt="traffic" />
 <figcaption>We crossed this road like 20 times</figcaption></figure>
-<figure><img src="../res/tokyo/d1_akiba_3.jpg" alt="bacon and egg breakfast" />
+<figure><img src="/res/tokyo/d1_akiba_3.jpg" alt="bacon and egg breakfast" />
 <figcaption>This was actually really good, I highly recommend</figcaption></figure>
 </div>
 
@@ -105,25 +105,25 @@ proportion the enormous urban sprawl the Kantou region has undergone.
 Surprisingly, there even was a café and an area full of Gacha machines.
 
 <div class="images">
-<figure><img src="../res/tokyo/d2_tokyo_skytree_0.jpg" alt="street in tokyo" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_0.jpg" alt="street in tokyo" />
 <figcaption>We went by foot through some small neighborhoods</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_1.jpg" alt="skytree outside" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_1.jpg" alt="skytree outside" />
 <figcaption>Doesn't look that tall from outside</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_2.jpg" alt="skytree base" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_2.jpg" alt="skytree base" />
 <figcaption>Lots of shops in the entrance area</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_3.jpg" alt="skytree view" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_3.jpg" alt="skytree view" />
 <figcaption>Buildings</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_4.jpg" alt="skytree view" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_4.jpg" alt="skytree view" />
 <figcaption>More buildings</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_5.jpg" alt="skytree view" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_5.jpg" alt="skytree view" />
 <figcaption>Even more buildings</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_6.jpg" alt="skytree view" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_6.jpg" alt="skytree view" />
 <figcaption>It just doesn't stop</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_7.jpg" alt="gacha machine" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_7.jpg" alt="gacha machine" />
 <figcaption>Gacha machines everywhere</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_8.jpg" alt="skytree view" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_8.jpg" alt="skytree view" />
 <figcaption>You can even see Mt. Fuji from up here</figcaption></figure>
-<figure><img src="../res/tokyo/d2_tokyo_skytree_9.jpg" alt="glass floor" />
+<figure><img src="/res/tokyo/d2_tokyo_skytree_9.jpg" alt="glass floor" />
 <figcaption>The "glass floor" is a bit disappointing</figcaption></figure>
 </div>
 
@@ -131,13 +131,13 @@ Our next stop was Ueno park where we just walked around aimlessly and enjoyed
 the landscape.
 
 <div class="images">
-<figure><img src="../res/tokyo/d2_ueno_koen_0.jpg" alt="ueno zoo" />
+<figure><img src="/res/tokyo/d2_ueno_koen_0.jpg" alt="ueno zoo" />
 <figcaption>No time to visit the zoo unfortunately</figcaption></figure>
-<figure><img src="../res/tokyo/d2_ueno_koen_1.jpg" alt="ueno park plaze" />
+<figure><img src="/res/tokyo/d2_ueno_koen_1.jpg" alt="ueno park plaze" />
 <figcaption>Some plaza</figcaption></figure>
-<figure><img src="../res/tokyo/d2_ueno_koen_2.jpg" alt="ueno park artwork" />
+<figure><img src="/res/tokyo/d2_ueno_koen_2.jpg" alt="ueno park artwork" />
 <figcaption>Weird art everywhere</figcaption></figure>
-<figure><img src="../res/tokyo/d2_ueno_koen_3.jpg" alt="pagoda" />
+<figure><img src="/res/tokyo/d2_ueno_koen_3.jpg" alt="pagoda" />
 <figcaption>There was also a shrine</figcaption></figure>
 </div>
 
@@ -145,17 +145,17 @@ We also went to Shinagawa which is famous for its giant pedestrian crossing and
 bustling commercial districts.
 
 <div class="images">
-<figure><img src="../res/tokyo/d2_shibuya_0.jpg" alt="shibuya" />
+<figure><img src="/res/tokyo/d2_shibuya_0.jpg" alt="shibuya" />
 <figcaption>The station wasn't *that* crowded at the time</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shibuya_1.jpg" alt="shibuya" />
+<figure><img src="/res/tokyo/d2_shibuya_1.jpg" alt="shibuya" />
 <figcaption>So much advertising</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shibuya_2.jpg" alt="hachikou" />
+<figure><img src="/res/tokyo/d2_shibuya_2.jpg" alt="hachikou" />
 <figcaption>Good boie</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shibuya_3.jpg" alt="cyberpunk edgerunners" />
+<figure><img src="/res/tokyo/d2_shibuya_3.jpg" alt="cyberpunk edgerunners" />
 <figcaption>Of course there's a cyberpunk edgerunners banner</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shibuya_4.jpg" alt="tinder banner" />
+<figure><img src="/res/tokyo/d2_shibuya_4.jpg" alt="tinder banner" />
 <figcaption>Tinder? 😳</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shibuya_5.jpg" alt="pedestrian crossing" />
+<figure><img src="/res/tokyo/d2_shibuya_5.jpg" alt="pedestrian crossing" />
 <figcaption>Pedestrian crossing</figcaption></figure>
 </div>
 
@@ -165,13 +165,13 @@ unfortunately were closed at the time so we walked around and enjoyed the
 beautiful view of walls. We also went past the british embassy.
 
 <div class="images">
-<figure><img src="../res/tokyo/d2_gardens_0.jpg" alt="imperial gardens map" />
+<figure><img src="/res/tokyo/d2_gardens_0.jpg" alt="imperial gardens map" />
 <figcaption>The gardens are really big and in the center of Tokyo</figcaption></figure>
-<figure><img src="../res/tokyo/d2_gardens_1.jpg" alt="imperial gardens" />
+<figure><img src="/res/tokyo/d2_gardens_1.jpg" alt="imperial gardens" />
 <figcaption>Surrounded by water</figcaption></figure>
-<figure><img src="../res/tokyo/d2_british_embassy.jpg" alt="british embassy" />
+<figure><img src="/res/tokyo/d2_british_embassy.jpg" alt="british embassy" />
 <figcaption>Br\*tish 🤮</figcaption></figure>
-<figure><img src="../res/tokyo/d2_river.jpg" alt="river" />
+<figure><img src="/res/tokyo/d2_river.jpg" alt="river" />
 <figcaption>Some river we crossed</figcaption></figure>
 </div>
 
@@ -182,17 +182,17 @@ expensive. We found a small Izakaya around 15 minutes by train away, had dinner
 and went back to our hotel.
 
 <div class="images">
-<figure><img src="../res/tokyo/d2_shinjuku_0.jpg" alt="shinjuku" />
+<figure><img src="/res/tokyo/d2_shinjuku_0.jpg" alt="shinjuku" />
 <figcaption>A high density nightlife district</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shinjuku_1.jpg" alt="shinjuku" />
+<figure><img src="/res/tokyo/d2_shinjuku_1.jpg" alt="shinjuku" />
 <figcaption>Too bright for my taste tbh</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shinjuku_2.jpg" alt="shinjuku" />
+<figure><img src="/res/tokyo/d2_shinjuku_2.jpg" alt="shinjuku" />
 <figcaption>Also too many people</figcaption></figure>
-<figure><img src="../res/tokyo/d2_shinjuku_3.jpg" alt="golden gai" />
+<figure><img src="/res/tokyo/d2_shinjuku_3.jpg" alt="golden gai" />
 <figcaption>Golden gai (ゴールデン街), a famous tourist attraction</figcaption></figure>
-<figure><img src="../res/tokyo/d2_izakaya_0.jpg" alt="izakaya food" />
+<figure><img src="/res/tokyo/d2_izakaya_0.jpg" alt="izakaya food" />
 <figcaption>Kind of expensive but way better than tourist hotspots</figcaption></figure>
-<figure><img src="../res/tokyo/d2_izakaya_1.jpg" alt="izakaya food" />
+<figure><img src="/res/tokyo/d2_izakaya_1.jpg" alt="izakaya food" />
 <figcaption>This fried stuff was sooo good</figcaption></figure>
 </div>
 
@@ -204,17 +204,17 @@ spent the rest of the day exploring the Pokemon center and various smaller
 stores.
 
 <div class="images">
-<figure><img src="../res/tokyo/d3_maidcafe.jpg" alt="curry rice" />
+<figure><img src="/res/tokyo/d3_maidcafe.jpg" alt="curry rice" />
 <figcaption>The food was mediocre and expensive, can't recommend</figcaption></figure>
-<figure><img src="../res/tokyo/d3_pokemon_0.jpg" alt="pokemon center" />
+<figure><img src="/res/tokyo/d3_pokemon_0.jpg" alt="pokemon center" />
 <figcaption>It is indeed MEGA</figcaption></figure>
-<figure><img src="../res/tokyo/d3_pokemon_1.jpg" alt="pokemon center" />
+<figure><img src="/res/tokyo/d3_pokemon_1.jpg" alt="pokemon center" />
 <figcaption>No idea who or what that is</figcaption></figure>
-<figure><img src="../res/tokyo/d3_pokemon_2.jpg" alt="pokemon center" />
+<figure><img src="/res/tokyo/d3_pokemon_2.jpg" alt="pokemon center" />
 <figcaption>Nice decoration everywhere</figcaption></figure>
-<figure><img src="../res/tokyo/d3_pokemon_3.jpg" alt="pokemon center" />
+<figure><img src="/res/tokyo/d3_pokemon_3.jpg" alt="pokemon center" />
 <figcaption>Bulbasaur gang rise up</figcaption></figure>
-<figure><img src="../res/tokyo/d3_pokemon_4.jpg" alt="mugiwara store" />
+<figure><img src="/res/tokyo/d3_pokemon_4.jpg" alt="mugiwara store" />
 <figcaption>Lots of one piece stuff too</figcaption></figure>
 </div>
 

@@ -23,7 +23,7 @@ each file and commata at the end. Adding brackets can be done with `ysip[`
 content by the way so nothing actually breaks).
 
 <video autoplay muted loop width="100%" height="100%">
-    <source src="../res/vim_source_file_listing.webm" type="video/webm">
+    <source src="/res/vim_source_file_listing.webm" type="video/webm">
 </video>
 
 ## Easy access to language servers
@@ -65,5 +65,5 @@ but things like jumping to definitions, finding references, renaming symbols
 and even inserting snippets.
 
 <video autoplay muted loop width="100%" height="100%">
-    <source src="../res/vim_clojure_autocomplete.webm" type="video/webm">
+    <source src="/res/vim_clojure_autocomplete.webm" type="video/webm">
 </video>

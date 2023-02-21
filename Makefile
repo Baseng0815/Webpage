@@ -1,6 +1,6 @@
 OUT_DIR := html
 
-HTML_TARGETS := $(shell find . -type f -name "*.md" -printf "$(OUT_DIR)/%f\n")
+HTML_TARGETS := $(shell find ./markdown -type f -name "*.md" -printf "$(OUT_DIR)/%P\n")
 HTML_TARGETS := $(HTML_TARGETS:.md=.html)
 
 .PHONY: all install clean
@@ -8,8 +8,9 @@ HTML_TARGETS := $(HTML_TARGETS:.md=.html)
 all: $(HTML_TARGETS)
 
 $(OUT_DIR)/%.html: markdown/%.md
+	mkdir -p $(@D)
 	mkdir -p $(OUT_DIR)
-	pandoc -s --css "../css/style.css" -f markdown -t html5 -o "$@" "$<"
+	pandoc -s --css "/css/style.css" -f markdown -t html5 -o "$@" "$<"
 
 res: fhd q70
 
@@ -21,3 +22,4 @@ q70:
 
 clean:
 	rm -rf $(HTML_TARGETS)
+

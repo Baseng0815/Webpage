@@ -21,7 +21,7 @@ I spent the latter half of 2022 in
 meaning lots of content can be found on the [2022 Japan
 Blog](./2022_japan/blog.md).
 
-Here is my [PGP key](../res/gpg_key.txt) if you want to send me encrypted mail.
+Here is my [PGP key](/res/gpg_key.txt) if you want to send me encrypted mail.
 It is published and verified on
 [https://keys.openpgp.org](https://keys.openpgp.org). You should also always
 check if the fingerprint matches:

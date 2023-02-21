@@ -18,13 +18,13 @@ restaurant where we ate lunch. There was also the entrance to Inuyama castle
 which we visited afterwards.
 
 <div class="images">
-<figure><img src="../res/inuyama/inuyama_0.jpg" alt="torii" />
+<figure><img src="/res/inuyama/inuyama_0.jpg" alt="torii" />
 <figcaption>Torii (going up to castle)</figcaption></figure>
-<figure><img src="../res/inuyama/inuyama_1.jpg" alt="shrine" />
+<figure><img src="/res/inuyama/inuyama_1.jpg" alt="shrine" />
 <figcaption>More shrine stuff</figcaption></figure>
-<figure><img src="../res/inuyama/inuyama_2.jpg" alt="landscape" />
+<figure><img src="/res/inuyama/inuyama_2.jpg" alt="landscape" />
 <figcaption>Nice view</figcaption></figure>
-<figure><img src="../res/inuyama/inuyama_3.jpg" alt="castle stone" />
+<figure><img src="/res/inuyama/inuyama_3.jpg" alt="castle stone" />
 <figcaption>「国宝犬山城」 (national treasure Inuyama castle)</figcaption></figure>
 </div>
 
@@ -32,13 +32,13 @@ We wandered around the streets, got something to drink and explored the area
 before finding something to eat.
 
 <div class="images">
-<figure><img src="../res/inuyama/side_street_0.jpg" alt="cozy street" />
+<figure><img src="/res/inuyama/side_street_0.jpg" alt="cozy street" />
 <figcaption>One of the small side streets</figcaption></figure>
-<figure><img src="../res/inuyama/side_street_1.jpg" alt="lamps" />
+<figure><img src="/res/inuyama/side_street_1.jpg" alt="lamps" />
 <figcaption>Nicely decorated</figcaption></figure>
-<figure><img src="../res/inuyama/side_street_2.jpg" alt="old arcade machines" />
+<figure><img src="/res/inuyama/side_street_2.jpg" alt="old arcade machines" />
 <figcaption>Old arcade machines from the Shouwa era</figcaption></figure>
-<figure><img src="../res/inuyama/side_street_3.jpg" alt="shop from above" />
+<figure><img src="/res/inuyama/side_street_3.jpg" alt="shop from above" />
 <figcaption>Multiple floors</figcaption></figure>
 </div>
 
@@ -48,13 +48,13 @@ thinking about it now, might've made the climb up the castle even more
 difficult than it already was.
 
 <div class="images">
-<figure><img src="../res/inuyama/castle_before_0.jpg" alt="lunch" />
+<figure><img src="/res/inuyama/castle_before_0.jpg" alt="lunch" />
 <figcaption>Kishimen lunch</figcaption></figure>
-<figure><img src="../res/inuyama/castle_before_1.jpg" alt="red torii" />
+<figure><img src="/res/inuyama/castle_before_1.jpg" alt="red torii" />
 <figcaption>Lots of red Torii</figcaption></figure>
-<figure><img src="../res/inuyama/castle_before_2.jpg" alt="red torii" />
+<figure><img src="/res/inuyama/castle_before_2.jpg" alt="red torii" />
 <figcaption>Even more</figcaption></figure>
-<figure><img src="../res/inuyama/castle_before_3.jpg" alt="castle outside" />
+<figure><img src="/res/inuyama/castle_before_3.jpg" alt="castle outside" />
 <figcaption>The castle (it is really small)</figcaption></figure>
 </div>
 
@@ -70,20 +70,20 @@ surrounding area. It was a bit scary too due to the railing reaching only up to
 my knees and the floor being slippery with only socks on.
 
 <div class="images">
-<figure><img src="../res/inuyama/castle_view_0.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_0.jpg" alt="castle view" />
 <figcaption>A small weir</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_1.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_1.jpg" alt="castle view" />
 <figcaption>Cool bridge</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_2.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_2.jpg" alt="castle view" />
 <figcaption>Much city</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_3.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_3.jpg" alt="castle view" />
 <figcaption>The railing</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_4.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_4.jpg" alt="castle view" />
 <figcaption>Please enjoy the weir again</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_5.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_5.jpg" alt="castle view" />
 <figcaption>Lots of mountainous terrain in Japan</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_6.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_6.jpg" alt="castle view" />
 <figcaption>More mountains</figcaption></figure>
-<figure><img src="../res/inuyama/castle_view_7.jpg" alt="castle view" />
+<figure><img src="/res/inuyama/castle_view_7.jpg" alt="castle view" />
 <figcaption>That's where we came from</figcaption></figure>
 </div>

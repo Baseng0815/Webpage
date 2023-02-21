@@ -15,21 +15,21 @@ we decided to go there.
  working the fields.
 
 <div class="images">
-<figure><img src="../res/sanageyama/arrival_0.jpg" />
+<figure><img src="/res/sanageyama/arrival_0.jpg" />
 <figcaption>Taking the Linimo and then another train, we ended up in the countryside</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_1.jpg" />
+<figure><img src="/res/sanageyama/arrival_1.jpg" />
 <figcaption>There should be a bus station around somewhere...</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_2.jpg" />
+<figure><img src="/res/sanageyama/arrival_2.jpg" />
 <figcaption>Well, that looks shady</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_3.jpg" />
+<figure><img src="/res/sanageyama/arrival_3.jpg" />
 <figcaption>Run-down shops everywhere, a strong contrast to the city</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_4.jpg" />
+<figure><img src="/res/sanageyama/arrival_4.jpg" />
 <figcaption>More walking after taking the bus</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_5.jpg" />
+<figure><img src="/res/sanageyama/arrival_5.jpg" />
 <figcaption>And more</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_6.jpg" />
+<figure><img src="/res/sanageyama/arrival_6.jpg" />
 <figcaption>Finally found the Torii gate that leads up the mountain</figcaption></figure>
-<figure><img src="../res/sanageyama/arrival_7.jpg" />
+<figure><img src="/res/sanageyama/arrival_7.jpg" />
 <figcaption>Fortunately we didn't encounter any bears, only wild bees</figcaption></figure>
 </div>
 
@@ -43,21 +43,21 @@ up. As it turns out, this was only meant as a shortcut **down** and **not** as
 a way up, so it was incredibly steep and exhausting to climb, albeit very fun.
 
 <div class="images">
-<figure><img src="../res/sanageyama/first_ascend_0.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_0.jpg" />
 <figcaption>Beautiful nature</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_1.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_1.jpg" />
 <figcaption>The not-so-beautiful trail</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_2.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_2.jpg" />
 <figcaption>At least the stairs were pretty solid</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_3.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_3.jpg" />
 <figcaption>Except the areas where there were no stairs</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_4.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_4.jpg" />
 <figcaption>Lots of small bridges too</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_5.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_5.jpg" />
 <figcaption>It got steeper</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_6.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_6.jpg" />
 <figcaption>Almost halfway done</figcaption></figure>
-<figure><img src="../res/sanageyama/first_ascend_7.jpg" />
+<figure><img src="/res/sanageyama/first_ascend_7.jpg" />
 <figcaption>We took a five minute break here</figcaption></figure>
 </div>
 
@@ -66,13 +66,13 @@ to take a first glance at the landscape and realize the height we've gained so
 far.
 
 <div class="images">
-<figure><img src="../res/sanageyama/first_stop_0.jpg" />
+<figure><img src="/res/sanageyama/first_stop_0.jpg" />
 <figcaption>Still steep</figcaption></figure>
-<figure><img src="../res/sanageyama/first_stop_1.jpg" />
+<figure><img src="/res/sanageyama/first_stop_1.jpg" />
 <figcaption>Fortunately it didn't rain</figcaption></figure>
-<figure><img src="../res/sanageyama/first_stop_2.jpg" />
+<figure><img src="/res/sanageyama/first_stop_2.jpg" />
 <figcaption>The view was worth it</figcaption></figure>
-<figure><img src="../res/sanageyama/first_stop_3.jpg" />
+<figure><img src="/res/sanageyama/first_stop_3.jpg" />
 <figcaption>You better not trip, there was no railing and it went straight down</figcaption></figure>
 </div>
 
@@ -81,13 +81,13 @@ temple where we were overtaken by some 70 year old dude with legs as thick as
 tree trunks, presumably training for iron man or something. I don't know.
 
 <div class="images">
-<figure><img src="../res/sanageyama/second_ascend_0.jpg" />
+<figure><img src="/res/sanageyama/second_ascend_0.jpg" />
 <figcaption>Not as bad</figcaption></figure>
-<figure><img src="../res/sanageyama/second_ascend_1.jpg" />
+<figure><img src="/res/sanageyama/second_ascend_1.jpg" />
 <figcaption>A natural toilet</figcaption></figure>
-<figure><img src="../res/sanageyama/second_ascend_2.jpg" />
+<figure><img src="/res/sanageyama/second_ascend_2.jpg" />
 <figcaption>Stairs to the temple</figcaption></figure>
-<figure><img src="../res/sanageyama/second_ascend_3.jpg" />
+<figure><img src="/res/sanageyama/second_ascend_3.jpg" />
 <figcaption>Must be a PITA to go up here every day</figcaption></figure>
 </div>
 
@@ -102,17 +102,17 @@ to get down in time as it was already pitch-black when we passed through the
 Torii gate.
 
 <div class="images">
-<figure><img src="../res/sanageyama/peak_0.jpg" />
+<figure><img src="/res/sanageyama/peak_0.jpg" />
 <figcaption>The peak of 猿投山 at 629m</figcaption></figure>
-<figure><img src="../res/sanageyama/peak_1.jpg" />
+<figure><img src="/res/sanageyama/peak_1.jpg" />
 <figcaption>The view from here was also gorgeous and we felt like we really accomplished something</figcaption></figure>
-<figure><img src="../res/sanageyama/descent_0.jpg" />
+<figure><img src="/res/sanageyama/descent_0.jpg" />
 <figcaption>As the sun started to set, the mountain was flooded by orange light</figcaption></figure>
-<figure><img src="../res/sanageyama/descent_1.jpg" />
+<figure><img src="/res/sanageyama/descent_1.jpg" />
 <figcaption>We had to hurry down, but going down fortunately is easier</figcaption></figure>
-<figure><img src="../res/sanageyama/descent_2.jpg" />
+<figure><img src="/res/sanageyama/descent_2.jpg" />
 <figcaption>That was close, there's no way we would've been able to go down in the dark without tripping a million times</figcaption></figure>
-<figure><img src="../res/sanageyama/descent_3.jpg" />
+<figure><img src="/res/sanageyama/descent_3.jpg" />
 <figcaption>Who needs street lanterns if you have vending machines 🙏</figcaption></figure>
 </div>
 
@@ -124,9 +124,9 @@ another station from which we took the Linimo back to Nagakute Kosenjōu and
 finally arrived at the dorm.
 
 <div class="images">
-<figure><img src="../res/sanageyama/return_0.jpg" />
+<figure><img src="/res/sanageyama/return_0.jpg" />
 <figcaption>Google maps saves the day once again as it's close to impossible to navigate this area without it</figcaption></figure>
-<figure><img src="../res/sanageyama/return_1.jpg" />
+<figure><img src="/res/sanageyama/return_1.jpg" />
 <figcaption>**B** **U** **G**</figcaption></figure>
 </div>
 

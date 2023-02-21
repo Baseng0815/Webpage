@@ -10,7 +10,7 @@ corresponding github repository. Most of them (should) include a `README.md`
 which gives a nice overview of the project and how to build it.
 
 ## [ray tracer](https://github.com/Baseng0815/raytracer)
-![](../res/raytracer.jpg "raytracer")
+![](/res/raytracer.jpg "raytracer")
 
 raytracer is, as you might have guessed already, a simple ray tracer I'm
 currently working on. It is based on a book called ["An Introduction to Ray
@@ -26,7 +26,7 @@ although the colors are a little bit off. Guess I need to recheck my lookup
 tables.
 
 ## [vex](https://github.com/Baseng0815/vex)
-![](../res/vex.png "vex")
+![](/res/vex.png "vex")
 
 vex is a simple hex editor with vim-like bindings for easy navigation. It
 currently supports browsing a file, editing individual bytes and saving the
@@ -36,7 +36,7 @@ I plan to add a way to insert new bytes or delete existing ones as well as more
 advanced ergonomics like visual (block) selection.
 
 ## [shedOS](https://github.com/Baseng0815/shedOS)
-![](../res/shedOS.jpg "shedOS")
+![](/res/shedOS.jpg "shedOS")
 
 shedOS is an x86_64 operating system I am currently developing, mainly for
 educational purposes.  Working in kernel space without being able to rely on
@@ -98,7 +98,7 @@ like a chess engine or a word guessing game. The possibilities are endless!
 
 ## [voxel game](https://github.com/Baseng0815/VoxelGame)
 
-![](../res/voxelgame.jpg "Voxel game")
+![](/res/voxelgame.jpg "Voxel game")
 
 Voxel game is the prototype of a 3D voxel renderer/\*craft clone. It currently
 supports procedural terrain generation and texturing with biomes and caves,
@@ -135,7 +135,7 @@ I use my Raspberry Pi 4 for lots of things, one of them being recording climate
 data. The [DHT 22](https://www.adafruit.com/product/385) is a low-cost,
 low-power humidity and temperature sensor.
 
-![](../res/dht22_wiring.gif "DHT22 wiring")
+![](/res/dht22_wiring.gif "DHT22 wiring")
 
 It is easy to set up and can be read through the adafruit DHT python
 library based on which I have written a [simple script](

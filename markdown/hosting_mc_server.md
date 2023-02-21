@@ -70,14 +70,14 @@ next to `default via`.
 Enter this into your web browser and log in to your router using it's password.
 It can usually be found physically on the back of your router.
 
-![](..../res/speedport_home.png)
+![](/res/speedport_home.png)
 
 Then go to Internet -> Portfreischaltung (port redirection) and add a new TCP
 entry.  You need to redirect the port in your `server.properties` file (default
 25565) to your current computer. If you don't know which one is your computer,
 manually check its name or its IP.
 
-![](..../res/speedport_port_redirection.png)
+![](/res/speedport_port_redirection.png)
 
 People from outside should now have access to your server. You can check
 yourself using [this](https://www.yougetsignal.com/tools/open-ports/) website.
@@ -86,7 +86,7 @@ that the port is open.  You can also give the remote address to your friends
 since this is the one they will be connecting with. If you just want your
 public IP address, you can use [ifconfig.me](https://ifconfig.me).
 
-![](..../res/port_open.png)
+![](/res/port_open.png)
 
 People should now be able to connect to your server. Your public IP might
 change from time to time, so if there are any connection problems recheck your

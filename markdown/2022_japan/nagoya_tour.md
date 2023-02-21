@@ -17,20 +17,20 @@ there and did some really important stuff. We visited some buildings, walked
 around the outside and relaxed afterwards at the nearest vending machine.
 
 <div class="images">
-<figure><img src="../res/nagoya_tour/castle_0.jpg" alt="castle garden 0" />
+<figure><img src="/res/nagoya_tour/castle_0.jpg" alt="castle garden 0" />
 <figcaption>Lots of greenery</figcaption></figure>
-<figure><img src="../res/nagoya_tour/castle_1.jpg" alt="castle garden 1" />
+<figure><img src="/res/nagoya_tour/castle_1.jpg" alt="castle garden 1" />
 <figcaption>Who dis?</figcaption></figure>
-<figure><img src="../res/nagoya_tour/castle_2.jpg" alt="castle 0" />
+<figure><img src="/res/nagoya_tour/castle_2.jpg" alt="castle 0" />
 <figcaption>The main tower was closed unfortunately</figcaption></figure>
-<figure><img src="../res/nagoya_tour/castle_3.jpg" alt="castle 1" />
+<figure><img src="/res/nagoya_tour/castle_3.jpg" alt="castle 1" />
 <figcaption>The walls looked like they were about to crumble</figcaption></figure>
-<figure><img src="../res/nagoya_tour/castle_4.jpg" alt="interior 0" />
+<figure><img src="/res/nagoya_tour/castle_4.jpg" alt="interior 0" />
 <figcaption>I'm no interior designer, but this looks expensive</figcaption></figure>
-<figure><img src="../res/nagoya_tour/castle_5.jpg" alt="interior 1" /></figure>
-<figure><img src="../res/nagoya_tour/castle_6.jpg" alt="outside" />
+<figure><img src="/res/nagoya_tour/castle_5.jpg" alt="interior 1" /></figure>
+<figure><img src="/res/nagoya_tour/castle_6.jpg" alt="outside" />
 <figcaption>Of course Ibaraki has a huge-ass [girls and panzer](https://www.youtube.com/watch?v=03BPG9daepE) banner 💀</figure>
-<figure><img src="../res/nagoya_tour/ramen.jpg" alt="ramen" />
+<figure><img src="/res/nagoya_tour/ramen.jpg" alt="ramen" />
 <figcaption>Lunch 👍</figcaption></figure>
 </div>
 
@@ -58,11 +58,11 @@ some small third-grade town. Unlike other major cities though, there weren't
 that many cars around and there was no honking at all.
 
 <div class="images">
-<figure><img src="../res/nagoya_tour/nagoya_station.jpg" alt="nagoya station" />
+<figure><img src="/res/nagoya_tour/nagoya_station.jpg" alt="nagoya station" />
 <figcaption>JR central towers, right across Nagoya station</figcaption></figure>
-<figure><img src="../res/nagoya_tour/meieki_0.jpg" alt="meieki 0" />
+<figure><img src="/res/nagoya_tour/meieki_0.jpg" alt="meieki 0" />
 <figcaption>Meieki campus main floor (I think? The others were closed)</figcaption></figure>
-<figure><img src="../res/nagoya_tour/meieki_1.jpg" alt="meieki 1" />
+<figure><img src="/res/nagoya_tour/meieki_1.jpg" alt="meieki 1" />
 <figcaption>Quite a nice view</figcaption></figure>
 <figure><iframe style="height: 600px;" src="https://www.youtube.com/embed/xgYxnON1qLg" title="YouTube video player"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
@@ -81,9 +81,9 @@ which is supposed to be really good. I haven't read it yet, but each volume was
 only 440yen which amounts to like 3 Euros. Pretty cheap.
 
 <div class="images">
-<figure><img src="../res/nagoya_tour/weeb_0.jpg" alt="manga" />
+<figure><img src="/res/nagoya_tour/weeb_0.jpg" alt="manga" />
 <figcaption>Ahh yes, <b>Culture</b></figcaption></figure>
-<figure><img src="../res/nagoya_tour/books.jpg" alt="books" />
+<figure><img src="/res/nagoya_tour/books.jpg" alt="books" />
 <figcaption>Please ignore the \"don't take a picture\"-signs (the picture is not mine anyway)</figcaption></figure>
 </div>
 
@@ -97,7 +97,7 @@ a see-through plastic bag by the staff. While walking through the city with it,
 some kids pointed at it and shouted 「STEVE！」. I'm glad there are still
 people appreciating the objectively best game ever made.
 
-![](../res/nagoya_tour/weeb_1.jpg)
+![](/res/nagoya_tour/weeb_1.jpg)
 
 ## Weeb store
 
@@ -109,9 +109,9 @@ available at the time, but I'll definitely come back some time and they better
 have her in stock by then 🔪.
 
 <div class="images">
-<figure><img src="../res/nagoya_tour/weeb_2.jpg" alt="overlord" />
+<figure><img src="/res/nagoya_tour/weeb_2.jpg" alt="overlord" />
 <figcaption>Any Overlord fans?</figcaption></figure>
-<figure><img src="../res/nagoya_tour/weeb_3.jpg" alt="chizuru stairs" />
+<figure><img src="/res/nagoya_tour/weeb_3.jpg" alt="chizuru stairs" />
 <figcaption>\"That's it, you're going up the Chizuru stairs\"</figcaption></figure>
 </div>
 

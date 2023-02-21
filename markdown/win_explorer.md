@@ -14,7 +14,7 @@ launcher. An application launcher should do nothing more than read a query
 through a text field and presenting a list of matching applications from which
 the user can choose.
 
-![](../res/rofi.png)
+![](/res/rofi.png)
 
 [Rofi](https://github.com/davatorium/rofi) is a great example. It takes a
 single query as input and matches application names as well as categories. It

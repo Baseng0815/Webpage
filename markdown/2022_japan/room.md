@@ -29,17 +29,17 @@ highway running right next to the dorm. It's really loud outside, but the
 windows are new so they isolate pretty well.
 
 <div class="images-small">
-<figure><img src="../res/dorm_facilities/room_1.jpg" alt="room 1" />
+<figure><img src="/res/dorm_facilities/room_1.jpg" alt="room 1" />
 <figcaption>Luxurious hallway</figcaption></figure>
-<figure><img src="../res/dorm_facilities/room_2.jpg" alt="room 2" />
+<figure><img src="/res/dorm_facilities/room_2.jpg" alt="room 2" />
 <figcaption>Spacious enough</figcaption></figure>
-<figure><img src="../res/dorm_facilities/room_3.jpg" alt="room 3" />
+<figure><img src="/res/dorm_facilities/room_3.jpg" alt="room 3" />
 <figcaption>Could be bigger</figcaption></figure>
-<figure><img src="../res/dorm_facilities/room_4.jpg" alt="room 4" />
+<figure><img src="/res/dorm_facilities/room_4.jpg" alt="room 4" />
 <figcaption>An open shelf where I shove all my belongings into</figcaption></figure>
-<figure><img src="../res/dorm_facilities/room_5.jpg" alt="room 5" />
+<figure><img src="/res/dorm_facilities/room_5.jpg" alt="room 5" />
 <figcaption>The chair is really comfy tho</figcaption></figure>
-<figure><img src="../res/dorm_facilities/room_6.jpg" alt="room 6" />
+<figure><img src="/res/dorm_facilities/room_6.jpg" alt="room 6" />
 <figcaption>What a scenery!</figcaption></figure>
 </div>
 
@@ -68,17 +68,17 @@ where you can put stuff like kitchen-/tableware or non-refrigerated
 ingredients.
 
 <div class="images-small">
-<figure><img src="../res/dorm_facilities/kitchen_1.jpg" alt="kitchen 1" />
+<figure><img src="/res/dorm_facilities/kitchen_1.jpg" alt="kitchen 1" />
 <figcaption>Enough room</figcaption></figure>
-<figure><img src="../res/dorm_facilities/kitchen_2.jpg" alt="kitchen 2" />
+<figure><img src="/res/dorm_facilities/kitchen_2.jpg" alt="kitchen 2" />
 <figcaption>Tables to eat or work at</figcaption></figure>
-<figure><img src="../res/dorm_facilities/kitchen_3.jpg" alt="kitchen 3" />
+<figure><img src="/res/dorm_facilities/kitchen_3.jpg" alt="kitchen 3" />
 <figcaption>Workspace with sink and induction stove</figcaption></figure>
-<figure><img src="../res/dorm_facilities/kitchen_4.jpg" alt="kitchen 4" />
+<figure><img src="/res/dorm_facilities/kitchen_4.jpg" alt="kitchen 4" />
 <figcaption>Private drawer</figcaption></figure>
-<figure><img src="../res/dorm_facilities/kitchen_5.jpg" alt="kitchen 5" />
+<figure><img src="/res/dorm_facilities/kitchen_5.jpg" alt="kitchen 5" />
 <figcaption>Shared fridge</figcaption></figure>
-<figure><img src="../res/dorm_facilities/kitchen_6.jpg" alt="kitchen 6" />
+<figure><img src="/res/dorm_facilities/kitchen_6.jpg" alt="kitchen 6" />
 <figcaption>Glorious toaster and water heater</figcaption></figure>
 </div>
 

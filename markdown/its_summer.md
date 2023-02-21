@@ -6,7 +6,7 @@ title:
 The northern hemisphere is experiencing its first heat wave this year with
 temperatures of some north-western parts of Germany reaching as high as 35°C.
 
-![](../res/temperature_europe.png "Temperature in Europe")
+![](/res/temperature_europe.png "Temperature in Europe")
 
 ## The first day
 
@@ -85,6 +85,6 @@ shortages in certain regions just yet, but the future will probably make things
 worse. This is a problem for lots of other areas too of course, so I can
 probably count myself as one of the lucky ones (poor Arizona!).
 
-![](../res/temperature_arizona.png "Temperature in Arizona")
+![](/res/temperature_arizona.png "Temperature in Arizona")
 
 To summarize: **fuck summer**.

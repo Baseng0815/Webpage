@@ -69,8 +69,8 @@ and to not leave the dorm on monday as the typhoon is expected to reach us by
 then.
 
 <div class="images">
-<figure><img src="../res/accuweather_typoon.jpg" alt="accuweather typhoon"></figure>
-<figure><img src="../res/typhoon_mail.jpg" alt="typhoon mail"></figure>
+<figure><img src="/res/accuweather_typoon.jpg" alt="accuweather typhoon"></figure>
+<figure><img src="/res/typhoon_mail.jpg" alt="typhoon mail"></figure>
 </div>
 
 Classes on monday are held online. I still need to buy supplies which I'll do
@@ -87,17 +87,17 @@ atmosphere and, though quite expensive, has a variety of different drinks and
 food.
 
 <div class="images-small">
-<figure><img src="../res/and_cafe/and_cafe_0.jpg" alt="and cafe 0" />
+<figure><img src="/res/and_cafe/and_cafe_0.jpg" alt="and cafe 0" />
 <figcaption>*Ein Glas Yamazaki*</figcaption></figure>
-<figure><img src="../res/and_cafe/and_cafe_1.jpg" alt="and cafe 1" />
+<figure><img src="/res/and_cafe/and_cafe_1.jpg" alt="and cafe 1" />
 <figcaption>Was it worth it? -Yes</figcaption></figure>
-<figure><img src="../res/and_cafe/and_cafe_2.jpg" alt="and cafe 2" />
+<figure><img src="/res/and_cafe/and_cafe_2.jpg" alt="and cafe 2" />
 <figcaption>Mhh, fruity drinks</figcaption></figure>
-<figure><img src="../res/and_cafe/and_cafe_3.jpg" alt="and cafe 3" />
+<figure><img src="/res/and_cafe/and_cafe_3.jpg" alt="and cafe 3" />
 <figcaption>More than it looks like</figcaption></figure>
-<figure><img src="../res/and_cafe/and_cafe_4.jpg" alt="and cafe 4" />
+<figure><img src="/res/and_cafe/and_cafe_4.jpg" alt="and cafe 4" />
 <figcaption>TIL: Japanese restaurants do this</figcaption></figure>
-<figure><img src="../res/and_cafe/and_cafe_5.jpg" alt="and cafe 5" />
+<figure><img src="/res/and_cafe/and_cafe_5.jpg" alt="and cafe 5" />
 <figcaption>More fruity drinks</figcaption></figure>
 </div>
 
@@ -183,9 +183,9 @@ to turn green once I submit my negative covid test. I am then able to show the
 green screen to staff at the airport without any additional questioning.
 
 <div class="images">
-<figure><img src="../res/mysos_1.jpg" alt="MySOS test missing" />
+<figure><img src="/res/mysos_1.jpg" alt="MySOS test missing" />
 <figcaption>Still need to submit the test</figcaption></figure>
-<figure><img src="../res/mysos_2.jpg" alt="MySOS summary screen" />
+<figure><img src="/res/mysos_2.jpg" alt="MySOS summary screen" />
 <figcaption>App summary</figcaption></figure>
 </div>
 
@@ -236,7 +236,7 @@ Picking the visa up was easy as I just had to show them my personal ID card and
 after around half an hour I received my passport back and the process was
 finished!
 
-![](../res/japan_visa.jpg)
+![](/res/japan_visa.jpg)
 
 ## Flight Booking
 
@@ -261,7 +261,7 @@ Mobility-Online is great, but is only the first part of the application
 process. After you're nominated at the partner university, they require tons of
 documents as well which I managed to submit through a lively mail exchange.
 
-![](../res/mobility_online.png)
+![](/res/mobility_online.png)
 
 ## First contact
 

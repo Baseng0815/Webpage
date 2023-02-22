@@ -19,7 +19,7 @@ and an [RSS feed](/rss.xml).
 I spent the latter half of 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,
 meaning lots of content can be found on the [2022 Japan
-Blog](./2022_japan/blog.md).
+Blog](./2022_japan/blog.html).
 
 Here is my [PGP key](/res/gpg_key.txt) if you want to send me encrypted mail.
 It is published and verified on
@@ -41,7 +41,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
-- [(2022-07-06) **2022 Japan Blog**](./2022_japan/blog.md)
+- [(2022-07-06) **2022 Japan Blog**](./2022_japan/blog.html)
 - [(2022-04-19) **How (n)vim saves my life**](./vim_life_saving.html)
 - [(2022-04-03) Everything wrong with Windows Explorer](./win_explorer.html)
 - [(2021-12-31) Limits to growth - the 30-year update](./limits_to_growth.html)

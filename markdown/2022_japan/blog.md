@@ -18,40 +18,41 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
-- [**2023-01-21**](./2022_japan/conclusion.html): **Conclusion**
-- [**2022-10-28**](./2022_japan/kyoto.html): Kyoto
-- [**2022-10-23**](./2022_japan/sanageyama.html): Sanageyama
-- [**2022-10-06**](./2022_japan/tokyo.html): Tokyo
-- [**2022-10-02**](./2022_japan/inuyama.html): Inuyama
-- [**2022-09-30**](./2022_japan/shizuoka.html): Shizuoka
-- [**2022-09-24**](./2022_japan/usj.html): Universal Studios Japan
-- [**2022-09-17**](./2022_japan/blog.html#typhoon-warning): Typhoon warning
-- [**2022-09-05**](./2022_japan/room.html): Room and kitchen facilities
-- [**2022-09-04**](./2022_japan/nagoya_tour.html): Nagoya tour
-- [2022-09-02](./2022_japan/blog.html#and-cafe): And cafe
-- [2022-08-31](./2022_japan/blog.html#karaoke): Karaoke
-- [**2022-08-30**](./2022_japan/aquarium.html): Nagoya port and aquarium
-- [**2022-08-26**](./2022_japan/ftd.html): The first two days
+- [**2023-01-21**](./conclusion.html): **Conclusion**
+- [**2022-11-03**](./gifu.html): Gifu
+- [**2022-10-28**](./kyoto.html): Kyoto
+- [**2022-10-23**](./sanageyama.html): Sanageyama
+- [**2022-10-06**](./tokyo.html): Tokyo
+- [**2022-10-02**](./inuyama.html): Inuyama
+- [**2022-09-30**](./shizuoka.html): Shizuoka
+- [**2022-09-24**](./usj.html): Universal Studios Japan
+- [**2022-09-17**](./blog.html#typhoon-warning): Typhoon warning
+- [**2022-09-05**](./room.html): Room and kitchen facilities
+- [**2022-09-04**](./nagoya_tour.html): Nagoya tour
+- [2022-09-02](./blog.html#and-cafe): And cafe
+- [2022-08-31](./blog.html#karaoke): Karaoke
+- [**2022-08-30**](./aquarium.html): Nagoya port and aquarium
+- [**2022-08-26**](./ftd.html): The first two days
 
 ### Pre-departure (**bold** text indicates a dedicated page)
 
-- [**2022-08-24**](./2022_japan/arrival.html): We arrived! (with lots of trouble)
-- [2022-08-21](./2022_japan/blog.html#final-preparations): Final preparations
-- [2022-08-20](./2022_japan/blog.html#mysos): MySOS, FastTrack and immigration
-- [2022-07-20](./2022_japan/blog.html#visa-received): Visa received
+- [**2022-08-24**](./arrival.html): We arrived! (with lots of trouble)
+- [2022-08-21](./blog.html#final-preparations): Final preparations
+- [2022-08-20](./blog.html#mysos): MySOS, FastTrack and immigration
+- [2022-07-20](./blog.html#visa-received): Visa received
 - 2022-07-04: Visa application submitted to Japanese consulate in Frankfurt
 - 2022-06-13: Contact with exam office, filling out learning agreement
-- [2022-05-30](./2022_japan/blog.html#flight-booking): Flight booked
+- [2022-05-30](./blog.html#flight-booking): Flight booked
 - 2022-05-18: Accepted by NUFS, received acceptance letter
 - 2022-03-07: Confirmation by NUFS
 - 2022-03-03: Application documents sent to NUFS
 - 2022-02-15: Nominated at NUFS
 - 2022-01-24: Application confirmed and accepted by international office
-- [2021-11-23](./2022_japan/blog.html#mobility-online): Application uploaded to Mobility-Online
+- [2021-11-23](./blog.html#mobility-online): Application uploaded to Mobility-Online
 - 2021-10-26: Registration on Mobility-Online application website
 - 2021-04-12: Meeting with international office to discuss concrete questions
 - 2021-01-11: First contact with international office, basic information and dates
-- [2020-12-23](./2022_japan/blog.html#first-contact): First contact with faculty, basic information
+- [2020-12-23](./blog.html#first-contact): First contact with faculty, basic information
 - 2020-07-20: Enrolment at university
 
 ## Typhoon warning

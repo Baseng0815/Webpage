@@ -18,6 +18,7 @@ navigation made possible through the power of hypertext.
 
 ### Post-departure (**bold** text indicates a dedicated page)
 
+- [**2023-03-04**](./food.html): Food
 - [**2023-01-21**](./conclusion.html): **Conclusion**
 - [**2022-11-03**](./gifu.html): Gifu
 - [**2022-10-28**](./kyoto.html): Kyoto

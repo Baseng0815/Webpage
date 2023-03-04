@@ -6,6 +6,19 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Food</title>
+            <pubDate>Sat, 04 Mar 2023 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/2022_japan/food.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/2022_japan/food.html
+            </link>
+            <description>
+                Pictures of food I ate in Japan
+            </description>
+        </item>
+        <item>
             <title>Japan conclusion</title>
             <pubDate>Sat, 21 Jan 2023 00:00:00 UTC</pubDate>
             <guid>

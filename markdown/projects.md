@@ -9,6 +9,14 @@ interested in projects summaries instead of detailed description, check out the
 corresponding github repository. Most of them (should) include a `README.md`
 which gives a nice overview of the project and how to build it.
 
+## [ascii-render](https://github.com/Baseng0815/ascii-render/)
+![](/res/ascii-render.jpg "ascii-render")
+
+ascii-render is a small Rust program that takes a GIF and token file and
+renders the GIF in real-time using the tokens specified in the token file. It
+is simple and the result for one example video that has been done a million
+times already can be seen [here](https://www.youtube.com/watch?v=ZaW37nEcPQM).
+
 ## [ray tracer](https://github.com/Baseng0815/raytracer)
 ![](/res/raytracer.jpg "raytracer")
 

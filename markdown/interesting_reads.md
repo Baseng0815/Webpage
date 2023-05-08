@@ -8,3 +8,4 @@ title:
 - [The GNU Manifesto, by Richard Stallman](https://www.nongnu.org/emacsdoc-fr/manuel/manifesto.html)
 - [Analog Museum](http://www.analogmuseum.org/english/)
 - [Understanding C/C++ Strict Aliasing](http://dbp-consulting.com/tutorials/StrictAliasing.html)
+- [Real Programmers Don't Use Pascal](https://www.pbm.com/~lindahl/real.programmers.html)

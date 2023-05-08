@@ -56,7 +56,7 @@ int main(void)
 ```
 
 This program prints all numbers from 0 to 99. Doesn't seem unusual, does it? Well,
-take a closer look at line 9. We would expect `test[i]`, but not `i[test]`! Why
+take a closer look at line 11. We would expect `test[i]`, but not `i[test]`! Why
 does it work? Array indexing in C is syntactic sugar for adding an offset to the
 pointer and deferencing the resulting address. So `test[i]` is equivalent to `*(test + i)`
 which in turn is equivalent to `*(i + test)` because of commutativity of the addition,

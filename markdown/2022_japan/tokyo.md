@@ -1,8 +1,6 @@
 ---
 title:
     Tokyo
-header-includes:
-    <script type="text/javascript" src="https://livejs.com/live.js"></script>
 ---
 
 I've spent four days/three nights in Tokyo from 2022/10/06 (Thu.) to 2022/10/09

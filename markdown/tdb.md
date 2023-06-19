@@ -45,7 +45,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure><img src="/res/tdb/bridge.jpg" />
 <figcaption>Brückenlegepanzer Leguan</figcaption></figure>
 <figure><img src="/res/tdb/camo.jpg" />
-<figcaption>Abgetarnter Boxer</figcaption></figure>
+<figcaption>Abgetarntes Spähfahrzeug</figcaption></figure>
 <figure><img src="/res/tdb/epa.jpg" />
 <figcaption>Lecker EPA</figcaption></figure>
 <figure><img src="/res/tdb/fuchs_0.jpg" />

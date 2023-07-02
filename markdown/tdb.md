@@ -55,7 +55,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure><img src="/res/tdb/gepard_0.jpg" />
 <figcaption>Flakpanzer Gepard</figcaption></figure>
 <figure><img src="/res/tdb/gepard_1.jpg" />
-<figcaption>30mm Maschinenkanonen mit Such- und Folgeradar</figcaption></figure>
+<figcaption>35mm Maschinenkanonen mit Such- und Folgeradar</figcaption></figure>
 <figure><img src="/res/tdb/gun_0.jpg" />
 <figcaption>Niederländische Ausrüstung</figcaption></figure>
 <figure><img src="/res/tdb/gun_1.jpg" />

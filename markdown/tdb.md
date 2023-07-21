@@ -36,7 +36,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>vroom vroom</figcaption></figure>
 
 <div class="images">
-<figure><img src="/res/tdb/barracks.jpg" alt="tokyo station" />
+<figure><img src="/res/tdb/barracks.jpg" />
 <figcaption>Kasernengelände gefunden</figcaption></figure>
 <figure><img src="/res/tdb/bomb.jpg" />
 <figcaption>Hoffentlich ist die nicht mehr scharf 😳</figcaption></figure>
@@ -102,5 +102,4 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 src="https://www.youtube.com/embed/L5lrhz2mZ_k" title="YouTube video player"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture;" allowfullscreen>
-</iframe><figcaption>Da hats richtig geknattert und gebebt, das fehlt hier
-leider 😥</figcaption></figure>
+</iframe><figcaption>Die Heide hat gebebt, hier leider ohne Audio 😥</figcaption></figure>

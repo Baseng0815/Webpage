@@ -45,7 +45,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure><img src="/res/tdb/bridge.jpg" />
 <figcaption>Brückenlegepanzer Leguan</figcaption></figure>
 <figure><img src="/res/tdb/camo.jpg" />
-<figcaption>Abgetarnter Boxer</figcaption></figure>
+<figcaption>Abgetarntes Spähfahrzeug</figcaption></figure>
 <figure><img src="/res/tdb/epa.jpg" />
 <figcaption>Lecker EPA</figcaption></figure>
 <figure><img src="/res/tdb/fuchs_0.jpg" />
@@ -55,7 +55,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure><img src="/res/tdb/gepard_0.jpg" />
 <figcaption>Flakpanzer Gepard</figcaption></figure>
 <figure><img src="/res/tdb/gepard_1.jpg" />
-<figcaption>30mm Maschinenkanonen mit Such- und Folgeradar</figcaption></figure>
+<figcaption>35mm Maschinenkanonen mit Such- und Folgeradar</figcaption></figure>
 <figure><img src="/res/tdb/gun_0.jpg" />
 <figcaption>Niederländische Ausrüstung</figcaption></figure>
 <figure><img src="/res/tdb/gun_1.jpg" />

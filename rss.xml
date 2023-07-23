@@ -6,6 +6,19 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Home network</title>
+            <pubDate>Sun, 23 Jul 2023 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/home_networ.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/home_networ.html
+            </link>
+            <description>
+                Some notes about current and future home networking
+            </description>
+        </item>
+        <item>
             <title>Tag der Bundeswehr 2023</title>
             <pubDate>Sun, 18 Jun 2023 00:00:00 UTC</pubDate>
             <guid>

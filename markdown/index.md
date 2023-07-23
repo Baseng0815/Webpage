@@ -41,6 +41,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
+- [(2023-07-23) Home network](./home_network.html)
 - [(2023-06-17) Tag der Bundeswehr 2023](./tdb.html)
 - [(2023-05-29) Trip to the Austrian alps](./alps.html)
 - [(2022-07-06) **2022 Japan Blog**](./2022_japan/blog.html)

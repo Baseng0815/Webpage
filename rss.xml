@@ -6,13 +6,26 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Austria trip</title>
+            <pubDate>Fri, 04 Aug 2023 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/austria_trip.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/austria_trip.html
+            </link>
+            <description>
+                One-week trip to Vienna, Bratislava and Prague
+            </description>
+        </item>
+        <item>
             <title>Home network</title>
             <pubDate>Sun, 23 Jul 2023 00:00:00 UTC</pubDate>
             <guid>
-                https://www.bengel.xyz/html/home_networ.html
+                https://www.bengel.xyz/html/home_network.html
             </guid>
             <link>
-                https://www.bengel.xyz/html/home_networ.html
+                https://www.bengel.xyz/html/home_network.html
             </link>
             <description>
                 Some notes about current and future home networking

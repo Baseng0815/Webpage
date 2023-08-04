@@ -1,6 +1,7 @@
 OUT_DIR := html
 
-HTML_TARGETS := $(shell find ./markdown -type f -name "*.md" -printf "$(OUT_DIR)/%P\n")
+HTML_TARGETS := $(shell find ./markdown -type f -name "*.md")
+HTML_TARGETS := $(subst ./markdown/, ./html/, $(HTML_TARGETS))
 HTML_TARGETS := $(HTML_TARGETS:.md=.html)
 
 .PHONY: all install clean q70

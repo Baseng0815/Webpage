@@ -40,6 +40,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
+- [(2023-09-21) Spain](/html/spain.html)
 - [(2023-08-03) Austria trip](/html/austria_trip.html)
 - [(2023-07-23) Home network](/html/home_network.html)
 - [(2023-06-17) Tag der Bundeswehr 2023](/html/tdb.html)

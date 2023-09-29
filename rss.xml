@@ -6,6 +6,19 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Semesterabschlussflug</title>
+            <pubDate>Fri, 29 Sep 2023 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/flug.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/flug.html
+            </link>
+            <description>
+                Three-week trip to Malaga to learn Spanish and eat food
+            </description>
+        </item>
+        <item>
             <title>Spain</title>
             <pubDate>Thu, 21 Sep 2023 00:00:00 UTC</pubDate>
             <guid>
@@ -15,7 +28,7 @@
                 https://www.bengel.xyz/html/spain.html
             </link>
             <description>
-                One-week trip to Vienna, Bratislava and Prague
+                Three-week trip to Malaga to learn Spanish and eat food
             </description>
         </item>
         <item>

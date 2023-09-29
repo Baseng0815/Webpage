@@ -72,6 +72,15 @@ iframe {
     margin: 10px 0;
 }
 
+.center-self {
+    margin: 0 auto;
+    display: block;
+}
+
+.center-content {
+    text-align: center;
+}
+
 .images iframe, .images-small iframe {
     width: 100%;
     max-width: 100%;

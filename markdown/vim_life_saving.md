@@ -8,6 +8,31 @@ horrendously boring and repetitive work. It's mostly a combination of \*nix
 programs and macros, but (n)vim provides plenty of useful shortcuts per
 default.
 
+## Persisting macros
+
+I have a fixed layout for images on my website. In addition, each image is
+clickable and redirects to the full-sized version which can be found in the
+`hq` folder. Including many images can be made easy using the output redirect
+command `.!` in combination with a macro adding HTML tags. You might know that
+(n)vim has registers which can be set as a source/target using `"<reg>` for
+yanking and pasting, but macros are also stored in these registers. Macros are
+nothing more than a recording of actions you did and can be created by pressing
+`q<reg>` once to start and stop the recording and executed using `@<reg>`. I
+persist my macros in a `macros.lua` file which contains lines like:
+
+```
+vim.fn.setreg('i', 'i<figure><a href=?rkbkb"/res/panzermuseum/jklxAjkbbby$A"><img src="/res/panzermuseum/hq/jkpA"jkxA/></a>\r<fpkbigcaption></figcaption></figure>jk0j')
+```
+
+Executing a macro multiple times to edit lots of text at once can be done by a
+simple prefix. As an example, I will format the pictures I took when visiting
+the german tank museum by first listing everything in `res/panzermuseum/` and
+then running the macro:
+
+<video autoplay muted loop width="100%" height="100%">
+    <source src="/res/vim_macros.webm" type="video/webm">
+</video>
+
 ## Creating a list of source code file
 
 I was transferring a project from cmake to meson the other day and needed to
@@ -67,3 +92,9 @@ and even inserting snippets.
 <video autoplay muted loop width="100%" height="100%">
     <source src="/res/vim_clojure_autocomplete.webm" type="video/webm">
 </video>
+
+### 2023 note
+
+In the wake of moving over to Lua and saying goodbye to vimscript (I don't miss
+it), I now use builtin native LSP support from neovim which in my opinion is
+superior to a node-based extension host.

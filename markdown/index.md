@@ -40,6 +40,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
+- [(2023-10-10) Panzermuseum Munster](/html/panzermuseum.html)
 - [(2023-09-29) Semesterabschlussflug](/html/flug.html)
 - [(2023-09-21) Spain](/html/spain.html)
 - [(2023-08-03) Austria trip](/html/austria_trip.html)

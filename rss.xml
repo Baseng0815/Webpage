@@ -6,6 +6,19 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Panzermuseum Munster</title>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 UTC</pubDate>
+            <guid>
+                https://www.bengel.xyz/html/panzermuseum.html
+            </guid>
+            <link>
+                https://www.bengel.xyz/html/panzermuseum.html
+            </link>
+            <description>
+                Besuch des deutschen Panzermuseums in Munster
+            </description>
+        </item>
+        <item>
             <title>Semesterabschlussflug</title>
             <pubDate>Fri, 29 Sep 2023 00:00:00 UTC</pubDate>
             <guid>
@@ -15,7 +28,7 @@
                 https://www.bengel.xyz/html/flug.html
             </link>
             <description>
-                Three-week trip to Malaga to learn Spanish and eat food
+                Rundflug über Marburg zum Abschluss des Semesters
             </description>
         </item>
         <item>

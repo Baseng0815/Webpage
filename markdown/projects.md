@@ -20,18 +20,9 @@ times already can be seen [here](https://www.youtube.com/watch?v=ZaW37nEcPQM).
 ## [ray tracer](https://github.com/Baseng0815/raytracer)
 ![](/res/raytracer.jpg "raytracer")
 
-raytracer is, as you might have guessed already, a simple ray tracer I'm
-currently working on. It is based on a book called ["An Introduction to Ray
-Tracing"](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf)
-which explains succintly but still with enough detail the algorithms and steps
-necessary for a modern raytracer to produce photorealistic images as well as
-how to optimize for real-time usage. I have just finished implementing ray
-intersection algorithms as well as color handling (which is surprisingly
-nontrivial; you can't just use an RGB color space since physics-based rendering
-requires the use of light spectra and wavelengths). Also implemented is basic
-diffuse reflection as a small rendering test which appears to work as expected,
-although the colors are a little bit off. Guess I need to recheck my lookup
-tables.
+raytracer is, as you might have guessed already, a simple ray tracer written in
+Rust. It is a follow-along implementation project of the great "Ray Tracing In
+One Weekend" series.
 
 ## [vex](https://github.com/Baseng0815/vex)
 ![](/res/vex.png "vex")
@@ -73,37 +64,6 @@ descriptions below.
 2. [Booting](./shedOS_booting.html)
 2. [Paging (TODO)](./todo.html)
 
-## [discord Bot](https://github.com/Baseng0815/HelmtraegerBot)
-
-Me and my friends use Discord for communicating. Discord offers lots of
-features out of the box like free servers, video chat and stream capabilities
-as well as sophisticated user, role and permission management. But sometimes
-there are features we want or need which are not provided per-default.
-Fortunately, discord offers an API to allow developers to create a *bot user*
-which can read and send messages, do administrative tasks and even play audio.
-One can use `discord.js`, a Node.js javascript binding allowing to easily
-create such a bot. The repository for our bot can be found
-[here](https://github.com/Baseng0815/HelmtraegerBot). It currently allows you
-to
-
-- automatically download and send video embeds of multiple sources like twitter
-using [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- show and play back audio files like a soundboard,
-- look up the current weather for a given region using the [openweathermap
-api](https://openweathermap.org/api)
-- look up a player's CS:GO faceit stats using the [faceit
-api](https://developers.faceit.com/),
-- look up anime using the [anilist
-api](https://anilist.gitbook.io/anilist-apiv2-docs/),
-- [uwuify](https://www.urbandictionary.com/define.php?term=uwuify) a message,
-- send a random
-  [copypasta](https://www.urbandictionary.com/define.php?term=copypasta)
-
-The great thing is that there are lots of Node.js bindings for APIs so one can
-quickly implement features without needing to mess around for hours. I will
-probably add more features in the future as I see fit, maybe even something
-like a chess engine or a word guessing game. The possibilities are endless!
-
 ## [voxel game](https://github.com/Baseng0815/VoxelGame)
 
 ![](/res/voxelgame.jpg "Voxel game")
@@ -139,15 +99,88 @@ method to make it work in this case, please let me know!
 
 ## [climate data](https://github.com/Baseng0815/Climate)
 
-I use my Raspberry Pi 4 for lots of things, one of them being recording climate
-data. The [DHT 22](https://www.adafruit.com/product/385) is a low-cost,
+I use my Raspberry Pi 4 for a lot of things, one of them being recording
+climate data. The [DHT 22](https://www.adafruit.com/product/385) is a low-cost,
 low-power humidity and temperature sensor.
 
 ![](/res/dht22_wiring.gif "DHT22 wiring")
 
-It is easy to set up and can be read through the adafruit DHT python
-library based on which I have written a [simple script](
+It is easy to set up and can be read through the adafruit DHT python library
+based on which I have written a [simple script](
 https://github.com/Baseng0815/Climate). The Pi 4 also runs a mongo database
 which stores the humidity, temperature and date.  A new document is inserted
 every 5 minutes.  Plans for the future include an express.js-based API for
 accessing this data and filtering for maximum and minimum temperature/humidity.
+
+## [This site](https://github.com/Baseng0815/Webpage/)
+
+I prefer simple and static layouts to dynamic ones requiring client-sided
+JavaScript. This is why the great majority of pages are written in simple
+Markdown and then fed through [pandoc](https://pandoc.org/) to generate HTML
+documents. Although Markdown is not a clear standard and lots of dialects
+exist, pandoc takes almost everything as input and produces a valid output
+document. For instance, if I need to add a table or grid of images to my
+documents, I can revert to writing plain HTML in the Markdown file and pandoc
+will happily accept this.
+
+To make compilation of files easier, I make use of a single Makefile that
+
+- compiles `.md` files in the `markdown` directory to `.html` files and copies
+  them to the `html` directory
+- resizes files in the `res` directory down to an appropriate size so I can put
+  lots of images on a single page without taking up too much bandwidth
+
+In addition, resources embedded in newer pages link to the full-sized resource
+which I do not store in the repository for obvious reasons (a single image can
+be well over 20MiB, now imagine dozens or even hundreds of them on a single
+page...).
+
+I chose not to include navigation headers and footers for now since I assume
+people casually browsing this site start out from the main page and can
+navigate backwards using their browser on their own and people who land on a.
+specific site are not always interested in anything else (if they are they can
+still navigate to the main page on their own). I might add this in the future
+though.
+
+### Subdomains
+
+Various services are also offered on different subdomains:
+
+- [FTP directory](https://ftp.bengel.xyz): a 50GiB-sized directory for (right
+  now read-only) file access
+- [ytdlp](https://ytdlp.bengel.xyz): a PHP-powered ytdlp frontend for
+  bullshit-less media downloading on the go
+- [climate data live-view](https://climate.bengel.xyz): a Spring-powered
+  frontend for accessing live climate data obtained from my climate sensor
+  (might not be up-to-date since I power off the Raspberry Pi regularly)
+
+## [discord Bot](https://github.com/Baseng0815/HelmtraegerBot)
+
+Me and my friends use Discord for communicating. Discord offers lots of
+features out of the box like free servers, video chat and stream capabilities
+as well as sophisticated user, role and permission management. But sometimes
+there are features we want or need which are not provided per-default.
+Fortunately, discord offers an API to allow developers to create a *bot user*
+which can read and send messages, do administrative tasks and even play audio.
+One can use `discord.js`, a Node.js javascript binding allowing to easily
+create such a bot. The repository for our bot can be found
+[here](https://github.com/Baseng0815/HelmtraegerBot). It currently allows you
+to
+
+- automatically download and send video embeds of multiple sources like twitter
+using [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- show and play back audio files like a soundboard,
+- look up the current weather for a given region using the [openweathermap
+api](https://openweathermap.org/api)
+- look up a player's CS:GO faceit stats using the [faceit
+api](https://developers.faceit.com/),
+- look up anime using the [anilist
+api](https://anilist.gitbook.io/anilist-apiv2-docs/),
+- [uwuify](https://www.urbandictionary.com/define.php?term=uwuify) a message,
+- send a random
+  [copypasta](https://www.urbandictionary.com/define.php?term=copypasta)
+
+The great thing is that there are lots of Node.js bindings for APIs so one can
+quickly implement features without needing to mess around for hours. I will
+probably add more features in the future as I see fit, maybe even something
+like a chess engine or a word guessing game. The possibilities are endless!

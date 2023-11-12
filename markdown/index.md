@@ -6,14 +6,14 @@ title:
 Welcome to my website. I share a lot about my personal projects
 and endeavours here because it gives more freedom than using social media
 and more choice than using pre designed web services. I have also taken care
-not to use any scripts because only lunatics and webdevs would use scripts for a
-static website.
+not to use any scripts so everyone can enjoy this content without needing to
+run JavaScript in the background.
 
-I am a 22 year old CS student studying at the [Philipps-University of
-Marburg](https://uni-marburg.de). I like programming, listening to music,
-playing the piano and learning Japanese. One area I am especially interested in
-is low level application development. You can find out more about [my projects
-here](/html/projects.html). I also have an [RSS feed](/rss.xml).
+I am a 22 year old CS student studying at the [Karlsruher Institut für
+Technologie (KIT) ](https://www.kit.edu/). I like programming, listening to
+music, playing the piano and learning Japanese. One area I am especially
+interested in is low level application development. You can find out more about
+[my projects here](/html/projects.html). I also have an [RSS feed](/rss.xml).
 
 I spent the latter half of 2022 in
 [Japan](https://www.youtube.com/watch?v=_mkiGMtbrPM) as an exchange student,

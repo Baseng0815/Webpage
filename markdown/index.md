@@ -40,7 +40,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
-- [(2023-10-28) **Bahntagebuch**](/html/bahntagebuch.html)
+- [(2023-10-28) **Das Bahntagebuch**](/html/bahntagebuch.html)
 - [(2023-10-10) Panzermuseum Munster](/html/panzermuseum.html)
 - [(2023-09-29) Semesterabschlussflug](/html/flug.html)
 - [(2023-09-21) Spain](/html/spain.html)

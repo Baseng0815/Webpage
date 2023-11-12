@@ -18,8 +18,42 @@ ich nun doch abhängig vom Wohlwollen der Bahn bin.
 
 Trotz großzügig gelegter Zeitpuffer von mindestens einer Stunde ist es mir
 zuweilen nicht möglich, manchen Termin wahrzunehmen. Als Beispiel möchte ich
-hierzu den letzten Freitag anführen, der mal wieder von Verspätungen geprägt
-war.
+hierzu ~~den letzten Freitag~~ so ziemlich jede einzelne Reise anführen, die
+mal wieder von Verspätungen geplagt waren.
+
+# Von Ernsthausen nach Karlsruhe (Samstag, den 14.10.2023)
+
+Dieser Samstag war sehr wichtig, da der Umzug anstand und sich dieser Termin
+nicht verschieben ließ. Der Plan sah vor, mit dem Auto nach Marburg zu fahren
+(da die Bahnstrecke **sowie** die Straße gesperrt waren, war alleine das schon
+ein Abenteuer), um dann um 8:04 mit dem ICE 1573 nach Karlsruhe und um 10:50
+vom Karlsruher Hauptbahnhof zum Wohnheim zu fahren.
+
+Wie es nicht anders sein kann ist der Zug natürlich ausgefallen. Ich hatte das
+Glück, dass mich das Transportunternehmen im Transporter direkt mit nach
+Karlsruhe nahm und wir so zumindest die Möbel ausladen konnten. Meine beiden
+Umzugshelfer hingegen durften den Rest des Tages die volle Bahn-Experience
+geniessen und sich fünf weitere Stunden durch Südhessen und Frankfurt hindurch
+zuerst nach Mannheim und dann nach Karlsruhe durchschlagen.
+
+Da der ICE ausfiel, zog es die beiden zuerst in den RE 30 nach Frankfurt. Dem
+Regionalexpress ging jedoch nach strammen 15 Minuten Fahrtzeit in Giessen die
+Luft aus und es wurde die Mitteilung gemacht, Friedberg sei dicht. Jeder, der
+die Strecke kennt, weiß, wie sehr belastet sie ist und so dauerte es auch nicht
+lange, bis sich hunderte gestrandete Bahnfreunde am Gleis versammelten und
+gemeinsam in die Röhre guckten. Weil es keine Anzeichen von Besserung gab, ging
+es also im nächstbesten Taxi nach Frankfurt, was natürlich entsprechend teuer
+war. Dort angekommen fiel der Direktzug nach Karlsruhe aus und so ging es erst
+zum Fernbahnhof Flughafen mit der Hoffnung, das Ziel mit dem ICE nach Basel
+erreichen zu können (er kam nicht), dann wieder zurück zum Hauptbahnhof und von
+da über Mannheim nach Karlsruhe mit saftigen 4 Stunden Verspätung.
+
+Von den €25.40 Fahrtkosten wurden uns von der Bahn im Hintergrund des
+Totalausfalls aller Züge in diesem Streckenabschnitt großzügige 50%
+zurückerstattet und von der Taxifahrt selbstverständlich nichts, da wir ja noch
+am selben Tag ankamen.
+
+![](/res/btb/23_10_14.jpg)
 
 # Von Karlsruhe nach Ernsthausen (Freitag, den 20.10.2023)
 
@@ -54,16 +88,24 @@ egal. Gelernt habe ich, dass selbst eine Stunde nicht ausreicht und man für
 wichtige Termine am Besten ganz auf die Bahn verzichtet oder einen Tag früher
 fährt.
 
-# Von Ernsthausen nach Karlsruhe (Samstag, den 14.10.2023)
+# Von Ernsthausen nach Karlsruhe (Sonntag, den 22.10.2023)
 
-Chronologische Sortierung hintenangestellt war dieser Samstag wohl noch
-wichtiger als der vorher genannte Freitag, da der Umzug anstand und sich dieser
-Termin nicht verschieben ließ. Der Plan sah vor, mit dem Auto nach Marburg zu
-fahren (da die Bahnstrecke **sowie** die Straße gesperrt waren, war alleine das
-schon ein Abenteuer), um dann um 8:04 mit dem ICE 1573 nach Karlsruhe und um
-10:50 vom Karlsruher Hauptbahnhof zum Wohnheim zu fahren.
+Wer von A nach B fährt muss auch irgendwie wieder von B nach A kommen. Dieses
+mal kam ich ohne allzu große Zwischenfälle am Ziel an, der ICE fiel jedoch
+selbstverständlich wieder aus und der Ersatzzug verspätete sich um eine halbe
+Stunde. Zusätzlich wurde mein Einstieg in den Zug von einem freundlichen
+Bahnmitarbeiter beschleunigt, der mich mit einem Tritt in den Arsch und dem
+Hinweis, ich solle nicht so lahm sein und mich beeilen, die ICE-Treppe
+hinaufbeförderte. Vorbildlich, dass das Personal so auf Pünktlichkeit gedrillt
+ist, dass einem nicht zugestanden wird, den Koffer von der rechten in die linke
+Hand aufgrund eines immer noch schmerzenden Knochenbruchs umzupacken.
 
-TODO hier geht es weiter (habs aber trotzdem schon veröffentlicht, cope seethe mald)
+<div class="images">
+<figure><img src="/res/btb/23_10_22_1.png" />
+<figcaption>Damit war meine Reservierung auch aufgehoben</figcaption></figure>
+<figure><img src="/res/btb/23_10_22_0.png" />
+<figcaption>Irgendwie ist jeder Zug in Dauerreparatur</figcaption></figure>
+</div>
 
 # Von Karlsruhe nach Ernsthausen (Freitag, den 27.10.2023)
 
@@ -107,6 +149,15 @@ haben also nun 15 Personen dagestanden.
 
 Besonders fair, gerechtfertigt und serviceorientiert von der Bahn finde ich es,
 ihrer Kundschaft keine 2 Minuten Verspätung aufbürgen zu wollen und anstatt auf
-einen bekannten Zug zu warten, den viele zum umsteigen nutzen, einfach trotzdem
+einen bekannten Zug zu warten, den viele zum Umsteigen nutzen, einfach trotzdem
 loszufahren. Wenn nur alle Unternehmen sich an der Bahn ein Vorbild nähmen,
 wäre die Welt mit Sicherheit ein anderer Ort.
+
+<div class="images">
+<figure><img src="/res/btb/23_10_27_0.png" />
+<figcaption>Zum Glück hab ich den nicht genommen</figcaption></figure>
+<figure><img src="/res/btb/23_10_27_1.png" />
+<figcaption>Ein Klassiker</figcaption></figure>
+<figure><img src="/res/btb/23_10_27_2.png" />
+<figcaption>Ersatzzug war heillos überfüllt, Anschlusszug ist um 18:29 abgefahren</figcaption></figure>
+</div>

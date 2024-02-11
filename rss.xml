@@ -6,6 +6,15 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Hooking shared library symbols</title>
+            <pubDate>Sun, 11 Feb 2024 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/dlsym_hooking.html</guid>
+            <link>https://www.bengel.xyz/html/dlsym_hooking.html</link>
+            <description>
+                Hooking shared library symbols? Sounds useful to me!
+            </description>
+        </item>
+        <item>
             <title>Bahntagebuch</title>
             <pubDate>Sat, 28 Oct 2023 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/bahntagebuch.html</guid>

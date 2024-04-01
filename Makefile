@@ -11,7 +11,7 @@ all: $(HTML_TARGETS) q70
 $(OUT_DIR)/%.html: markdown/%.md
 	mkdir -p $(@D)
 	mkdir -p $(OUT_DIR)
-	pandoc -s --css "/css/style.css" -f markdown -t html5 -o "$@" "$<"
+	pandoc --mathjax -s --css "/css/style.css" -f markdown -t html5 -o "$@" "$<"
 
 q70:
 	mogrify -strip -resize 720x -quality 70 $(shell find ./res -path ./res/hq -prune -o -type f -name "*.jpg" -size +1M -print)

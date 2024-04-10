@@ -140,6 +140,11 @@ oscillate around the optimum without ever coming closer to it. The correct
 value depends on the problem at hand and is best determined experimentally (see
 below for an example).
 
+Because calculating the gradient can be expensive for large datasets, an
+approximative algorithm called stochastic gradient descent is often used in
+practice. It works by extracting random fixed-sized batches from the training
+data and using these to approximate the gradient for the whole training set.
+
 Deriving the gradient is very straightforward since we are only dealing with
 linear functions:
 
@@ -185,4 +190,22 @@ pseudoinverse which also works very well.
 
 ## An illustrated example
 
+I'll use the [Boston housing
+dataset](https://www.kaggle.com/code/prasadperera/the-boston-housing-dataset)
+as an example for linear regression. The goal is to predict housing prices
+based on 13 parameters. The data was preprocessed by removing all samples not
+in the $[0.05, 0.95]$ range and by normalizing all features to the range
+$[0,1]$ so large features don't overwhelm smaller ones. A few features with
+their optimal regression lines look like this:
 
+![](/res/machine-learning/housing_features.jpg)
+
+Implementing the aforementioned algorithms yields the following curves for batch
+gradient descent and stochastic gradient descent respectively:
+
+![](/res/machine-learning/regression_loss_bgd.jpg)
+![](/res/machine-learning/regression_loss_sgd.jpg)
+
+All curves converge to the minimal loss of $21.8948$ as given by the normal
+equation, but some do so more quickly. Using higher learning rates than $1$
+results in divergence.

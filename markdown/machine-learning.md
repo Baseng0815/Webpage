@@ -2001,7 +2001,7 @@ the `HarvestTime` and `Weight` attributes of a [Banana Quality
 dataset](https://www.kaggle.com/datasets/l3llff/banana). Green markers
 represent good and red markers bad quality. We will use 500 samples in total:
 
-<div>
+<div style="height: 800px;">
 <script type="text/javascript">
 window.PlotlyConfig = { MathJaxConfig: "local" };
 </script>
@@ -2010,15 +2010,15 @@ charset="utf-8"
 src="https://cdn.plot.ly/plotly-2.30.0.min.js"
 ></script>
 <div
-id="0f9bce4c-d300-476d-b62b-89155c630e1f"
+id="2170b78f-d199-42ba-a2a3-084da382dcd8"
 class="plotly-graph-div"
 style="height: 100%; width: 100%"
 ></div>
 <script type="text/javascript">
 window.PLOTLYENV = window.PLOTLYENV || {};
-if (document.getElementById("0f9bce4c-d300-476d-b62b-89155c630e1f")) {
+if (document.getElementById("2170b78f-d199-42ba-a2a3-084da382dcd8")) {
 Plotly.newPlot(
-"0f9bce4c-d300-476d-b62b-89155c630e1f",
+"2170b78f-d199-42ba-a2a3-084da382dcd8",
 [
 {
 marker: {
@@ -3164,33 +3164,58 @@ mapbox: { style: "light" },
 },
 xaxis: { title: { text: "Harvest Time" } },
 yaxis: { title: { text: "Weight" } },
+updatemenus: [
+{
+buttons: [
+{
+args: [
+null,
+{
+frame: { duration: 500, redraw: false },
+fromcurrent: true,
+transition: {
+duration: 300,
+easing: "quadratic-in-out",
+},
+},
+],
+label: "Play",
+method: "animate",
+},
+{
+args: [
+[null],
+{
+frame: { duration: 0, redraw: false },
+mode: "immediate",
+transition: { duration: 0 },
+},
+],
+label: "Pause",
+method: "animate",
+},
+],
+direction: "left",
+pad: { r: 10, t: 87 },
+showactive: false,
+type: "buttons",
+x: 0.1,
+xanchor: "right",
+y: 0,
+yanchor: "top",
+},
+],
 },
 { responsive: true }
 )
 .then(function () {
-Plotly.addFrames("0f9bce4c-d300-476d-b62b-89155c630e1f", [
+Plotly.addFrames("2170b78f-d199-42ba-a2a3-084da382dcd8", [
 {
 data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [14.437731282652289, -13.23101295074248],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr0",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-28.74545172771473, 28.74545172771473],
+y: [0.11207860969058463, -0.13266926187609132],
 type: "scatter",
 },
 ],
@@ -3206,7 +3231,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [14.915500186561097, -13.006458574131097],
+y: [0.14665928336933443, -0.14665928336933443],
 type: "scatter",
 },
 ],
@@ -3214,7 +3239,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr5",
+name: "fr6",
 traces: [1],
 },
 {
@@ -3222,23 +3247,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-0.7480365316679164, 0.7480365316679164],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr9",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-9.783615411734088, 11.087688509308567],
+y: [0.32606409474770803, -0.34755007915914726],
 type: "scatter",
 },
 ],
@@ -3254,7 +3263,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [87.91409459762178, -104.92297714635524],
+y: [0.3610781003632175, -0.40434191585474305],
 type: "scatter",
 },
 ],
@@ -3262,7 +3271,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr12",
+name: "fr14",
 traces: [1],
 },
 {
@@ -3270,23 +3279,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [4.65637226198298, -8.043169883620156],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr13",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-10.822660680067541, 13.882037688572447],
+y: [0.6067363944536402, -0.6748643922139915],
 type: "scatter",
 },
 ],
@@ -3302,7 +3295,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [15.048706395080238, -25.236039843639105],
+y: [0.8170737299222335, -0.9092427429604276],
 type: "scatter",
 },
 ],
@@ -3310,7 +3303,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr18",
+name: "fr23",
 traces: [1],
 },
 {
@@ -3318,23 +3311,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.859404019954683, -5.921172468750254],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr21",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [7.5658223506684585, -9.79876090815606],
+y: [0.8910122737918211, -0.9611025015260688],
 type: "scatter",
 },
 ],
@@ -3350,23 +3327,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-0.2899426020812339, -1.926090584168067],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr31",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-3.7280492708516992, -3.819975945349404],
+y: [0.8687333509695416, -0.9647501647426486],
 type: "scatter",
 },
 ],
@@ -3382,7 +3343,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [1.1810615175420518, 3.1724664923098076],
+y: [0.9347267206250875, -1.060929582821194],
 type: "scatter",
 },
 ],
@@ -3398,23 +3359,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-6.959514190931793, 10.581766572984428],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr38",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-1.3289864209467206, 5.8027367373246115],
+y: [0.7365098915381351, -0.887803631724898],
 type: "scatter",
 },
 ],
@@ -3430,7 +3375,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-40.721195673797766, 61.866800886337664],
+y: [0.8975267273651374, -1.0752803681983596],
 type: "scatter",
 },
 ],
@@ -3438,7 +3383,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr40",
+name: "fr41",
 traces: [1],
 },
 {
@@ -3446,7 +3391,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [1.6619938748987249, -7.534796331430797],
+y: [1.1445904320526932, -1.2976100411344254],
 type: "scatter",
 },
 ],
@@ -3454,7 +3399,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr46",
+name: "fr52",
 traces: [1],
 },
 {
@@ -3462,7 +3407,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [17.96161574659408, -23.393966952099028],
+y: [1.3556830200096406, -1.5373537546414282],
 type: "scatter",
 },
 ],
@@ -3470,7 +3415,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr48",
+name: "fr55",
 traces: [1],
 },
 {
@@ -3478,55 +3423,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [9.337910957338309, -14.5331312653145],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr50",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [0.7021795592291484, -5.828034371660947],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr56",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [2.3735835422419838, -5.2193618755564914],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr57",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-25.730965535122476, 40.597319628829325],
+y: [1.6507415441527802, -1.8732604639422878],
 type: "scatter",
 },
 ],
@@ -3542,7 +3439,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-1567.3776412386073, 2044.316917771108],
+y: [2.3085278898244086, -2.5757469669532775],
 type: "scatter",
 },
 ],
@@ -3550,7 +3447,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr64",
+name: "fr61",
 traces: [1],
 },
 {
@@ -3558,7 +3455,39 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-15.907230767069493, 20.28738153695486],
+y: [2.323876402305011, -2.6268141442504915],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr62",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [2.4934629460023454, -2.8521577230935633],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr63",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [2.5359615154132826, -2.8745106669555813],
 type: "scatter",
 },
 ],
@@ -3574,23 +3503,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-18.595742747843353, 22.120771660023642],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr69",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-14.223044273039019, 19.4950706826425],
+y: [2.263968233714369, -2.63403770119882],
 type: "scatter",
 },
 ],
@@ -3606,55 +3519,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-7.532376144188683, 17.758608947545014],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr71",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [15.123779407868344, -20.20104795043072],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr72",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [3.6512714239854027, -7.353065563694552],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr73",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-546.612734582579, 831.075085814644],
+y: [2.6649152006445562, -3.092285329605731],
 type: "scatter",
 },
 ],
@@ -3670,39 +3535,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [13.645170083191008, -18.04616440991752],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr75",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [10.347312268129237, -12.858094289043954],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr81",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [6.700098713583728, -9.950924033935538],
+y: [2.3838447515071564, -2.8492444458030373],
 type: "scatter",
 },
 ],
@@ -3718,7 +3551,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [8.572392155867625, -11.444674808058767],
+y: [2.484693551789064, -2.9159128229717384],
 type: "scatter",
 },
 ],
@@ -3734,7 +3567,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [22.747306722048343, -33.39080265606342],
+y: [2.5156572630655805, -3.003443496295522],
 type: "scatter",
 },
 ],
@@ -3750,7 +3583,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [11.707388139432716, -16.3918985252352],
+y: [2.817084063184739, -3.366988576248925],
 type: "scatter",
 },
 ],
@@ -3758,7 +3591,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr92",
+name: "fr96",
 traces: [1],
 },
 {
@@ -3766,39 +3599,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [14.65198702790237, -18.254211329598327],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr97",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [1.6546702281675727, -4.093225140504086],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr99",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [50.49835975373576, -143.47091719968208],
+y: [3.049713118766059, -3.6887423137381004],
 type: "scatter",
 },
 ],
@@ -3814,39 +3615,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-1.0557920976432205, -8.77732472460097],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr103",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [3.905181337895401, -6.852135741308384],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr104",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [232.0740306359121, -421.77931556505735],
+y: [3.269889016836249, -3.9924934206988745],
 type: "scatter",
 },
 ],
@@ -3862,7 +3631,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-4.577812278127202, -0.7522956427358886],
+y: [2.921534628949824, -3.690081836401703],
 type: "scatter",
 },
 ],
@@ -3870,7 +3639,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr108",
+name: "fr106",
 traces: [1],
 },
 {
@@ -3878,23 +3647,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [7.5535676596962436, -12.21627667487225],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr109",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [5.087687571802945, -8.73660613464975],
+y: [2.8044559702629295, -3.5270145476275205],
 type: "scatter",
 },
 ],
@@ -3910,7 +3663,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [77.84251615864736, -89.16764270995742],
+y: [3.2664383803295864, -4.076052914409917],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr113",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [4.147042398915289, -4.940444102920454],
 type: "scatter",
 },
 ],
@@ -3926,7 +3695,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [14.727422571967326, -16.2259432860965],
+y: [5.144809538809985, -6.065548367103323],
 type: "scatter",
 },
 ],
@@ -3934,7 +3703,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr120",
+name: "fr116",
 traces: [1],
 },
 {
@@ -3942,7 +3711,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [169.28718768574262, -175.7161064166729],
+y: [5.726469382487424, -6.6279180244951945],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr124",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [6.536861640727311, -7.442106290827204],
 type: "scatter",
 },
 ],
@@ -3958,7 +3743,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [20.653127799366057, -22.63302922179972],
+y: [6.97859230261073, -7.996372097458999],
 type: "scatter",
 },
 ],
@@ -3966,7 +3751,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr129",
+name: "fr130",
 traces: [1],
 },
 {
@@ -3974,23 +3759,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [7.144350149497699, -7.5950385711188],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr132",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [12.49187288881093, -14.326257825553604],
+y: [7.365329670008347, -8.53035569067743],
 type: "scatter",
 },
 ],
@@ -4006,23 +3775,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.054083054481214, -5.516243654830771],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr139",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-31.034966145190747, 34.93567745625206],
+y: [9.437411141254334, -10.948052126314145],
 type: "scatter",
 },
 ],
@@ -4038,7 +3791,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [27.628125055687043, -29.14576169589308],
+y: [8.250053960880788, -9.568137837860375],
 type: "scatter",
 },
 ],
@@ -4046,7 +3799,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr141",
+name: "fr147",
 traces: [1],
 },
 {
@@ -4054,7 +3807,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.428039899037065, -6.334348748044737],
+y: [7.54445464078504, -8.72042289930617],
 type: "scatter",
 },
 ],
@@ -4062,7 +3815,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr146",
+name: "fr149",
 traces: [1],
 },
 {
@@ -4070,7 +3823,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-0.130248282097538, -0.8754748180069414],
+y: [6.27740528929099, -7.45943965504308],
 type: "scatter",
 },
 ],
@@ -4086,7 +3839,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [2.1072529676186718, -4.44830654647316],
+y: [7.19200700520887, -8.565246834249601],
 type: "scatter",
 },
 ],
@@ -4102,7 +3855,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-1.9871362288886847, -1.0132758712623824],
+y: [7.152494931587926, -8.523582222162567],
 type: "scatter",
 },
 ],
@@ -4118,39 +3871,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-1.2987220363655525, -0.08661656433559421],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr154",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [2.586882464962847, -3.140862893459697],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr159",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-2.08963081064638, 1.060026800706145],
+y: [6.377839565606665, -7.813670456362919],
 type: "scatter",
 },
 ],
@@ -4166,23 +3887,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [2.440364159712942, -2.911382264493648],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr165",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [0.8500043100901202, -1.9971938686263055],
+y: [6.272738081176632, -7.835671786668349],
 type: "scatter",
 },
 ],
@@ -4198,23 +3903,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [8.522863316633059, -9.101475224746238],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr173",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [3.6793760252561363, -5.034928404110086],
+y: [5.624614211495654, -7.30475493230674],
 type: "scatter",
 },
 ],
@@ -4230,7 +3919,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-46.09858410022454, 55.70979134146471],
+y: [7.50423820357849, -9.580113231582802],
 type: "scatter",
 },
 ],
@@ -4246,7 +3935,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [18.631897309303845, -21.062547387798197],
+y: [7.480747849596203, -9.4076418167776],
 type: "scatter",
 },
 ],
@@ -4254,7 +3943,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr181",
+name: "fr183",
 traces: [1],
 },
 {
@@ -4262,7 +3951,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [7.388202727976789, -9.526347333459151],
+y: [8.09783693950515, -9.961133964938949],
 type: "scatter",
 },
 ],
@@ -4270,7 +3959,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr185",
+name: "fr184",
 traces: [1],
 },
 {
@@ -4278,7 +3967,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [4.869581412885902, -5.983753871503793],
+y: [7.644608106484612, -9.34449380457427],
 type: "scatter",
 },
 ],
@@ -4294,23 +3983,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [33.8912615127072, -39.483893696223106],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr188",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [8.883118426721895, -13.002844065520373],
+y: [6.4764896504816285, -8.20008553141358],
 type: "scatter",
 },
 ],
@@ -4326,7 +3999,39 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [8.487143623436125, -12.139261861969533],
+y: [6.2145557428223634, -8.078295014360194],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr191",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [6.015878783995155, -8.028164563504914],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr197",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [5.9425863795388985, -7.8869019388424935],
 type: "scatter",
 },
 ],
@@ -4342,7 +4047,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [15.589854138273738, -21.513232684103425],
+y: [6.061651648370926, -7.999912894947653],
 type: "scatter",
 },
 ],
@@ -4358,7 +4063,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [10.893988665383004, -7.0354966432067805],
+y: [7.237267124583128, -9.656685944140593],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr210",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [6.7459897420113295, -9.223291688814573],
 type: "scatter",
 },
 ],
@@ -4374,23 +4095,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [4.176265517840403, -4.176265517840403],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr212",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-10.381616851079986, 8.855698615577385],
+y: [5.479810382301852, -8.043714433832294],
 type: "scatter",
 },
 ],
@@ -4406,7 +4111,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-2.9479423495064383, 2.9479423495064383],
+y: [5.958674773464986, -8.35519272107897],
 type: "scatter",
 },
 ],
@@ -4422,7 +4127,39 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [12.664171172232374, -9.73285752584392],
+y: [5.741766432235509, -7.990407833457555],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr218",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [3.727980614285654, -6.1014589090095726],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr219",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [4.822092138181313, -7.201985362654401],
 type: "scatter",
 },
 ],
@@ -4438,7 +4175,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-6.692533113866633, 6.692533113866633],
+y: [5.139239004352179, -7.326847948385476],
 type: "scatter",
 },
 ],
@@ -4446,7 +4183,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr225",
+name: "fr222",
 traces: [1],
 },
 {
@@ -4454,23 +4191,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [6.904885757896593, -7.755153969177377],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr226",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [1.0185331242021183, -5.830887068350061],
+y: [4.598748566767222, -7.166311452066786],
 type: "scatter",
 },
 ],
@@ -4486,7 +4207,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [10.52052446779662, -11.484345769140967],
+y: [5.479576757816146, -8.674532655423802],
 type: "scatter",
 },
 ],
@@ -4494,7 +4215,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr238",
+name: "fr236",
 traces: [1],
 },
 {
@@ -4502,7 +4223,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [2.5481415494339625, -2.5481415494339625],
+y: [3.915355932691464, -6.601659397955754],
 type: "scatter",
 },
 ],
@@ -4518,7 +4239,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-4.508752490893423, 4.036601645970915],
+y: [1.7249191387699905, -4.428658563875534],
 type: "scatter",
 },
 ],
@@ -4534,7 +4255,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.3164339276164836, -4.475572010253341],
+y: [1.6355403504012764, -4.150958314719501],
 type: "scatter",
 },
 ],
@@ -4542,7 +4263,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr254",
+name: "fr251",
 traces: [1],
 },
 {
@@ -4550,7 +4271,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [24.08860081042758, -28.489713376387325],
+y: [2.722763703528068, -5.76380975994743],
 type: "scatter",
 },
 ],
@@ -4558,7 +4279,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr261",
+name: "fr265",
 traces: [1],
 },
 {
@@ -4566,7 +4287,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.918444241874461, -8.320031945458522],
+y: [3.4041600417735367, -7.149794752420784],
 type: "scatter",
 },
 ],
@@ -4574,7 +4295,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr272",
+name: "fr268",
 traces: [1],
 },
 {
@@ -4582,7 +4303,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [23.995618460429053, -33.06702528593947],
+y: [4.579036574603101, -8.141464151552603],
 type: "scatter",
 },
 ],
@@ -4590,7 +4311,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr278",
+name: "fr271",
 traces: [1],
 },
 {
@@ -4598,7 +4319,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [24.416378455786084, -52.15584127391778],
+y: [3.2964077087447223, -7.297561895005151],
 type: "scatter",
 },
 ],
@@ -4614,7 +4335,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.8689651678537382, -8.89062913515431],
+y: [2.6044441738806863, -5.892810406626031],
 type: "scatter",
 },
 ],
@@ -4630,7 +4351,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [20.460369867396967, -25.03930352748174],
+y: [4.372411573438496, -9.121780677122507],
 type: "scatter",
 },
 ],
@@ -4638,7 +4359,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr282",
+name: "fr281",
 traces: [1],
 },
 {
@@ -4646,7 +4367,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [7.768062266332482, -11.296467272524772],
+y: [5.968956182050582, -10.372039428872158],
 type: "scatter",
 },
 ],
@@ -4654,7 +4375,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr285",
+name: "fr294",
 traces: [1],
 },
 {
@@ -4662,7 +4383,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-25.77423489112755, 45.98667665874816],
+y: [8.611313375965961, -16.299953370088154],
 type: "scatter",
 },
 ],
@@ -4678,7 +4399,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [31.059935048203357, -40.36743848207199],
+y: [9.121064235988351, -15.27778386129646],
 type: "scatter",
 },
 ],
@@ -4686,7 +4407,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr303",
+name: "fr309",
 traces: [1],
 },
 {
@@ -4694,7 +4415,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [4.718724329614107, -7.047415633101438],
+y: [4.586382702032775, -8.805237186232391],
 type: "scatter",
 },
 ],
@@ -4710,7 +4431,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-72.79982424100923, 97.45026055113148],
+y: [11.180267557374922, -19.279083863524505],
 type: "scatter",
 },
 ],
@@ -4726,7 +4447,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [54.85265483129683, -65.89476247289998],
+y: [10.763281474525886, -16.946494830116414],
 type: "scatter",
 },
 ],
@@ -4742,7 +4463,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [12.80540950515617, -14.691634093287888],
+y: [7.689503868107145, -11.796442065905001],
 type: "scatter",
 },
 ],
@@ -4758,23 +4479,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [11.101612528250916, -13.917602371736994],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr325",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [3.965974188867205, -5.087119983093573],
+y: [4.944164972232619, -7.9100328389068],
 type: "scatter",
 },
 ],
@@ -4790,7 +4495,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [10.56842162007004, -14.20188816588989],
+y: [7.250358269220332, -11.70090654072909],
 type: "scatter",
 },
 ],
@@ -4806,7 +4511,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [4.005429812416501, -5.650106720610703],
+y: [5.143410417022963, -8.66535604672566],
 type: "scatter",
 },
 ],
@@ -4822,7 +4527,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-14.61956157218039, 29.02246241924777],
+y: [8.242091337314251, -15.206007442070966],
 type: "scatter",
 },
 ],
@@ -4838,7 +4543,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-14.076431883680625, 21.641552129532652],
+y: [9.31919620255163, -16.20885763167891],
 type: "scatter",
 },
 ],
@@ -4854,55 +4559,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [0.317255727546635, -10.51714074110638],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr340",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [17.445773156469695, -21.31730659862912],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr341",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [5.773751172778841, -9.058174222884388],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr342",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [204.14270885782315, -267.4128132580176],
+y: [21.087574403153315, -34.10992177258217],
 type: "scatter",
 },
 ],
@@ -4918,7 +4575,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [8.471939450850835, -9.724047642120292],
+y: [10.416468522152405, -15.598282911456192],
 type: "scatter",
 },
 ],
@@ -4934,7 +4591,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.034263670962536, -3.432720438553859],
+y: [6.149613020247116, -9.746603084400471],
 type: "scatter",
 },
 ],
@@ -4950,7 +4607,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [6.619744093849164, -6.619744093849164],
+y: [9.299803976791921, -13.705803443144601],
 type: "scatter",
 },
 ],
@@ -4966,7 +4623,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [14.421837033174507, -15.490140673017695],
+y: [8.13058942640778, -11.44762044351796],
 type: "scatter",
 },
 ],
@@ -4974,7 +4631,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr357",
+name: "fr358",
 traces: [1],
 },
 {
@@ -4982,7 +4639,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.697951605671116, -5.697951605671116],
+y: [5.673046649155856, -8.189930685397135],
 type: "scatter",
 },
 ],
@@ -4998,23 +4655,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [15.882073318834395, -17.21752546514084],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr360",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [41.00679144674341, -53.770285106131475],
+y: [5.049592093407828, -8.303015806231206],
 type: "scatter",
 },
 ],
@@ -5030,7 +4671,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.143306683243703, -3.6401051503137474],
+y: [4.251213681225883, -6.648597035098793],
 type: "scatter",
 },
 ],
@@ -5038,7 +4679,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr366",
+name: "fr377",
 traces: [1],
 },
 {
@@ -5046,23 +4687,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.159907457146807, -4.585200804020815],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr367",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [63.50091328296435, -85.15054154244731],
+y: [7.6028000336695705, -11.387336057971973],
 type: "scatter",
 },
 ],
@@ -5078,7 +4703,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-310.9912514972791, 365.558300183354],
+y: [9.042139560527714, -12.703342999943155],
 type: "scatter",
 },
 ],
@@ -5094,23 +4719,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [6.531177796907089, -9.084567703896477],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr390",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-5.38057564301269, 1.7552104374133002],
+y: [4.168423990686946, -8.304118731833942],
 type: "scatter",
 },
 ],
@@ -5126,55 +4735,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [1.008432298595711, -2.2351414774643334],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr393",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [12.94437352347635, -16.730962437631366],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr397",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [3.5257597045603246, -6.50314526671842],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr403",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [9.796159026747853, -12.853906104638966],
+y: [7.856786942093343, -12.226274720350812],
 type: "scatter",
 },
 ],
@@ -5190,7 +4751,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-2.577008439144667, -3.4352523499733953],
+y: [1.6682638352997334, -7.73863927602657],
 type: "scatter",
 },
 ],
@@ -5206,39 +4767,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.286577491719272, -5.428957990895863],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr422",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-3.1025700447375515, 0.7964790213540277],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr423",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-5.850055478981952, 4.075963356811394],
+y: [-1.8119000790237745, -3.4551880798890746],
 type: "scatter",
 },
 ],
@@ -5254,7 +4783,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-4.488197982768084, 3.2624022684494745],
+y: [-0.5902753458063575, -3.713272548614068],
 type: "scatter",
 },
 ],
@@ -5270,7 +4799,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-5.078104124512248, 4.2736431433813316],
+y: [-1.3497052912058143, -2.4060845698620605],
 type: "scatter",
 },
 ],
@@ -5286,7 +4815,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-2.424013869680437, 2.083973646880488],
+y: [1.0141534944630066, -3.722359975038073],
 type: "scatter",
 },
 ],
@@ -5302,7 +4831,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-1.537454621749358, 1.537454621749358],
+y: [2.211504742711914, -4.655826441753561],
 type: "scatter",
 },
 ],
@@ -5318,7 +4847,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [0.34786388035615406, -1.0373285804673307],
+y: [9.370731420616323, -15.767465279889478],
 type: "scatter",
 },
 ],
@@ -5334,7 +4863,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [3.0945853720728023, -3.0945853720728023],
+y: [14.310584223366098, -20.51190185580276],
 type: "scatter",
 },
 ],
@@ -5350,7 +4879,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [46.1970968948239, -52.52235446746391],
+y: [7.395903692876686, -10.41653080628848],
 type: "scatter",
 },
 ],
@@ -5358,7 +4887,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr440",
+name: "fr444",
 traces: [1],
 },
 {
@@ -5366,23 +4895,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [1.6661149161125428, -3.0691064728420456],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr443",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [5.706461167396316, -6.4054366861046015],
+y: [10.859433239701236, -13.26845451000843],
 type: "scatter",
 },
 ],
@@ -5398,7 +4911,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [109.73361375265044, -128.9190626824402],
+y: [63.79080697917629, -78.76060888356548],
 type: "scatter",
 },
 ],
@@ -5414,7 +4927,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.556152256386818, -9.78411635079325],
+y: [14.701754564803183, -21.089344204785025],
 type: "scatter",
 },
 ],
@@ -5430,7 +4943,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-21.42940368918971, 30.729547895807542],
+y: [4.6045485462314915, -11.69580205229672],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr452",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [83.35393702070331, -179.32362464940363],
 type: "scatter",
 },
 ],
@@ -5446,7 +4975,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [20.898677076911408, -22.590440715562185],
+y: [14.914828782174066, -20.67075920663694],
 type: "scatter",
 },
 ],
@@ -5462,7 +4991,55 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-69.80006548959105, 69.80006548959105],
+y: [10.036882008319113, -12.741472458780178],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr457",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [22.100674179985095, -25.624148927670376],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr464",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [23.23881291179354, -25.455915595480505],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr466",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [236.29429645222854, -246.3909567437093],
 type: "scatter",
 },
 ],
@@ -5478,7 +5055,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [15.95697099628115, -14.926730630164194],
+y: [18.803161487260077, -18.803161487260077],
 type: "scatter",
 },
 ],
@@ -5494,7 +5071,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [16.612610676061564, -16.612610676061564],
+y: [19.822512011849515, -20.754576322728386],
 type: "scatter",
 },
 ],
@@ -5510,7 +5087,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [0.14428498474711113, -0.9695226940989641],
+y: [10.845029250595218, -10.845029250595218],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr473",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [3.1062958021786105, -3.552043773993522],
 type: "scatter",
 },
 ],
@@ -5526,7 +5119,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-26.10665101943864, 12.204899259595171],
+y: [2.584405272113004, -4.285787377578173],
 type: "scatter",
 },
 ],
@@ -5542,23 +5135,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [0.2836402018444656, -1.228669446684746],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr476",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [22.482068763085813, -22.482068763085813],
+y: [22.67454665605328, -24.60562216500392],
 type: "scatter",
 },
 ],
@@ -5574,7 +5151,23 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [-3.551088117295367, 2.310746211871951],
+y: [14.024223282158632, -14.024223282158632],
+type: "scatter",
+},
+],
+layout: {
+xaxis: { autorange: false },
+yaxis: { autorange: false },
+},
+name: "fr483",
+traces: [1],
+},
+{
+data: [
+{
+mode: "lines",
+x: [-8, 8],
+y: [-0.3048272499978101, -0.5113129402523817],
 type: "scatter",
 },
 ],
@@ -5590,7 +5183,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [6.683483029987904, -6.683483029987904],
+y: [9.514948677506556, -12.26026879915132],
 type: "scatter",
 },
 ],
@@ -5598,7 +5191,7 @@ layout: {
 xaxis: { autorange: false },
 yaxis: { autorange: false },
 },
-name: "fr486",
+name: "fr487",
 traces: [1],
 },
 {
@@ -5606,39 +5199,7 @@ data: [
 {
 mode: "lines",
 x: [-8, 8],
-y: [5.528077313801828, -6.255618008254648],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr492",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [-82.88851174737869, 92.20548062024544],
-type: "scatter",
-},
-],
-layout: {
-xaxis: { autorange: false },
-yaxis: { autorange: false },
-},
-name: "fr497",
-traces: [1],
-},
-{
-data: [
-{
-mode: "lines",
-x: [-8, 8],
-y: [508.8116379079629, -539.3073631673867],
+y: [5.966831588680798, -6.9914573826649535],
 type: "scatter",
 },
 ],
@@ -5652,7 +5213,7 @@ traces: [1],
 ]);
 })
 .then(function () {
-Plotly.animate("0f9bce4c-d300-476d-b62b-89155c630e1f", null);
+Plotly.animate("2170b78f-d199-42ba-a2a3-084da382dcd8", null);
 });
 }
 </script>
@@ -5663,7 +5224,7 @@ clearly non-separable in 2D space. We'll later learn how this problem can be
 fixed. For now, let's look at another simpler example for which such a boundary
 exists:
 
-<div>
+<div style="height: 600px;">
 <script type="text/javascript">
 window.PlotlyConfig = { MathJaxConfig: "local" };
 </script>
@@ -5672,15 +5233,15 @@ charset="utf-8"
 src="https://cdn.plot.ly/plotly-2.30.0.min.js"
 ></script>
 <div
-id="8dde9dda-261c-4420-8eae-1cc6ffd247cd"
+id="8a268dda-487a-4e76-b305-4c7905a6c43c"
 class="plotly-graph-div"
 style="height: 100%; width: 100%"
 ></div>
 <script type="text/javascript">
 window.PLOTLYENV = window.PLOTLYENV || {};
-if (document.getElementById("8dde9dda-261c-4420-8eae-1cc6ffd247cd")) {
+if (document.getElementById("8a268dda-487a-4e76-b305-4c7905a6c43c")) {
 Plotly.newPlot(
-"8dde9dda-261c-4420-8eae-1cc6ffd247cd",
+"8a268dda-487a-4e76-b305-4c7905a6c43c",
 [
 {
 marker: {
@@ -6148,13 +5709,54 @@ title: { x: 0.05 },
 mapbox: { style: "light" },
 },
 },
-xaxis: { title: { text: "Harvest Time" } },
-yaxis: { title: { text: "Weight" } },
+xaxis: { title: { text: "x1" } },
+yaxis: { title: { text: "x2" } },
+updatemenus: [
+{
+buttons: [
+{
+args: [
+null,
+{
+frame: { duration: 500, redraw: false },
+fromcurrent: true,
+transition: {
+duration: 300,
+easing: "quadratic-in-out",
+},
+},
+],
+label: "Play",
+method: "animate",
+},
+{
+args: [
+[null],
+{
+frame: { duration: 0, redraw: false },
+mode: "immediate",
+transition: { duration: 0 },
+},
+],
+label: "Pause",
+method: "animate",
+},
+],
+direction: "left",
+pad: { r: 10, t: 87 },
+showactive: false,
+type: "buttons",
+x: 0.1,
+xanchor: "right",
+y: 0,
+yanchor: "top",
+},
+],
 },
 { responsive: true }
 )
 .then(function () {
-Plotly.addFrames("8dde9dda-261c-4420-8eae-1cc6ffd247cd", [
+Plotly.addFrames("8a268dda-487a-4e76-b305-4c7905a6c43c", [
 {
 data: [
 {
@@ -6366,8 +5968,1396 @@ traces: [1],
 ]);
 })
 .then(function () {
-Plotly.animate("8dde9dda-261c-4420-8eae-1cc6ffd247cd", null);
+Plotly.animate("8a268dda-487a-4e76-b305-4c7905a6c43c", null);
 });
+}
+</script>
+</div>
+
+# Generalized linear models
+
+You have probably noticed how linear regression and logistic regression work in
+a similar fashion: they linearly combine features and then apply a function to
+them. They both belong to a larger class of models generalizing this notion
+called generalized linear models.
+
+## Exponential families
+
+Before we can dive deeper and take a look at GLMs, we need to introduce
+something else first. If a probability distribution $p$ can be written in the
+form of $p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$, it is a member of the
+exponential family and has some nice properties. The different terms in this
+case mean the following:
+
+- $y$: input
+- $\eta$: natural parameter
+- $T(y)$: sufficient statistic; usually $T(y)=y$
+- $b(y)$: base measure
+- $a(\eta)$: log-partition
+
+Let's look at a few examples and identify the parts:
+
+### Bernoulli distribution
+
+A Bernoulli experiment E has a single binary outcome of 0 or 1. If we let
+$\phi=\Pr[E=1]$, it is easy to see that $p(y;\phi)=\phi^y(1-\phi)^{1-y}$: if we
+let $\phi=0$, then $p(y;\phi)=1-y$ and if $\phi=1$ then $p(y;\phi)=y$. Now let's rewrite
+$p(y;\phi)$ in such a way its exponential nature becomes clear:
+
+\begin{gather}
+    p(y;\phi)=\phi^y(1-\phi)^{1-y}=\exp(\ln(\phi^y(1-\phi)^{1-y}))=\exp(\ln(\frac{\phi}{1-\phi})+\ln(1-\phi))
+\end{gather}
+
+It is a member of the exponential family with
+
+- $b(y)=1$
+- $\eta=\ln(\frac{\phi}{1-\phi})\Leftrightarrow\phi=\frac{1}{1+e^{-\eta}}$
+- $T(y)=y$
+- $a(\eta)=-\ln(1-\frac{1}{1+e^{-\eta}})=\ln(1+e^{-\eta})$
+
+### Gaussian distribution
+
+A Gaussian or normal distribution is perhaps the most important distribution
+due to the [central limit
+theorem](https://www.youtube.com/watch?v=zeJD6dqJ5lo): the sum of independently
+sampled values from any distribution follows a normal distribution. Lots of
+real-world properties assume a normal distribution: age, height, IQ etc. The
+Gaussian is defined in terms of its mean $\mu$ and standard deviation $\sigma$:
+
+\begin{gather}
+    p(y;\eta=(\mu,\sigma))=\frac{1}{\sigma 2\sqrt{\pi}}\exp(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)=\frac{1}{\sqrt{2\pi}}\exp(-\frac{y^2}{2})\exp(y\mu-\frac{\mu^2}{2})
+\end{gather}
+
+We assume a fixed variance of $\sigma=1$ so only the mean is left as a
+parameter:
+
+- $b(y)=\frac{1}{\sqrt{2\pi}}$
+- $\eta=\mu$
+- $T(y)=y$
+- $a(\eta)=\frac{\mu^2}{2}$
+
+<div>
+<script type="text/javascript">
+window.PlotlyConfig = { MathJaxConfig: "local" };
+</script>
+<script
+charset="utf-8"
+src="https://cdn.plot.ly/plotly-2.30.0.min.js"
+></script>
+<div
+id="ffafcae9-c4cc-4f0b-8e60-fd020ed98631"
+class="plotly-graph-div"
+style="height: 100%; width: 70%; margin: 0 auto;"
+></div>
+<script type="text/javascript">
+window.PLOTLYENV = window.PLOTLYENV || {};
+if (document.getElementById("ffafcae9-c4cc-4f0b-8e60-fd020ed98631")) {
+Plotly.newPlot(
+"ffafcae9-c4cc-4f0b-8e60-fd020ed98631",
+[
+{
+fill: "tozeroy",
+name: "$\\mu=0,\\sigma=1$",
+x: [
+-2.0, -1.9595959595959596, -1.9191919191919191,
+-1.878787878787879, -1.8383838383838385, -1.797979797979798,
+-1.7575757575757576, -1.7171717171717171, -1.6767676767676767,
+-1.6363636363636362, -1.595959595959596, -1.5555555555555556,
+-1.5151515151515151, -1.4747474747474747, -1.4343434343434343,
+-1.393939393939394, -1.3535353535353534, -1.3131313131313131,
+-1.2727272727272727, -1.2323232323232323, -1.1919191919191918,
+-1.1515151515151514, -1.1111111111111112, -1.0707070707070705,
+-1.0303030303030303, -0.9898989898989898, -0.9494949494949494,
+-0.909090909090909, -0.8686868686868685, -0.8282828282828283,
+-0.7878787878787878, -0.7474747474747474, -0.707070707070707,
+-0.6666666666666665, -0.6262626262626261, -0.5858585858585856,
+-0.5454545454545454, -0.505050505050505, -0.46464646464646453,
+-0.4242424242424241, -0.38383838383838365,
+-0.3434343434343432, -0.303030303030303, -0.26262626262626254,
+-0.2222222222222221, -0.18181818181818166,
+-0.14141414141414121, -0.10101010101010077,
+-0.06060606060606055, -0.02020202020202011,
+0.020202020202020332, 0.060606060606060996,
+0.10101010101010122, 0.14141414141414144, 0.1818181818181821,
+0.22222222222222232, 0.262626262626263, 0.3030303030303032,
+0.3434343434343434, 0.3838383838383841, 0.4242424242424243,
+0.464646464646465, 0.5050505050505052, 0.5454545454545459,
+0.5858585858585861, 0.6262626262626263, 0.666666666666667,
+0.7070707070707072, 0.7474747474747478, 0.7878787878787881,
+0.8282828282828287, 0.868686868686869, 0.9090909090909092,
+0.9494949494949498, 0.9898989898989901, 1.0303030303030307,
+1.070707070707071, 1.1111111111111112, 1.1515151515151518,
+1.191919191919192, 1.2323232323232327, 1.272727272727273,
+1.3131313131313136, 1.3535353535353538, 1.393939393939394,
+1.4343434343434347, 1.474747474747475, 1.5151515151515156,
+1.5555555555555558, 1.5959595959595965, 1.6363636363636367,
+1.676767676767677, 1.7171717171717176, 1.7575757575757578,
+1.7979797979797985, 1.8383838383838387, 1.878787878787879,
+1.9191919191919196, 1.9595959595959598, 2.0,
+],
+y: [
+1.4867195147342987e-6, 2.4510610429423323e-6,
+3.999890372416629e-6, 6.461166392648799e-6,
+1.0331006581321711e-5, 1.6350958895825323e-5,
+2.5616081195138293e-5, 3.9723822381414844e-5,
+6.0975903952989717e-5, 9.26476353230142e-5,
+0.0001393411231349691, 0.00020744030876792077,
+0.0003056862254780556, 0.0004458897248075992,
+0.0006437954979268652, 0.000920104769622966,
+0.0013016538416489134, 0.0018227310960012774,
+0.0025264957781039347, 0.003466437918975763,
+0.0047077907631233405, 0.0063287764285827625,
+0.008421534484118356, 0.011092554839374867,
+0.014462414797634193, 0.01866460993406645,
+0.023843274502042877, 0.03014961391680064,
+0.037736923140639936, 0.04675414240670547,
+0.05733800512481293, 0.06960395839232576, 0.0836361772145172,
+0.09947713879274872, 0.11711735953274452, 0.13648600918747045,
+0.15744318761884366, 0.17977466512481263, 0.20318983550122394,
+0.22732350563136094, 0.2517419469842393, 0.27595337147011534,
+0.29942268327109967, 0.3215900234094101, 0.34189229416612926,
+0.35978655781262325, 0.3747739794063901, 0.3864228530895687,
+0.3943892340049188, 0.39843380169134646, 0.39843380169134646,
+0.3943892340049188, 0.3864228530895687, 0.3747739794063901,
+0.35978655781262336, 0.34189229416612926, 0.3215900234094101,
+0.29942268327109967, 0.27595337147011556, 0.2517419469842393,
+0.22732350563136094, 0.20318983550122394, 0.17977466512481274,
+0.15744318761884377, 0.13648600918747045, 0.11711735953274452,
+0.09947713879274865, 0.08363617721451726, 0.0696039583923258,
+0.05733800512481293, 0.04675414240670547, 0.03773692314063997,
+0.03014961391680068, 0.023843274502042877,
+0.01866460993406645, 0.014462414797634212,
+0.011092554839374881, 0.008421534484118356,
+0.0063287764285827625, 0.004707790763123345,
+0.0034664379189757568, 0.0025264957781039347,
+0.0018227310960012824, 0.0013016538416489134,
+0.0009201047696229677, 0.0006437954979268629,
+0.0004458897248075992, 0.0003056862254780567,
+0.00020744030876792036, 0.0001393411231349691,
+9.264763532301454e-5, 6.0975903952989717e-5,
+3.972382238141498e-5, 2.561608119513816e-5,
+1.6350958895825323e-5, 1.0331006581321747e-5,
+6.461166392648799e-6, 3.999890372416629e-6,
+2.4510610429423238e-6, 1.4867195147342987e-6,
+],
+type: "scatter",
+},
+{
+fill: "tozeroy",
+name: "$\\mu=1,\\sigma=2$",
+x: [
+-2.0, -1.9595959595959596, -1.9191919191919191,
+-1.878787878787879, -1.8383838383838385, -1.797979797979798,
+-1.7575757575757576, -1.7171717171717171, -1.6767676767676767,
+-1.6363636363636362, -1.595959595959596, -1.5555555555555556,
+-1.5151515151515151, -1.4747474747474747, -1.4343434343434343,
+-1.393939393939394, -1.3535353535353534, -1.3131313131313131,
+-1.2727272727272727, -1.2323232323232323, -1.1919191919191918,
+-1.1515151515151514, -1.1111111111111112, -1.0707070707070705,
+-1.0303030303030303, -0.9898989898989898, -0.9494949494949494,
+-0.909090909090909, -0.8686868686868685, -0.8282828282828283,
+-0.7878787878787878, -0.7474747474747474, -0.707070707070707,
+-0.6666666666666665, -0.6262626262626261, -0.5858585858585856,
+-0.5454545454545454, -0.505050505050505, -0.46464646464646453,
+-0.4242424242424241, -0.38383838383838365,
+-0.3434343434343432, -0.303030303030303, -0.26262626262626254,
+-0.2222222222222221, -0.18181818181818166,
+-0.14141414141414121, -0.10101010101010077,
+-0.06060606060606055, -0.02020202020202011,
+0.020202020202020332, 0.060606060606060996,
+0.10101010101010122, 0.14141414141414144, 0.1818181818181821,
+0.22222222222222232, 0.262626262626263, 0.3030303030303032,
+0.3434343434343434, 0.3838383838383841, 0.4242424242424243,
+0.464646464646465, 0.5050505050505052, 0.5454545454545459,
+0.5858585858585861, 0.6262626262626263, 0.666666666666667,
+0.7070707070707072, 0.7474747474747478, 0.7878787878787881,
+0.8282828282828287, 0.868686868686869, 0.9090909090909092,
+0.9494949494949498, 0.9898989898989901, 1.0303030303030307,
+1.070707070707071, 1.1111111111111112, 1.1515151515151518,
+1.191919191919192, 1.2323232323232327, 1.272727272727273,
+1.3131313131313136, 1.3535353535353538, 1.393939393939394,
+1.4343434343434347, 1.474747474747475, 1.5151515151515156,
+1.5555555555555558, 1.5959595959595965, 1.6363636363636367,
+1.676767676767677, 1.7171717171717176, 1.7575757575757578,
+1.7979797979797985, 1.8383838383838387, 1.878787878787879,
+1.9191919191919196, 1.9595959595959598, 2.0,
+],
+y: [
+0.002215924205969004, 0.002575153996180446,
+0.0029849958244363346, 0.0034512503966570734,
+0.003980168242015007, 0.004578451411595744,
+0.005253249261075107, 0.006012147481177914,
+0.006863149542032055, 0.007814649738427807,
+0.008875397064681833, 0.010054449212293716,
+0.011361116072547714, 0.012804892240901141,
+0.014395378161138722, 0.016142189714963694,
+0.01805485625634431, 0.0201427073081617, 0.02241474837929637,
+0.02487952662015703, 0.02754498730981013,
+0.030418322453447964, 0.033505813059230116,
+0.03681266695207025, 0.04034285426158183,
+0.044098942984474344, 0.048081937260190236,
+0.05229112120431057, 0.05672391130912995, 0.06137572053700365,
+0.06623983729237697, 0.0713073224564121, 0.07656692759852914,
+0.08200503733799681, 0.08760563861355154, 0.09335031932923878,
+0.09921829848154261, 0.10518648943969244, 0.11122959755318698,
+0.117320252705495, 0.1234291768300024, 0.12952538576484962,
+0.13557642416023905, 0.14154863147934746, 0.14740743646743862,
+0.15311767681905009, 0.15864394016637332, 0.16395092195905192,
+0.16900379532180812, 0.17376858757559924, 0.1782125578028573,
+0.18230456963817546, 0.18601545338060763, 0.18931835155787455,
+0.19218904222862948, 0.19460623458587317, 0.19655183181883817,
+0.19801115669531638, 0.19897313593166374, 0.19943044011103903,
+0.1993795766768709, 0.19882093435113446, 0.19775877818723295,
+0.19620119534555325, 0.1941599925560253, 0.19165054708624257,
+0.18869161384649658, 0.1853050920161935, 0.18151575525295313,
+0.17735095013175148, 0.17284026794473015, 0.16801519536351928,
+0.16290874971884506, 0.1575551047836599, 0.15198921295600418,
+0.14624642962929818, 0.1403621453166577, 0.134371430770662,
+0.12830869992162205, 0.12220739495859792, 0.11609969731250253,
+0.11001626768499537, 0.10398601761649182, 0.09803591441763762,
+0.09219082061683077, 0.08647336841693638, 0.08090386902124001,
+0.07550025609450743, 0.07027806208069724, 0.06525042561342527,
+0.06042812783574951, 0.05581965509718881,
+0.051431285220988755, 0.047267194334395995,
+0.04332958112808671, 0.03961880535517562, 0.03613353739116636,
+0.032870915748228306, 0.029826709563723932,
+0.02699548325659403,
+],
+type: "scatter",
+},
+{
+fill: "tozeroy",
+name: "$\\mu=-2,\\sigma=0.7$",
+x: [
+-2.0, -1.979899497487437, -1.9597989949748744,
+-1.9396984924623115, -1.9195979899497488, -1.899497487437186,
+-1.879396984924623, -1.8592964824120604, -1.8391959798994975,
+-1.8190954773869348, -1.7989949748743719, -1.778894472361809,
+-1.7587939698492463, -1.7386934673366834, -1.7185929648241207,
+-1.6984924623115578, -1.678391959798995, -1.6582914572864322,
+-1.6381909547738693, -1.6180904522613067, -1.5979899497487438,
+-1.5778894472361809, -1.557788944723618, -1.5376884422110553,
+-1.5175879396984926, -1.4974874371859297, -1.4773869346733668,
+-1.457286432160804, -1.4371859296482412, -1.4170854271356785,
+-1.3969849246231156, -1.3768844221105527, -1.3567839195979898,
+-1.3366834170854272, -1.3165829145728645, -1.2964824120603016,
+-1.2763819095477387, -1.2562814070351758, -1.236180904522613,
+-1.2160804020100502, -1.1959798994974875, -1.1758793969849246,
+-1.1557788944723617, -1.135678391959799, -1.1155778894472361,
+-1.0954773869346734, -1.0753768844221105, -1.0552763819095476,
+-1.035175879396985, -1.015075376884422, -0.9949748743718594,
+-0.9748743718592965, -0.9547738693467336, -0.9346733668341709,
+-0.914572864321608, -0.8944723618090451, -0.8743718592964824,
+-0.8542713567839195, -0.8341708542713568, -0.8140703517587939,
+-0.793969849246231, -0.7738693467336684, -0.7537688442211055,
+-0.7336683417085428, -0.7135678391959799, -0.693467336683417,
+-0.6733668341708543, -0.6532663316582914, -0.6331658291457287,
+-0.6130653266331658, -0.5929648241206029, -0.5728643216080402,
+-0.5527638190954773, -0.5326633165829147, -0.5125628140703518,
+-0.49246231155778886, -0.4723618090452262,
+-0.4522613065326633, -0.4321608040201004, -0.4120603015075377,
+-0.3919597989949748, -0.3718592964824121, -0.3517587939698492,
+-0.3316582914572863, -0.31155778894472363,
+-0.29145728643216073, -0.27135678391959805,
+-0.25125628140703515, -0.23115577889447225,
+-0.21105527638190957, -0.19095477386934667,
+-0.170854271356784, -0.1507537688442211, -0.1306532663316582,
+-0.11055276381909551, -0.09045226130653261,
+-0.07035175879396993, -0.05025125628140703,
+-0.03015075376884413, -0.01005025125628145,
+0.010050251256281229, 0.03015075376884413,
+0.05025125628140703, 0.07035175879396993, 0.09045226130653283,
+0.11055276381909529, 0.1306532663316582, 0.1507537688442211,
+0.170854271356784, 0.1909547738693469, 0.2110552763819098,
+0.23115577889447225, 0.25125628140703515, 0.27135678391959805,
+0.29145728643216096, 0.31155778894472386, 0.3316582914572863,
+0.3517587939698492, 0.3718592964824121, 0.391959798994975,
+0.4120603015075379, 0.4321608040201004, 0.4522613065326633,
+0.4723618090452262, 0.4924623115577891, 0.512562814070352,
+0.5326633165829144, 0.5527638190954773, 0.5728643216080402,
+0.5929648241206031, 0.613065326633166, 0.6331658291457285,
+0.6532663316582914, 0.6733668341708543, 0.6934673366834172,
+0.7135678391959801, 0.7336683417085426, 0.7537688442211055,
+0.7738693467336684, 0.7939698492462313, 0.8140703517587942,
+0.8341708542713566, 0.8542713567839195, 0.8743718592964824,
+0.8944723618090453, 0.9145728643216082, 0.9346733668341707,
+0.9547738693467336, 0.9748743718592965, 0.9949748743718594,
+1.0150753768844223, 1.0351758793969852, 1.0552763819095476,
+1.0753768844221105, 1.0954773869346734, 1.1155778894472363,
+1.1356783919597992, 1.1557788944723617, 1.1758793969849246,
+1.1959798994974875, 1.2160804020100504, 1.2361809045226133,
+1.2562814070351758, 1.2763819095477387, 1.2964824120603016,
+1.3165829145728645, 1.3366834170854274, 1.3567839195979898,
+1.3768844221105527, 1.3969849246231156, 1.4170854271356785,
+1.4371859296482414, 1.457286432160804, 1.4773869346733668,
+1.4974874371859297, 1.5175879396984926, 1.5376884422110555,
+1.557788944723618, 1.5778894472361809, 1.5979899497487438,
+1.6180904522613067, 1.6381909547738696, 1.658291457286432,
+1.678391959798995, 1.6984924623115578, 1.7185929648241207,
+1.7386934673366836, 1.758793969849246, 1.778894472361809,
+1.7989949748743719, 1.8190954773869348, 1.8391959798994977,
+1.8592964824120601, 1.879396984924623, 1.899497487437186,
+1.9195979899497488, 1.9396984924623117, 1.9597989949748746,
+1.979899497487437, 2.0,
+],
+y: [
+5.853199333205836e-5, 7.941263835566941e-5,
+0.00010718840836943201, 0.00014393549510260207,
+0.00019228697906407334, 0.000255560502619376,
+0.0003379087807994295, 0.00044449523305945145,
+0.0005816967332475655, 0.0007573350008473439,
+0.0009809374582874127, 0.0012640274226272637,
+0.0016204422555430346, 0.0020666765413038576,
+0.002622245487906834, 0.0033100615568750717,
+0.0041568148473552415, 0.005193345038828125,
+0.006454989810030908, 0.00798189170552735,
+0.009819242552769851, 0.012017441908928561,
+0.014632143833218212, 0.01772416475398691, 0.0213592245612281,
+0.025607493537730383, 0.03054291956763805,
+0.03624231342387093, 0.04278417498408651, 0.05024725004279821,
+0.05870881597662944, 0.06824270478365298, 0.07891708374828096,
+0.09079202685335419, 0.10391692362416032, 0.11832778578517046,
+0.1340445252815526, 0.15106828913266596, 0.16937894647173315,
+0.1889328302124686, 0.20966083934343857, 0.23146700725392927,
+0.2542276362564532, 0.27779108829869287, 0.30197830669227993,
+0.3265841237301344, 0.3513793847990654, 0.376113891778664,
+0.40052013816947446, 0.4243177767544382, 0.44721872907834637,
+0.46893281614149107, 0.48917376297657045, 0.5076654076751194,
+0.5241479292577372, 0.5383838996067611, 0.5501639632520694,
+0.5593119554997644, 0.5656892841904341, 0.5691984228181826,
+0.5697853919753019, 0.5674411408827719, 0.5622017795894416,
+0.5541476535142167, 0.5434012934802059, 0.530124314340412,
+0.514513371899511, 0.4967953194607186, 0.47722173061172457,
+0.45606297279710667, 0.4336020261899318, 0.41012824417487354,
+0.3859312456082082, 0.36129511553483346, 0.33649307116689575,
+0.3117827248824653, 0.2874020471968229, 0.2635661016076267,
+0.24046459144754004, 0.2182602278536452, 0.19708789899864995,
+0.17705459493742343, 0.15824002066952528, 0.14069781289716415,
+0.12445726378143264, 0.10952544781036541, 0.09588964548707217,
+0.08351995951198621, 0.07237202489212798, 0.06238972326828529,
+0.05350782294853615, 0.04565447889621758, 0.03875354049028447,
+0.03272662856537926, 0.027494956446467222,
+0.02298088192526821, 0.019109188007819123,
+0.01580809953931991, 0.013010050343901439,
+0.010652221267191715, 0.008676873531826845,
+0.00703150423530794, 0.005668851813905741,
+0.004546779078479542, 0.0036280602286393646,
+0.0028800963039339886, 0.00227458105840046,
+0.001787136452499389, 0.0013969340231430047,
+0.0010863154675846024, 0.0008404229787022933,
+0.0006468472854508728, 0.0004952990422707192,
+0.00037730720903124783, 0.00028594638121146336,
+0.00021559366377349324, 0.00016171461374883775,
+0.00012067697891576978, 8.95904003809341e-5,
+6.616988993743697e-5, 4.8620702973296285e-5,
+3.554217016515652e-5, 2.5848094724641048e-5,
+1.8701438695204474e-5, 1.3461187885176118e-5,
+9.639480756098829e-6, 6.867296235053033e-6,
+4.867206921446671e-6, 3.431908691381208e-6,
+2.407429211192353e-6, 1.6800925798883547e-6,
+1.1664732620446894e-6, 8.057090643134511e-7,
+5.536605724030956e-7, 3.7850431238718165e-7,
+2.574304720317084e-7, 1.741850834043695e-7,
+1.1725297084106357e-7, 7.852331690168885e-8,
+5.231609311293561e-8, 3.4676388378801436e-8,
+2.2866215886207904e-8, 1.5000876208092973e-8,
+9.790409143543512e-9, 6.356922875071213e-9,
+4.106340231083872e-9, 2.6389113696833466e-9,
+1.6871611451953524e-9, 1.0731247534466275e-9,
+6.7905624393924e-10, 4.2748725150507135e-10,
+2.677333519277635e-10, 1.6681829165381413e-10,
+1.0340624078893232e-10, 6.376930996218648e-11,
+3.912357852581079e-11, 2.3879614548232862e-11,
+1.4500331791823505e-11, 8.759724626090905e-12,
+5.264593635409478e-12, 3.1477565891192965e-12,
+1.872402945504673e-12, 1.1080500463581238e-12,
+6.523509865252645e-13, 3.820895476334798e-13,
+2.2264393951846827e-13, 1.2906797167332438e-13,
+7.44368487036418e-14, 4.270899572551422e-14,
+2.4378816953805382e-14, 1.384419730899697e-14,
+7.821405828925899e-15, 4.396061381208936e-15,
+2.4581283830119686e-15, 1.3674367952678184e-15,
+7.567838383047172e-16, 4.166758427217771e-16,
+2.282373324108643e-16, 1.243760985511901e-16,
+6.742936397935566e-17, 3.636830691876188e-17,
+1.9514570190491625e-17, 1.041733868157988e-17,
+5.53243683317303e-18, 2.9230620252412212e-18,
+1.5364607993883023e-18, 8.03464743521987e-19,
+4.1799785310938427e-19, 2.1634315784848534e-19,
+1.1139717172682757e-19, 5.706463599529049e-20,
+2.908183624452469e-20, 1.4744786369934524e-20,
+7.437329647058968e-21, 3.732136029169953e-21,
+1.8632013254840775e-21, 9.253882718514496e-22,
+4.572461782746183e-22, 2.247698543370579e-22,
+1.0992283752437774e-22,
+],
+type: "scatter",
+},
+],
+{
+template: {
+data: {
+histogram2dcontour: [
+{
+type: "histogram2dcontour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+choropleth: [
+{
+type: "choropleth",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+histogram2d: [
+{
+type: "histogram2d",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmap: [
+{
+type: "heatmap",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmapgl: [
+{
+type: "heatmapgl",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+contourcarpet: [
+{
+type: "contourcarpet",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+contour: [
+{
+type: "contour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+surface: [
+{
+type: "surface",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+mesh3d: [
+{
+type: "mesh3d",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+scatter: [
+{
+fillpattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+type: "scatter",
+},
+],
+parcoords: [
+{
+type: "parcoords",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolargl: [
+{
+type: "scatterpolargl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+bar: [
+{
+error_x: { color: "#2a3f5f" },
+error_y: { color: "#2a3f5f" },
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "bar",
+},
+],
+scattergeo: [
+{
+type: "scattergeo",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolar: [
+{
+type: "scatterpolar",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+histogram: [
+{
+marker: {
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "histogram",
+},
+],
+scattergl: [
+{
+type: "scattergl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatter3d: [
+{
+type: "scatter3d",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattermapbox: [
+{
+type: "scattermapbox",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterternary: [
+{
+type: "scatterternary",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattercarpet: [
+{
+type: "scattercarpet",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+carpet: [
+{
+aaxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+baxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+type: "carpet",
+},
+],
+table: [
+{
+cells: {
+fill: { color: "#EBF0F8" },
+line: { color: "white" },
+},
+header: {
+fill: { color: "#C8D4E3" },
+line: { color: "white" },
+},
+type: "table",
+},
+],
+barpolar: [
+{
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "barpolar",
+},
+],
+pie: [{ automargin: true, type: "pie" }],
+},
+layout: {
+autotypenumbers: "strict",
+colorway: [
+"#636efa",
+"#EF553B",
+"#00cc96",
+"#ab63fa",
+"#FFA15A",
+"#19d3f3",
+"#FF6692",
+"#B6E880",
+"#FF97FF",
+"#FECB52",
+],
+font: { color: "#2a3f5f" },
+hovermode: "closest",
+hoverlabel: { align: "left" },
+paper_bgcolor: "white",
+plot_bgcolor: "#E5ECF6",
+polar: {
+bgcolor: "#E5ECF6",
+angularaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+radialaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+ternary: {
+bgcolor: "#E5ECF6",
+aaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+baxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+caxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+coloraxis: { colorbar: { outlinewidth: 0, ticks: "" } },
+colorscale: {
+sequential: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+sequentialminus: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+diverging: [
+[0, "#8e0152"],
+[0.1, "#c51b7d"],
+[0.2, "#de77ae"],
+[0.3, "#f1b6da"],
+[0.4, "#fde0ef"],
+[0.5, "#f7f7f7"],
+[0.6, "#e6f5d0"],
+[0.7, "#b8e186"],
+[0.8, "#7fbc41"],
+[0.9, "#4d9221"],
+[1, "#276419"],
+],
+},
+xaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+yaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+scene: {
+xaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+yaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+zaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+},
+shapedefaults: { line: { color: "#2a3f5f" } },
+annotationdefaults: {
+arrowcolor: "#2a3f5f",
+arrowhead: 0,
+arrowwidth: 1,
+},
+geo: {
+bgcolor: "white",
+landcolor: "#E5ECF6",
+subunitcolor: "white",
+showland: true,
+showlakes: true,
+lakecolor: "white",
+},
+title: { x: 0.05 },
+mapbox: { style: "light" },
+},
+},
+title: { text: "Gaussian distribution" },
+},
+{ responsive: true }
+);
+}
+</script>
+</div>
+
+### Poisson distribution
+
+The Poisson distribution can be used to express the probability of a certain
+number of events occuring over a certain time if events occur independently and
+with a constant rate. If $\lambda$ is the expected value of events observed over
+a certain period, then the probability observing $n$ events is defined as follows:
+
+\begin{gather}
+    p(n;\lambda)=\frac{\lambda^n e^{-n}}{n!}
+\end{gather}
+
+For instance, if we expect to receive exactly one e-mail per hour, the
+probability of receiving none is equal to
+$p(0;1)=\frac{1^0e^{-1}}{0!}=\frac{1}{e}\approx 0.37$. If we expect to receive
+exactly three e-mails per hour, the same probability decreases to
+$p(0;3)=\frac{3^0e^{-3}}{0!}=\frac{1}{e^3}\approx 0.05$.
+
+<div>
+<script type="text/javascript">
+window.PlotlyConfig = { MathJaxConfig: "local" };
+</script>
+<script
+charset="utf-8"
+src="https://cdn.plot.ly/plotly-2.30.0.min.js"
+></script>
+<div
+id="05aec9d0-5c7d-453e-8f49-491c93999d52"
+class="plotly-graph-div"
+style="height: 100%; width: 100%"
+></div>
+<script type="text/javascript">
+window.PLOTLYENV = window.PLOTLYENV || {};
+if (document.getElementById("05aec9d0-5c7d-453e-8f49-491c93999d52")) {
+Plotly.newPlot(
+"05aec9d0-5c7d-453e-8f49-491c93999d52",
+[
+{
+fill: "tozeroy",
+mode: "markers+lines",
+name: "$\\lambda=1$",
+x: [
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+18, 19, 20, 21, 22, 23, 24,
+],
+y: [
+0.36787944117144233, 0.36787944117144233, 0.18393972058572117,
+0.06131324019524039, 0.015328310048810098,
+0.0030656620097620196, 0.0005109436682936699,
+7.299195261338141e-5, 9.123994076672677e-6,
+1.0137771196302974e-6, 1.0137771196302975e-7,
+9.216155633002704e-9, 7.68012969416892e-10,
+5.907792072437631e-11, 4.2198514803125934e-12,
+2.8132343202083955e-13, 1.7582714501302472e-14,
+1.0342773236060278e-15, 5.745985131144599e-17,
+3.0242027006024205e-18, 1.5121013503012103e-19,
+7.200482620481953e-21, 3.272946645673615e-22,
+1.4230202807276587e-23, 5.929251169698579e-25,
+],
+type: "scatter",
+},
+{
+fill: "tozeroy",
+mode: "markers+lines",
+name: "$\\lambda=$5",
+x: [
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+18, 19, 20, 21, 22, 23, 24,
+],
+y: [
+0.006737946999085467, 0.03368973499542734,
+0.08422433748856833, 0.14037389581428056, 0.1754673697678507,
+0.1754673697678507, 0.1462228081398756, 0.104444862957054,
+0.06527803934815875, 0.03626557741564375, 0.01813278870782187,
+0.00824217668537358, 0.0034342402855723248,
+0.0013208616482970478, 0.00047173630296323143,
+0.00015724543432107713, 4.91391982253366e-5,
+1.4452705360393119e-5, 4.014640377886977e-6,
+1.0564843099702573e-6, 2.6412107749256427e-7,
+6.288597083156293e-8, 1.4292266098082485e-8,
+3.1070143691483657e-9, 6.472946602392429e-10,
+],
+type: "scatter",
+},
+{
+fill: "tozeroy",
+mode: "markers+lines",
+name: "$\\lambda=8$",
+x: [
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+18, 19, 20, 21, 22, 23, 24,
+],
+y: [
+0.00033546262790251185, 0.002683701023220095,
+0.01073480409288038, 0.02862614424768101, 0.05725228849536202,
+0.09160366159257924, 0.12213821545677231, 0.13958653195059692,
+0.13958653195059692, 0.1240769172894195, 0.09926153383153559,
+0.07219020642293499, 0.048126804281956655,
+0.029616494942742554, 0.01692371139585289,
+0.009025979411121541, 0.004512989705560771,
+0.0021237598614403624, 0.0009438932717512722,
+0.00039742874600053567, 0.00015897149840021427,
+-6.0560570819129245e-5, 0.0, 0.0, 0.0,
+],
+type: "scatter",
+},
+],
+{
+template: {
+data: {
+histogram2dcontour: [
+{
+type: "histogram2dcontour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+choropleth: [
+{
+type: "choropleth",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+histogram2d: [
+{
+type: "histogram2d",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmap: [
+{
+type: "heatmap",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmapgl: [
+{
+type: "heatmapgl",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+contourcarpet: [
+{
+type: "contourcarpet",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+contour: [
+{
+type: "contour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+surface: [
+{
+type: "surface",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+mesh3d: [
+{
+type: "mesh3d",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+scatter: [
+{
+fillpattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+type: "scatter",
+},
+],
+parcoords: [
+{
+type: "parcoords",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolargl: [
+{
+type: "scatterpolargl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+bar: [
+{
+error_x: { color: "#2a3f5f" },
+error_y: { color: "#2a3f5f" },
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "bar",
+},
+],
+scattergeo: [
+{
+type: "scattergeo",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolar: [
+{
+type: "scatterpolar",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+histogram: [
+{
+marker: {
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "histogram",
+},
+],
+scattergl: [
+{
+type: "scattergl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatter3d: [
+{
+type: "scatter3d",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattermapbox: [
+{
+type: "scattermapbox",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterternary: [
+{
+type: "scatterternary",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattercarpet: [
+{
+type: "scattercarpet",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+carpet: [
+{
+aaxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+baxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+type: "carpet",
+},
+],
+table: [
+{
+cells: {
+fill: { color: "#EBF0F8" },
+line: { color: "white" },
+},
+header: {
+fill: { color: "#C8D4E3" },
+line: { color: "white" },
+},
+type: "table",
+},
+],
+barpolar: [
+{
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "barpolar",
+},
+],
+pie: [{ automargin: true, type: "pie" }],
+},
+layout: {
+autotypenumbers: "strict",
+colorway: [
+"#636efa",
+"#EF553B",
+"#00cc96",
+"#ab63fa",
+"#FFA15A",
+"#19d3f3",
+"#FF6692",
+"#B6E880",
+"#FF97FF",
+"#FECB52",
+],
+font: { color: "#2a3f5f" },
+hovermode: "closest",
+hoverlabel: { align: "left" },
+paper_bgcolor: "white",
+plot_bgcolor: "#E5ECF6",
+polar: {
+bgcolor: "#E5ECF6",
+angularaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+radialaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+ternary: {
+bgcolor: "#E5ECF6",
+aaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+baxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+caxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+coloraxis: { colorbar: { outlinewidth: 0, ticks: "" } },
+colorscale: {
+sequential: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+sequentialminus: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+diverging: [
+[0, "#8e0152"],
+[0.1, "#c51b7d"],
+[0.2, "#de77ae"],
+[0.3, "#f1b6da"],
+[0.4, "#fde0ef"],
+[0.5, "#f7f7f7"],
+[0.6, "#e6f5d0"],
+[0.7, "#b8e186"],
+[0.8, "#7fbc41"],
+[0.9, "#4d9221"],
+[1, "#276419"],
+],
+},
+xaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+yaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+scene: {
+xaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+yaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+zaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+},
+shapedefaults: { line: { color: "#2a3f5f" } },
+annotationdefaults: {
+arrowcolor: "#2a3f5f",
+arrowhead: 0,
+arrowwidth: 1,
+},
+geo: {
+bgcolor: "white",
+landcolor: "#E5ECF6",
+subunitcolor: "white",
+showland: true,
+showlakes: true,
+lakecolor: "white",
+},
+title: { x: 0.05 },
+mapbox: { style: "light" },
+},
+},
+title: { text: "Poisson distribution" },
+},
+{ responsive: true }
+);
 }
 </script>
 </div>

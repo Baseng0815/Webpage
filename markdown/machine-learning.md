@@ -5178,12 +5178,12 @@ It is a member of the exponential family with
 A Gaussian or normal distribution is perhaps the most important distribution
 due to the [central limit
 theorem](https://www.youtube.com/watch?v=zeJD6dqJ5lo): the sum of independently
-sampled values from any distribution follows a normal distribution. Lots of
+sampled values from any distribution approaches a normal distribution. Lots of
 real-world properties assume a normal distribution: age, height, IQ etc. The
 Gaussian is defined in terms of its mean $\mu$ and standard deviation $\sigma$:
 
 \begin{gather}
-    p(y;\eta=(\mu,\sigma))=\frac{1}{\sigma 2\sqrt{\pi}}\exp(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)=\frac{1}{\sqrt{2\pi}}\exp(-\frac{y^2}{2})\exp(y\mu-\frac{\mu^2}{2})
+    p(y;\eta=(\mu,\sigma))=\frac{1}{\sigma \sqrt{2\pi}}\exp(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)=\frac{1}{\sqrt{2\pi}}\exp(-\frac{y^2}{2})\exp(y\mu-\frac{\mu^2}{2})
 \end{gather}
 
 We assume a fixed variance of $\sigma=1$ so only the mean is left as a
@@ -5570,7 +5570,7 @@ with a constant rate. If $\lambda$ is the expected value of events observed over
 a certain period, then the probability observing $n$ events is defined as follows:
 
 \begin{gather}
-    p(n;\lambda)=\frac{\lambda^n e^{-n}}{n!}
+    p(n;\lambda)=\frac{\lambda^n e^{-\lambda}}{n!}
 \end{gather}
 
 For instance, if we expect to receive exactly one e-mail per hour, the
@@ -5625,7 +5625,7 @@ type: "scatter",
 {
 fill: "tozeroy",
 mode: "markers+lines",
-name: "$\\lambda=$5",
+name: "$\\lambda=5$",
 x: [
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
 18, 19, 20, 21, 22, 23, 24,
@@ -5671,6 +5671,701 @@ type: "scatter",
 {
 template: { data: { scatter: [{ type: "scatter" }] } },
 title: { text: "Poisson distribution" },
+},
+{ responsive: true }
+);
+}
+</script>
+</div>
+
+Expressing the Poisson distribution as a member of the exponential family:
+
+\begin{gather}
+    p(k;\lambda)=\frac{\lambda^ne^{-\lambda}}{n!}=\frac{1}{n!}e^{n\ln\lambda}e^{-\lambda}=\frac{1}{n!}\exp(n\ln\lambda-\lambda)
+\end{gather}
+
+- $b(y)=\frac{1}{n!}$
+- $\eta=\ln\lambda$
+- $T(y)=y$
+- $a(\eta)=exp(\eta)$
+
+### Useful properties
+
+Exponential families have three particularly useful properties allowing us to
+estimate $\eta$ using MLE since it is concave as well as to easily calculate
+the expected value and variance:
+
+- $\mathbb{E}[y;\eta]=\frac{\partial}{\partial\eta}a(\eta)$
+- $\mathrm{Var}[y;\eta]=\frac{\partial}{\partial\eta}a(\eta)$
+
+## GLMs
+
+Linear regression works well if the target value has a linear relationship with
+the features: assuming the price of a house is roughly proportional to its size
+is a well-fitting assumption. This breaks down if the target doesn't linearly
+respond to the features: we've already seen that using a linear regression
+model to predict probabilities doesn't work well since the range of target
+values can take on many values outside $[0,1]$. GLMs on the other hand make use
+of a link function and appropriate distribution to relate the linear model to
+the target value.
+
+Let $(x^{(i)}, y^{(i)})$ be pairs of feature-target values and assume
+$p(y^{(i)}|x^{(i)};\eta)$ to be distributed according to some exponential
+family distribution, i.e.
+$p(y^{(i)}|x^{(i)};\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$. Define the output of
+the linear model as $\eta=\theta^Tx$. We now relate this linear prediction to
+the mean of the distribution through the *link function* $g$ that expresses
+$\eta$ in terms of the mean $\mu$, i.e. $g(\mu)=\eta=\theta^Tx$. For a
+Gaussian, we have seen that $\eta=\mu$ so the link function simply is
+$g(\mu)=\mu$. In the case of a Bernoulli distribution, the link function
+is given by $g(\phi)=\ln(\frac{\phi}{1-\phi})=\eta$. For a Poisson, we have
+$g(\lambda)=\ln\lambda=\eta$.
+
+Conceptually, the output of the model $h_\theta(x)$ is the expected value of
+the distribution parameterized by the canonical parameters given by applying
+the inverse link function to the linear model $\eta=\theta^T x$. Since $g^{-1}(\eta)=\mu$
+and $\mathbb{E}[y;\eta]=\frac{\partial}{\partial\eta}a(\eta)$, this simply
+becomes:
+
+\begin{gather}
+    h_\theta(x)=\mathbb{E}[y;\eta=\theta^Tx]=g^{-1}(\eta)=\frac{\partial}{\partial\eta}a(\eta)
+\end{gather}
+
+<img src="/res/machine-learning/linear_model.svg" width=100%/>
+
+Let's take another look at linear and logistic regression as generalized linear
+models:
+
+### Linear regression
+
+We have already seen how errors for linear regression are assumed to be
+normally distributed with fixed variance. This means we have
+
+- $\mu=\theta^Tx$
+- $y\sim\mathcal{N}(\mu)$
+
+Plotting this for the one-dimensional case:
+
+<div>
+<div
+id="e3a4b4b0-56bd-49ed-a54b-a5b2caf59bd1"
+class="plotly-graph-div"
+style="height: 100%; width: 100%"
+></div>
+<script type="text/javascript">
+window.PLOTLYENV = window.PLOTLYENV || {};
+if (document.getElementById("e3a4b4b0-56bd-49ed-a54b-a5b2caf59bd1")) {
+Plotly.newPlot(
+"e3a4b4b0-56bd-49ed-a54b-a5b2caf59bd1",
+[
+{
+mode: "markers",
+showlegend: false,
+x: [
+0.0, 0.10101010101010101, 0.20202020202020202,
+0.30303030303030304, 0.40404040404040403, 0.5050505050505051,
+0.6060606060606061, 0.7070707070707071, 0.8080808080808081,
+0.9090909090909091, 1.0101010101010102, 1.1111111111111112,
+1.2121212121212122, 1.3131313131313131, 1.4141414141414141,
+1.5151515151515151, 1.6161616161616161, 1.7171717171717171,
+1.8181818181818181, 1.9191919191919191, 2.0202020202020203,
+2.121212121212121, 2.2222222222222223, 2.323232323232323,
+2.4242424242424243, 2.525252525252525, 2.6262626262626263,
+2.727272727272727, 2.8282828282828283, 2.929292929292929,
+3.0303030303030303, 3.131313131313131, 3.2323232323232323,
+3.3333333333333335, 3.4343434343434343, 3.5353535353535355,
+3.6363636363636362, 3.7373737373737375, 3.8383838383838382,
+3.9393939393939394, 4.040404040404041, 4.141414141414141,
+4.242424242424242, 4.343434343434343, 4.444444444444445,
+4.545454545454545, 4.646464646464646, 4.747474747474747,
+4.848484848484849, 4.94949494949495, 5.05050505050505,
+5.151515151515151, 5.252525252525253, 5.353535353535354,
+5.454545454545454, 5.555555555555555, 5.656565656565657,
+5.757575757575758, 5.858585858585858, 5.959595959595959,
+6.0606060606060606, 6.161616161616162, 6.262626262626262,
+6.363636363636363, 6.4646464646464645, 6.565656565656566,
+6.666666666666667, 6.767676767676767, 6.8686868686868685,
+6.96969696969697, 7.070707070707071, 7.171717171717171,
+7.2727272727272725, 7.373737373737374, 7.474747474747475,
+7.575757575757575, 7.6767676767676765, 7.777777777777778,
+7.878787878787879, 7.979797979797979, 8.080808080808081,
+8.181818181818182, 8.282828282828282, 8.383838383838384,
+8.484848484848484, 8.585858585858587, 8.686868686868687,
+8.787878787878787, 8.88888888888889, 8.98989898989899,
+9.09090909090909, 9.191919191919192, 9.292929292929292,
+9.393939393939394, 9.494949494949495, 9.595959595959595,
+9.696969696969697, 9.797979797979798, 9.8989898989899, 10.0,
+],
+y: [
+0.017812305219323123, -0.23857770916316318,
+0.6313057426552203, -2.124507080581117, -0.7132279943013242,
+0.6492106496867909, 1.404876029293948, 0.06098175530953276,
+-1.8980988583806297, 0.010948854612150782,
+0.32613256829762927, 1.4099329678746728, 1.2721339794349606,
+0.7979334301818479, 0.3228624381081924, 1.9925869121986441,
+0.09557182387003804, 3.0005713944764416, 1.8109626326539507,
+2.597828785613954, 3.757248849866407, 1.0309706220853434,
+1.609857301772283, 3.8267274916323704, 5.034834041264794,
+4.766670055848289, 0.9035081728457293, 1.9557830146161255,
+0.477188406562882, 3.1326168801341, 2.6990775317394347,
+3.504521429451342, 3.6714103245064655, 3.09391633946837,
+3.145978811248216, 4.9161656727955885, 3.4042090155100126,
+3.7692407107642376, 2.4287323684395004, 2.2147982404083653,
+6.570272227117275, 3.094985502162718, 3.2776475121500512,
+4.448336393927218, 4.970854842006433, 2.819944127441481,
+4.196131683015444, 3.5431726029923514, 5.114689537235792,
+6.414272200043856, 4.449826444891132, 5.114925919794842,
+5.1519035557416935, 5.7209178056752625, 5.519655072087,
+5.022192486670331, 4.816087612246493, 4.303572432639594,
+6.223171544952829, 6.697851801786418, 7.294154336602904,
+6.712013394046925, 6.909734734957113, 6.123103143530976,
+6.37830216615678, 4.755937439245109, 5.596042477149844,
+7.3452481932468405, 6.865814665133863, 8.308574172689248,
+6.62686218580839, 5.953448020515222, 6.680153066325313,
+5.395827728475392, 6.33781126824312, 7.3020709799870644,
+8.663128316606729, 8.724751774436156, 8.181729789597354,
+8.161898661712161, 7.453416248878355, 7.043508806191807,
+8.80192195579432, 7.847594513911, 9.540859579911848,
+7.990336787940751, 7.699282554595561, 9.168541308685967,
+9.072359798701193, 9.414583583554682, 7.257088348931088,
+6.46729855118298, 8.120010094184417, 9.400527333718031,
+7.660240083682861, 9.682553029061681, 9.826099822726848,
+9.072473937799467, 8.741638083108027, 9.18400357818281,
+],
+type: "scatter",
+},
+{
+showlegend: false,
+marker: { color: "red" },
+mode: "lines",
+x: [0, 10],
+y: [0, 10],
+type: "scatter",
+},
+{
+showlegend: false,
+base: 2,
+marker: { color: "black" },
+orientation: "h",
+x: [
+0.05399096651318806, 0.12951759566589174, 0.24197072451914337,
+0.3520653267642995, 0.3989422804014327, 0.3520653267642995,
+0.24197072451914337, 0.12951759566589174, 0.05399096651318806,
+],
+y: [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0],
+type: "bar",
+},
+{
+showlegend: false,
+marker: { color: "black" },
+mode: "lines",
+x: [
+2.053990966513188, 2.1295175956658916, 2.2419707245191436,
+2.3520653267642997, 2.3989422804014326, 2.3520653267642997,
+2.2419707245191436, 2.1295175956658916, 2.053990966513188,
+],
+y: [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0],
+type: "scatter",
+},
+{
+showlegend: false,
+base: 4,
+marker: { color: "black" },
+orientation: "h",
+x: [
+0.05399096651318806, 0.12951759566589174, 0.24197072451914337,
+0.3520653267642995, 0.3989422804014327, 0.3520653267642995,
+0.24197072451914337, 0.12951759566589174, 0.05399096651318806,
+],
+y: [2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0],
+type: "bar",
+},
+{
+showlegend: false,
+marker: { color: "black" },
+mode: "lines",
+x: [
+4.053990966513188, 4.129517595665892, 4.241970724519144,
+4.3520653267643, 4.398942280401433, 4.3520653267643,
+4.241970724519144, 4.129517595665892, 4.053990966513188,
+],
+y: [2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0],
+type: "scatter",
+},
+{
+showlegend: false,
+base: 6,
+marker: { color: "black" },
+orientation: "h",
+x: [
+0.05399096651318806, 0.12951759566589174, 0.24197072451914337,
+0.3520653267642995, 0.3989422804014327, 0.3520653267642995,
+0.24197072451914337, 0.12951759566589174, 0.05399096651318806,
+],
+y: [4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0],
+type: "bar",
+},
+{
+showlegend: false,
+marker: { color: "black" },
+mode: "lines",
+x: [
+6.053990966513188, 6.129517595665892, 6.241970724519144,
+6.3520653267643, 6.398942280401433, 6.3520653267643,
+6.241970724519144, 6.129517595665892, 6.053990966513188,
+],
+y: [4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0],
+type: "scatter",
+},
+{
+showlegend: false,
+base: 8,
+marker: { color: "black" },
+orientation: "h",
+x: [
+0.05399096651318806, 0.12951759566589174, 0.24197072451914337,
+0.3520653267642995, 0.3989422804014327, 0.3520653267642995,
+0.24197072451914337, 0.12951759566589174, 0.05399096651318806,
+],
+y: [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0],
+type: "bar",
+},
+{
+showlegend: false,
+marker: { color: "black" },
+mode: "lines",
+x: [
+8.053990966513188, 8.129517595665892, 8.241970724519144,
+8.352065326764299, 8.398942280401434, 8.352065326764299,
+8.241970724519144, 8.129517595665892, 8.053990966513188,
+],
+y: [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0],
+type: "scatter",
+},
+],
+{
+template: {
+data: {
+histogram2dcontour: [
+{
+type: "histogram2dcontour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+choropleth: [
+{
+type: "choropleth",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+histogram2d: [
+{
+type: "histogram2d",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmap: [
+{
+type: "heatmap",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+heatmapgl: [
+{
+type: "heatmapgl",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+contourcarpet: [
+{
+type: "contourcarpet",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+contour: [
+{
+type: "contour",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+surface: [
+{
+type: "surface",
+colorbar: { outlinewidth: 0, ticks: "" },
+colorscale: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+},
+],
+mesh3d: [
+{
+type: "mesh3d",
+colorbar: { outlinewidth: 0, ticks: "" },
+},
+],
+scatter: [
+{
+fillpattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+type: "scatter",
+},
+],
+parcoords: [
+{
+type: "parcoords",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolargl: [
+{
+type: "scatterpolargl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+bar: [
+{
+error_x: { color: "#2a3f5f" },
+error_y: { color: "#2a3f5f" },
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "bar",
+},
+],
+scattergeo: [
+{
+type: "scattergeo",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterpolar: [
+{
+type: "scatterpolar",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+histogram: [
+{
+marker: {
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "histogram",
+},
+],
+scattergl: [
+{
+type: "scattergl",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatter3d: [
+{
+type: "scatter3d",
+line: { colorbar: { outlinewidth: 0, ticks: "" } },
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattermapbox: [
+{
+type: "scattermapbox",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scatterternary: [
+{
+type: "scatterternary",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+scattercarpet: [
+{
+type: "scattercarpet",
+marker: { colorbar: { outlinewidth: 0, ticks: "" } },
+},
+],
+carpet: [
+{
+aaxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+baxis: {
+endlinecolor: "#2a3f5f",
+gridcolor: "white",
+linecolor: "white",
+minorgridcolor: "white",
+startlinecolor: "#2a3f5f",
+},
+type: "carpet",
+},
+],
+table: [
+{
+cells: {
+fill: { color: "#EBF0F8" },
+line: { color: "white" },
+},
+header: {
+fill: { color: "#C8D4E3" },
+line: { color: "white" },
+},
+type: "table",
+},
+],
+barpolar: [
+{
+marker: {
+line: { color: "#E5ECF6", width: 0.5 },
+pattern: {
+fillmode: "overlay",
+size: 10,
+solidity: 0.2,
+},
+},
+type: "barpolar",
+},
+],
+pie: [{ automargin: true, type: "pie" }],
+},
+layout: {
+autotypenumbers: "strict",
+colorway: [
+"#636efa",
+"#EF553B",
+"#00cc96",
+"#ab63fa",
+"#FFA15A",
+"#19d3f3",
+"#FF6692",
+"#B6E880",
+"#FF97FF",
+"#FECB52",
+],
+font: { color: "#2a3f5f" },
+hovermode: "closest",
+hoverlabel: { align: "left" },
+paper_bgcolor: "white",
+plot_bgcolor: "#E5ECF6",
+polar: {
+bgcolor: "#E5ECF6",
+angularaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+radialaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+ternary: {
+bgcolor: "#E5ECF6",
+aaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+baxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+caxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+},
+},
+coloraxis: { colorbar: { outlinewidth: 0, ticks: "" } },
+colorscale: {
+sequential: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+sequentialminus: [
+[0.0, "#0d0887"],
+[0.1111111111111111, "#46039f"],
+[0.2222222222222222, "#7201a8"],
+[0.3333333333333333, "#9c179e"],
+[0.4444444444444444, "#bd3786"],
+[0.5555555555555556, "#d8576b"],
+[0.6666666666666666, "#ed7953"],
+[0.7777777777777778, "#fb9f3a"],
+[0.8888888888888888, "#fdca26"],
+[1.0, "#f0f921"],
+],
+diverging: [
+[0, "#8e0152"],
+[0.1, "#c51b7d"],
+[0.2, "#de77ae"],
+[0.3, "#f1b6da"],
+[0.4, "#fde0ef"],
+[0.5, "#f7f7f7"],
+[0.6, "#e6f5d0"],
+[0.7, "#b8e186"],
+[0.8, "#7fbc41"],
+[0.9, "#4d9221"],
+[1, "#276419"],
+],
+},
+xaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+yaxis: {
+gridcolor: "white",
+linecolor: "white",
+ticks: "",
+title: { standoff: 15 },
+zerolinecolor: "white",
+automargin: true,
+zerolinewidth: 2,
+},
+scene: {
+xaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+yaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+zaxis: {
+backgroundcolor: "#E5ECF6",
+gridcolor: "white",
+linecolor: "white",
+showbackground: true,
+ticks: "",
+zerolinecolor: "white",
+gridwidth: 2,
+},
+},
+shapedefaults: { line: { color: "#2a3f5f" } },
+annotationdefaults: {
+arrowcolor: "#2a3f5f",
+arrowhead: 0,
+arrowwidth: 1,
+},
+geo: {
+bgcolor: "white",
+landcolor: "#E5ECF6",
+subunitcolor: "white",
+showland: true,
+showlakes: true,
+lakecolor: "white",
+},
+title: { x: 0.05 },
+mapbox: { style: "light" },
+},
+},
 },
 { responsive: true }
 );

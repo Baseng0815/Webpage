@@ -40,6 +40,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
+- [(2025-01-23) Problem solving with angr: a short example](/html/angr-aoc.html)
 - [(2024-04-01) A crash course in machine learning](/html/machine-learning.html)
 - [(2024-03-03) ITER](/html/iter.html)
 - [(2024-02-11) Hooking shared library symbols](/html/dlsym_hooking.html)

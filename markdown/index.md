@@ -9,7 +9,7 @@ and more choice than using pre designed web services. I have also taken care
 not to use any scripts so everyone can enjoy this content without needing to
 run JavaScript in the background.
 
-I am a 22 year old CS student studying at the [Karlsruher Institut für
+I am a 24 year old CS student studying at the [Karlsruher Institut für
 Technologie (KIT) ](https://www.kit.edu/). I like programming, listening to
 music, playing the piano and learning Japanese. One area I am especially
 interested in is low level application development. You can find out more about
@@ -41,6 +41,7 @@ to test each page every time.
 ## More stuff! (**bold** text indicates an ongoing series)
 
 - [(2025-01-23) Problem solving with angr: a short example](/html/angr-aoc.html)
+- [(2024-12-13) Bernina Express](/html/bernina.html)
 - [(2024-04-01) A crash course in machine learning](/html/machine-learning.html)
 - [(2024-03-03) ITER](/html/iter.html)
 - [(2024-02-11) Hooking shared library symbols](/html/dlsym_hooking.html)

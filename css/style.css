@@ -62,20 +62,20 @@ iframe {
     margin: 0 auto;
 }
 
-.images, .images-small {
+.images, .images-small, .images-large {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
 }
 
-.images img, .images-small img {
+.images img, .images-small img, .images-large img {
     width: 100%;
     max-width: 100%;
     margin: 10px 0;
 }
 
-.images video, .images-small video {
+.images video, .images-small video, .images-large video {
     width: 100%;
     max-width: 100%;
     margin: 10px 0;
@@ -90,10 +90,14 @@ iframe {
     text-align: center;
 }
 
-.images iframe, .images-small iframe {
+.images iframe, .images-small iframe, .images-large iframe {
     width: 100%;
     max-width: 100%;
     margin: 10px 0;
+}
+
+.images-large figure {
+    width: 1000px;
 }
 
 .images figure {

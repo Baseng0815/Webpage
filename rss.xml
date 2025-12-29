@@ -6,6 +6,13 @@
         <description>New posts</description>
         <language>en-us</language>
         <item>
+            <title>Japan Trip 2025</title>
+            <pubDate>Tue, 30 Dec 2025 00:00:00 UTC</pubDate>
+            <guid>https://www.bengel.xyz/html/japan-2025.html</guid>
+            <link>https://www.bengel.xyz/html/japan-2025.html</link>
+            <description>Japan 2025 images</description>
+        </item>
+        <item>
             <title>Problem solving with angr: a short example</title>
             <pubDate>Thu, 23 Jan 2025 00:00:00 UTC</pubDate>
             <guid>https://www.bengel.xyz/html/angr-aoc.html</guid>

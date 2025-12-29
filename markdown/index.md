@@ -9,7 +9,7 @@ and more choice than using pre designed web services. I have also taken care
 not to use any scripts so everyone can enjoy this content without needing to
 run JavaScript in the background.
 
-I am a 24 year old CS student studying at the [Karlsruher Institut für
+I am a ~~23~~ ~~24~~ 25 year old CS student studying at the [Karlsruher Institut für
 Technologie (KIT) ](https://www.kit.edu/). I like programming, listening to
 music, playing the piano and learning Japanese. One area I am especially
 interested in is low level application development. You can find out more about
@@ -21,17 +21,21 @@ meaning lots of content can be found on the [2022 Japan
 Blog](/html/2022_japan/blog.html).
 
 Here is my [PGP key](/res/gpg_key.txt) if you want to send me encrypted mail.
-It is published and verified on
-[https://keys.openpgp.org](https://keys.openpgp.org). You should also always
-check if the fingerprint matches:
 
 ```
-pub   rsa3072 2020-10-26 [SC]
-      F59C FA82 FF2C BD22 66D1  ED03 2A7D D530 201D 4B87
-uid           [ultimate] Bastian Engel (Uni-Mail) <engelba@students.uni-marburg.de>
-uid           [ultimate] Bastian Engel <1shedex2@gmail.com>
-uid           [ultimate] Bastian Engel <bastian.engel00@gmail.com>
-sub   rsa3072 2020-10-26 [E]
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaU/97xYJKwYBBAHaRw8BAQdARx5hDd20CnoZAWHaluyWscM/sM53T5J0ar9s
+xHTsZ9S0KUJhc3RpYW4gRW5nZWwgPGJhc3RpYW4uZW5nZWwwMEBnbWFpbC5jb20+
+iJQEExYKADwWIQQ1BdYqchjYXf3ccRiQZvGhPqNFFgUCaU/97wIbAwUJBaOagAQL
+CQgHBBUKCQgFFgIDAQACHgECF4AACgkQkGbxoT6jRRbUCwD/W9o6tfF0aHZ7Pkqs
+BTucU0LpmxJEF4r6v1CkajxWbVoBALw7NdlUfziR2nXX7KG9pxH+ikzJOyZp+R5U
+bR1OI+4KuDgEaU/97xIKKwYBBAGXVQEFAQEHQDp+w1EKy90nJ2TF5VsjHFLZOe6g
+hhMPPjv71MzAvHR8AwEIB4h+BBgWCgAmFiEENQXWKnIY2F393HEYkGbxoT6jRRYF
+AmlP/e8CGwwFCQWjmoAACgkQkGbxoT6jRRasoAD7BkvSqnPtjeSur650kJWoAkCu
+0ToRi4I4Qfh9R5z6WuABAIjCzwfqNaAJ2oDnK3yoOqS7nvRhZAR416NG6Wi/8v8F
+=Xbm0
+-----END PGP PUBLIC KEY BLOCK-----
 ```
 
 Oh, and please notify me of any bugs. I regularly run scripts over this project
@@ -40,6 +44,7 @@ to test each page every time.
 
 ## More stuff! (**bold** text indicates an ongoing series)
 
+- [(2025-12-29) Japan Trip 2025](/html/japan-2025.html)
 - [(2025-01-23) Problem solving with angr: a short example](/html/angr-aoc.html)
 - [(2024-12-13) Bernina Express](/html/bernina.html)
 - [(2024-04-01) A crash course in machine learning](/html/machine-learning.html)
